@@ -1,0 +1,16 @@
+Data da Venda;N Pedido;Produto;Categoria;Cliente;Estado;Vendedor;Qtd;Preço Unitário;Desconto;Total;Obs
+25/06/26;PED-10632;Teclado Mecânico;Acessórios;Iota Office;Santa Catarina;Fábio Nunes;9;R$ 406,61;0,15;R$ 3.110,53;
+01-10-2026;PED-11357;Tablet Lite;Eletrônicos;Épsilon Corp;SP;Fábio Nunes;2 un;R$ 1.745,32;0;R$3.490,64;???
+07/05/26;PED-10741;Webcam Full HD;acessórios;Theta Mercado;MG;Bruno Lima;3;R$ 206,98;0,05;R$ 589,88;
+-;PED-12179;Smartphone X;Eletrônicos;Alfa Ltda;MG;Elisa Prado;3;2854.89;0,00;8564.68;
+07/07/26;PED-10438;Garrafa Térmica;Casa;Mi Varejo;rio grande do sul;Elisa Prado;1;R$ 77,26;0,00;R$ 77,26;entrega urgente
+15/08/26;PED-10999;Mouse Gamer;Acessórios;Gama SA;SP;Carlos Silva;5;150,00;;750,00;
+22/09/26;PED-11001;Monitor 27 Pol;Eletrônicos;Beta Indústria;São Paulo;Bruno Lima;2;1200,50;0,10;2160,90;
+11/11/26;PED-11200;Cadeira Ergonômica;Móveis;Delta Comercio;RJ;Ana Souza;4 un;R$ 850,00;0;R$ 3400,00;
+05/12/26;PED-11555;Mesa Home Office;Móveis;Zeta ME;Sp;Carlos Silva;1;450,00;0,05;427,50;
+09/01/26;PED-10100;Notebook Pro 14;Eletrônicos;Omega Tech;MG;Ana Souza;1;4500,00;0,20;3600,00;
+30/03/26;PED-10333;Fone Bluetooth;Acessórios;Kappa Sons;SC;Fábio Nunes;10;80,00;;800,00;
+18/04/26;PED-10450;Teclado Mecânico;Acessórios;Sigma IT;RJ;Bruno Lima;2;406,61;0;813,22;
+14/06/26;PED-10600;Webcam Full HD;Acessórios;Rho Sistemas;Rio de Janeiro;Elisa Prado;5;206,98;0;1034,90;
+21/07/26;PED-10802;Tablet Lite;Eletrônicos;Phi LTDA;SP;Carlos Silva;3;1745,32;0,10;4712,36;
+03/08/26;PED-10910;Smartphone X;Eletrônicos;Chi Varejo;MG;Fábio Nunes;2;2854,89;;5709,78;

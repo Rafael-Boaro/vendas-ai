@@ -1,0 +1,1494 @@
+Data da Venda;N Pedido;Produto;Categoria;Cliente;Estado;Vendedor;Qtd;Preço Unitário;Desconto;Total;Obs
+25/06/26;PED-10632;Teclado Mecânico;  Acessórios;Iota Office;Santa Catarina;Fábio Nunes   ;9;R$ 406,61;0,15;R$ 3.110,53;
+01-10-2026;PED-11357;Tablet Lite;Eletrônicos;Épsilon Corp;SP;Fábio Nunes;2 un;R$ 1.745,32;0;R$3.490,64;???
+07/05/26;PED-10741;Webcam Full HD;acessórios;Theta Mercado;MG;Bruno Lima;3;R$ 206,98;0,05;R$ 589,88;???
+-;PED-12179;Smartphone X;Eletrônicos;Alfa Ltda;MG;Elisa Prado;3;2854.89;0,00;8564.68;
+07/07/26;PED-10438;Garrafa Térmica;Casa;Mi Varejo;rio grande do sul;Elisa Prado;1;R$ 77,26;0,00;R$ 77,26;entrega urgente
+11/09/2026;PED-11100;mesa home office;móveis;Zeta Store;SAO PAULO;Diego  Rocha;4;R$ 879,76;;R$ 2.815,25;cliente VIP
+02/11/2026;PED-10842;Monitor 27 pol;Eletrônicos;Sigma  Log;Minas Gerais;Fábio Nunes;2;R$1.490,57;;R$ 2.832,09;
+2025-11-14;PED-10913;GARRAFA TÉRMICA;Casa;Lambda Shop;RJ;Bruno Lima   ;2;R$ 71,07;0,00;R$ 142,15;troca
+2025-10-31 00:00:00;PED-11099;notebook pro 14;Eletrônicos;#N/D;São Paulo;Fábio Nunes;1;R$ 4.966,41;0,10;4.469,77;???
+03/02/2026;PED-10218;Cadeira Ergonômica;Móveis;Gama ME;Bahia;Diego Rocha;2;1153.59;0,20;R$ 1.845,74;troca
+07/10/2026;null;Teclado Mecânico;acessórios;Beta S.A.;sp;Ana Souza;-;R$ 373,62;10;R$ 1.008,78;
+13/06/2025;PED-10487;Fone Bluetooth;Acessórios;theta mercado;sp;Bruno Lima   ;5;R$ 260,47;0%;1302.33;pago no pix
+19/07/2026;PED-10383;Teclado Mecânico;Acessórios;Eta Digital;SC;DIEGO ROCHA;2;383,57;0,15;652,07;
+13/06/2026 00:00;PED-12466;Smartphone X;Eletrônicos;Épsilon Corp;Rio De Janeiro ;Diego Rocha;3;R$ 2.947,69;10%;R$ 7.958,77;pago no pix
+29/08/2026;PED-12461;  Luminária LED;CASA;Gama ME   ;MG;Elisa Prado;6,0;87,16;10;R$ 470,66;
+21/06/26;;Tablet Lite;ELETRÔNICOS;Sigma Log;  ;Bruno Lima;2 un;R$ 1.885,87;10;R$ 3.394,56;???
+30/08/2025 00:00;PED-11504;Smartphone X;Eletrônicos;Lambda Shop;RJ;Bruno Lima;1;R$2.960,94;0,15;R$ 2.516,79;pago no pix
+17/06/2026;PED-12468;Tablet Lite   ;Eletrônicos;Alfa Ltda;São Paulo;  Elisa Prado;1;R$ 1.809,41;;1.809,41;entrega urgente
+24/11/25;PED-11041;Webcam  Full  HD;Acessórios;Eta Digital;SP;Ana Souza;3;220,62;0,00;R$ 661,85;entrega urgente
+2026-07-08 00:00:00;PED-10073;Monitor 27 pol;Eletrônicos;Theta Mercado;BAHIA;  Ana Souza;0;1.456,28;15;R$ 1.237,84;cliente VIP
+08/10/25;PED-12423;Garrafa Térmica;Casa   ;Delta Tech   ;rio grande do sul;Bruno Lima;7;76,72;15%;456,47;cliente VIP
+21/07/26;PED-10434;Mesa Home Office;Móveis;Kappa Home;São Paulo;null;6;865.73;0%;5.194,36;
+2026-02-12 00:00:00;PED-11235;Webcam Full HD;Acessórios;Theta Mercado;sp;Bruno Lima;6;215,39;0;R$ 1.292,34;pago no pix
+02/03/2025;PED-11938;Webcam Full HD;Acessórios;Kappa Home;SAO PAULO;ana souza;7 un;R$ 227,99;0,00;R$ 1.595,95;troca
+11/09/2026;PED-11907;GARRAFA TÉRMICA;Casa;Alfa Ltda;RS;Carla Dias;7;R$ 74,00;0,10;466,22;entrega urgente
+07/07/2025;PED-10538;Cadeira Ergonômica;Móveis;Delta Tech;Sao Paulo;Bruno Lima;1,0;1200.47;10;R$ 1.080,42;???
+14/10/26;PED-11930;  Teclado Mecânico;Acessórios;Alfa Ltda;Rio De Janeiro ;Bruno Lima;8;R$ 402,07;0%;3216.60;pago no pix
+30/12/2025;null;Tablet Lite;Eletrônicos;Sigma Log   ;rio de janeiro;#N/D;3,0;1798.61;0%;R$ 5.395,82;troca
+2026-06-28 00:00:00;PED-12386;Teclado Mecânico;Acessórios;Beta S.A.;PARANÁ;Carla  Dias;2;R$366,24;0%;R$732,48;
+14/05/2026 00:00;PED-12585;Garrafa Térmica;Casa;Kappa Home;Rio de Janeiro;Fábio Nunes;1 un;76,17;10;68,55;
+11/05/2025;PED-10610;Mesa Home Office;Móveis;  Iota Office;minas gerais;Carla Dias;5;R$ 861,39;0%;4306.96;
+14/05/2025 00:00;PED-10965;Notebook Pro 14;eletrônicos;Eta Digital;MG;ana souza;3 un;#N/D;10%;14089,67;
+28/12/2025;PED-12422;Cadeira Ergonômica;Móveis;Alfa Ltda;SAO PAULO;Ana Souza;3;1163,19;5;R$ 3.315,09;pago no pix
+11/03/25;PED-12305;fone bluetooth;Acessórios;Sigma Log;SP;Ana Souza;2;260.80;10%;R$ 469,43;
+19/06/2026 00:00;PED-11995;SMARTPHONE X;Eletrônicos;Épsilon Corp;São Paulo;elisa prado;3,0;2764,88;20%;R$ 6.635,72;cliente VIP
+03-05-2026;PED-12451;#N/D;Casa;Eta Digital;MG;bruno lima;3;90.76;0,00;R$ 272,28;
+31/03/2026 00:00;PED-12223;Fone Bluetooth   ;Acessórios;Kappa Home;Rio de Janeiro;DIEGO ROCHA;8,0;236,55;0%;R$ 1.892,42;
+12/01/2026 00:00;PED-11550;Garrafa Térmica;Casa;Beta S.A.;BA;Ana Souza;5;75,59;20%;R$ 302,36;pago no pix
+31-03-2026;PED-10406;fone bluetooth;Acessórios;Gama ME;São Paulo;Carla Dias;3;261,92;20%;R$ 628,61;
+28/10/2026;PED-11997;Mesa Home Office;Móveis;Theta Mercado;MG;Ana Souza;2;875,45;0%;R$ 1.750,91;
+24-01-2026;PED-11221;Luminária LED;Casa;Alfa Ltda;minas gerais;Fábio Nunes;8;R$ 88,11;0;R$704,91;
+21/12/25;PED-12299;Luminária LED;Casa;Lambda Shop;São Paulo;ANA SOUZA;3 un;R$ 94,70;5%;269,89;???
+23/10/26;PED-12075;Fone Bluetooth;Acessórios;DELTA TECH;BA;Diego Rocha;6 un;R$ 246,62;0;1479,73;
+11/08/2026;PED-11370;Smartphone X;Eletrônicos;ÔMEGA FOODS;SAO PAULO;  ;3;2.824,04;0%;8.472,12;
+12/04/2026 00:00;PED-11257;Mouse Gamer;Acessórios;Zeta Store;NaN;Ana Souza;5;R$ 136,24;5%;647,16;
+06/04/2025;PED-12139;Mesa Home Office;Móveis;Delta Tech;SP;Diego Rocha;8;842,11;0,05;6.400,04;troca
+29/05/25;PED-11164;Smartphone X;Eletrônicos;theta mercado;MG;  Elisa Prado;2;2.874,87;0;R$ 5.749,75;troca
+07/10/2026 00:00;PED-10236;Webcam Full HD;Acessórios   ;Mi Varejo;minas gerais;fábio nunes;2 un;217.46;10%;R$ 391,43;cliente VIP
+21/08/2025;PED-11117;Mouse Gamer;Acessórios;Zeta Store;rio de janeiro;Ana  Souza;3;R$ 124,36;0;373,07;???
+10/06/2026;PED-12122;Teclado Mecânico;Acessórios;Mi Varejo;Rio de Janeiro;Carla Dias;2;R$ 392,04;20;627,26;troca
+16/10/26;PED-10525;Cadeira Ergonômica   ;Móveis;Iota Office;rio grande do sul;carla dias;3;R$1.200,85;0,00;R$ 3.602,54;???
+21/01/2026;PED-11351;Mesa Home Office;Móveis;Ômega Foods;PR;Bruno Lima;9;R$ 813,05;0%;sem informacao;
+07-02-2026;N/A;Cadeira Ergonômica;  Móveis;Iota Office;SC;Bruno Lima;1;R$ 1.243,82;20%;R$ 995,05;
+2025-12-15 00:00:00;PED-11321;Smartphone X;Eletrônicos;Theta Mercado;Bahia;Elisa Prado;3;R$ 2.846,41;0,10;7.685,30;entrega urgente
+15/11/25;PED-11404;Cadeira Ergonômica;Móveis;Theta Mercado;Paraná;BRUNO LIMA;1;1127,15;0;R$ 1.127,15;entrega urgente
+;;;;;;;;;;;
+06/05/2026;PED-10999;Monitor 27 pol;Eletrônicos;Zeta Store;Paraná;Diego Rocha;3;R$1.420,05;0;4260.16;
+20/12/2025;PED-11552;Smartphone X;Eletrônicos;Delta Tech;SAO PAULO;Carla Dias;2;R$ 2.823,27;;5.646,54;
+07/11/2026;PED-10901;mesa home office;Móveis;Iota Office;Paraná;-;2;826,80;;R$ 1.488,24;entrega urgente
+2026-09-11 00:00:00;PED-11242;Fone Bluetooth;Acessórios;Alfa Ltda   ;Bahia;Elisa Prado;8;254.48;5%;1934,03;
+17-10-2025;PED-10824;Fone Bluetooth;Acessórios;Ômega Foods;minas gerais;Bruno Lima;4;R$ 240,42;0,00;961.67;
+25/10/2025 00:00;PED-11657;Cadeira Ergonômica;Móveis;  Gama ME;Rio De Janeiro ;Carla Dias;3;R$1.173,47;0;R$ 3.520,40;
+29/04/2025;PED-11266;Fone Bluetooth;Acessórios;zeta store;Sao Paulo;Bruno Lima;8;243.57;0%;1948,55;
+13/05/2026;PED-12496;Fone Bluetooth;Acessórios;Sigma Log;Sao Paulo;elisa prado;6;246,00;0%;1.476,01;???
+2026-10-27;PED-12120;Notebook Pro 14;Eletrônicos;Lambda Shop;BAHIA;Fábio Nunes;1 un;R$ 5.272,32;0,05;5008.70;
+09/03/2025;PED-11349;Teclado Mecânico;Acessórios;eta digital;Parana;Fábio Nunes;7 un;R$ 385,13;15%;2291.52;pago no pix
+29/12/2025;PED-10876;garrafa térmica;Casa   ;Delta Tech;Rio De Janeiro ;diego rocha;3;R$77,05;5;R$ 219,61;
+02/03/2026;PED-11165;Mesa  Home  Office;  ;Delta Tech;Rio De Janeiro ;Bruno Lima   ;1;R$908,59;0,15;R$ 772,31;???
+10/07/2026;PED-11448;Monitor 27 pol;Eletrônicos;  Eta Digital;rio grande do sul;Elisa  Prado;2;R$ 1.439,39;0%;R$ 2.878,78;entrega urgente
+26/02/2026 00:00;PED-10895;Mouse  Gamer;Acessórios;Theta Mercado;rio grande do sul;CARLA DIAS;9;null;0%;R$ 1.124,57;troca
+11/05/2026 00:00;PED-11635;Teclado Mecânico;Acessórios;Épsilon Corp;Paraná;Bruno Lima;1;R$ 383,21;10%;R$ 344,89;
+25/01/2025 00:00;PED-11170;Mouse Gamer   ;Acessórios;Delta Tech;sp;Fábio Nunes;2;R$ 134,84;20%;R$ 215,75;
+2026-10-09;PED-10111;Teclado Mecânico;Acessórios;Beta S.A.;-;Diego Rocha;6;409,17;;R$ 2.455,03;
+23/12/2025 00:00;PED-10315;Monitor 27 pol;Eletrônicos;Delta Tech;Minas Gerais;Bruno Lima;1;NaN;0,15;R$ 1.275,53;pago no pix
+17/12/25;PED-11461;Teclado Mecânico;  Acessórios;Iota Office;RS;Ana Souza;5;R$ 399,10;10%;1.795,94;entrega urgente
+12-06-2026;PED-10437;Mouse Gamer   ;Acessórios;DELTA TECH;rio de janeiro;Diego  Rocha;6 un;R$ 127,56;;R$ 612,27;entrega urgente
+2026-02-23;PED-11580;Notebook Pro 14;Eletrônicos;Iota Office;São Paulo;Bruno Lima;3,0;R$ 5.190,86;15;R$ 13.236,69;
+27/02/2026 00:00;PED-10007;Luminária  LED;Casa;Alfa Ltda;São Paulo;Ana Souza;2;R$ 91,11;0;182.23;
+02/09/2026 00:00;PED-12587;Luminária LED;Casa;Zeta Store;São Paulo;Diego  Rocha;9;R$ 92,05;;R$ 828,49;
+2025-09-08;PED-11393;Mouse Gamer;Acessórios;Eta Digital;Minas Gerais;Fábio Nunes;4;R$ 132,37;;529,48;
+16/05/2025 00:00;PED-11278;GARRAFA TÉRMICA;Casa;Beta  S.A.;sp;Carla Dias;3;R$ 76,20;0,00;R$ 228,60;???
+03-05-2026;PED-10819;Mouse Gamer;Acessórios;Zeta Store;-;Ana Souza;sem informacao;133,55;0;R$934,82;cliente VIP
+04/08/2026 00:00;PED-10568;Garrafa Térmica;CASA;Sigma Log;SP;  Fábio Nunes;9;R$ 72,69;0,00;654,18;pago no pix
+2026-04-01;PED-11274;Cadeira Ergonômica;Móveis;  Iota Office;SP;Diego Rocha;1;R$ 1.166,06;0%;R$ 1.166,06;troca
+2026-03-22 00:00:00;PED-12056;NOTEBOOK PRO 14;Eletrônicos;Ômega Foods;Minas Gerais;Fábio Nunes;2;5148.74;5;9782,61;
+06/04/26;PED-10731;Fone Bluetooth;Acessórios;Kappa Home;#N/D;Ana Souza;7;R$ 250,89;;R$ 1.756,21;troca
+17-10-2026;null;Tablet Lite;Eletrônicos;Épsilon Corp;minas gerais;;3;1777.11;0%;5.331,34;pago no pix
+27/05/2026;PED-11485;Notebook  Pro  14;Eletrônicos;Gama ME;minas gerais;Bruno Lima   ;2;5.215,92;;R$ 9.388,66;entrega urgente
+21/05/2025;PED-12327;Monitor  27  pol;Eletrônicos;Delta Tech;RJ;Bruno Lima;2;1521.34;0%;3042,68;entrega urgente
+2026-08-28;PED-10589;CADEIRA ERGONÔMICA;Móveis;  Zeta Store;São Paulo;Fábio Nunes;3;1.137,19;0%;R$3.411,56;
+22/08/2026;PED-10785;  Notebook Pro 14;ELETRÔNICOS;Mi Varejo;São Paulo;Ana Souza;3;5400,48;0%;R$ 16.201,44;
+29/05/2025 00:00;PED-10646;Teclado Mecânico;Acessórios;sem informacao;Rio De Janeiro ;Elisa Prado;3;R$ 376,57;15;R$ 960,25;
+31/02/2026;PED-11489;Garrafa Térmica;Casa;Ômega Foods;PARANÁ;Elisa Prado;6;R$ 72,38;0%;R$ 434,28;troca
+04-12-2025;PED-12078;Fone Bluetooth;Acessórios;Beta S.A.;PR;Elisa Prado;9,0;R$ 251,32;10%;2.035,72;
+04/10/2026 00:00;PED-12250;Mesa Home Office;  Móveis;Kappa Home;São Paulo;Diego Rocha;2;R$910,80;20%;R$ 1.457,28;
+26-03-2026;PED-11795;Mesa Home Office;Móveis;Eta Digital;Rio de Janeiro;Bruno Lima;3;R$ 894,90;20%;R$2.147,77;???
+30/06/2025;  ;Garrafa Térmica;Casa;Épsilon Corp;Rio de Janeiro;Elisa Prado;null;R$ 77,03;;77.03;cliente VIP
+2026-10-25;PED-11687;Teclado Mecânico;Acessórios;lambda shop;Minas Gerais;diego rocha;sem informacao;403,74;0%;3633,62;entrega urgente
+19/01/2025;PED-10902;SMARTPHONE X;NaN;Ômega Foods;Sao Paulo;Diego Rocha;2;R$ 2.947,41;15;R$ 5.010,60;???
+2025-11-02;PED-11401;Notebook Pro 14;Eletrônicos;Mi Varejo;BAHIA;Elisa Prado;2;5.026,36;0,00;10.052,72;entrega urgente
+2026-07-23;PED-10101;Webcam Full HD;Acessórios;delta tech;Rio de Janeiro;Ana Souza;6;231,42;;R$ 1.388,53;
+27/03/26;PED-10011;Smartphone X   ;-;Kappa  Home;PR;diego rocha;1 un;R$ 3.032,36;0,05;2880.74;
+04/09/25;PED-12417;Tablet Lite;Eletrônicos;Theta Mercado;Sao Paulo;Elisa Prado;2;R$ 1.852,52;5%;  ;pago no pix
+19/08/2026 00:00;PED-10942;Mouse Gamer;acessórios;Épsilon Corp;RJ;elisa prado;4;R$125,44;0;R$ 501,76;
+16/09/2026;PED-11719;Webcam Full HD;Acessórios;Zeta Store;SAO PAULO;  Bruno Lima;9;213,33;0,00;R$ 1.919,99;
+2025-12-14 00:00:00;PED-10281;Mesa Home Office;Móveis;  Eta Digital;BA;elisa prado;3;R$ 817,39;;2.452,17;
+10/11/2025;PED-11609;Notebook Pro 14;Eletrônicos;Ômega Foods;rio de janeiro;Elisa Prado;3;R$ 5.114,37;0,05;R$ 14.575,96;
+2026-07-23;PED-11562;Teclado Mecânico;Acessórios;Lambda Shop;MG;Diego Rocha;8;365.71;0%;R$2.925,69;pago no pix
+2026-08-29 00:00:00;PED-11089;Webcam Full HD;Acessórios;sem informacao;Parana;Bruno Lima;6;R$ 215,23;0%;1291.38;entrega urgente
+data inválida;PED-12424;Monitor 27 pol;Eletrônicos;Theta Mercado   ;São Paulo;Diego Rocha;2;R$ 1.536,20;0,00;R$ 3.072,40;pago no pix
+26-09-2025;PED-10758;Mouse Gamer;  Acessórios;Kappa  Home;Bahia;  Diego Rocha;NaN;R$ 126,35;0,10;R$ 568,59;
+08-10-2025;PED-11633;GARRAFA TÉRMICA;Casa;  ;Minas Gerais;Fábio Nunes;7;R$ 73,29;0%;R$ 513,06;
+28-09-2026;PED-11809;Notebook Pro 14;Eletrônicos;Mi Varejo;Sao Paulo;Elisa Prado;2;4.907,96;0,20;R$ 7.852,73;
+2025-07-22 00:00:00;PED-12425;Monitor 27 pol;Eletrônicos;Alfa Ltda   ;Rio De Janeiro ;Diego Rocha;3;R$ 1.490,94;0%;4472.81;
+17-02-2025;PED-12008;Smartphone X;Eletrônicos;Lambda Shop;São Paulo;Fábio Nunes;3;R$ 2.955,47;15%;R$ 7.536,45;troca
+2026-06-25 00:00:00;PED-10371;Luminária LED;Casa;kappa home;RJ;Ana Souza;4;R$ 91,38;0;R$ 365,54;
+23/04/25;PED-11159;Mouse Gamer;Acessórios;Delta Tech;Sao Paulo;carla dias;3 un;R$137,49;20;R$ 329,98;
+14/11/2025 00:00;PED-10470;Webcam Full HD;Acessórios;Mi Varejo;Sao Paulo;Fábio Nunes;3;R$ 219,60;20;sem informacao;
+18/05/25;PED-10907;Teclado Mecânico;Acessórios;Zeta Store;Rio De Janeiro ;Diego Rocha;7;R$ 410,46;0,00;R$ 2.873,24;cliente VIP
+04/05/2025;PED-11905;Tablet Lite   ;Eletrônicos;Beta S.A.;São Paulo;  Diego Rocha;3,0;1.689,23;0,00;R$ 5.067,70;
+2025-11-01;PED-11831;Luminária LED;Casa;Gama ME;minas gerais;  Diego Rocha;1;R$ 91,09;0%;R$91,09;
+2026-01-03;PED-11298;Fone  Bluetooth;Acessórios;Delta Tech;Santa Catarina;NaN;1;R$ 244,48;0;R$ 244,48;
+29/04/2025;PED-11123;Notebook Pro 14;eletrônicos;Eta Digital;#N/D;Elisa Prado;2;5.468,33;20%;R$ 8.749,33;troca
+17/11/2025 00:00;PED-11505;Mouse  Gamer;Acessórios;Theta Mercado;sp;Bruno Lima;3;R$ 128,17;0%;384.51;
+25/08/2026 00:00;PED-10287;Mouse Gamer;Acessórios;Delta Tech;RJ;Ana Souza   ;2;129.88;15%;R$ 220,79;
+21/02/25;PED-11293;Tablet Lite;Eletrônicos;Gama ME;;Diego Rocha;1;R$ 1.690,56;0;1.690,56;entrega urgente
+01/03/26;PED-12524;Luminária LED;  Casa;Iota Office;Sao Paulo;Carla Dias   ;4;89,80;5;R$ 341,24;???
+2026-05-02 00:00:00;PED-12552;FONE BLUETOOTH;Acessórios;THETA MERCADO;rio grande do sul;Elisa Prado;6 un;R$ 257,06;;1.542,37;
+07/06/2026 00:00;PED-10728;Mesa Home Office;NaN;Alfa  Ltda;BA;Carla Dias;2;R$ 892,43;20%;1427.88;entrega urgente
+05/08/2026;PED-12467;Luminária LED;Casa;Sigma  Log;sp;Ana Souza;9;R$ 89,26;0%;R$ 803,33;cliente VIP
+19/04/2026;PED-12200;Luminária LED;Casa;Eta Digital;rio grande do sul;Carla Dias;1;86,37;0%;86.37;cliente VIP
+2025-11-16 00:00:00;PED-10571;Monitor 27 pol;Eletrônicos;Iota Office;BA;Diego  Rocha;3;R$ 1.420,16;0%;R$4.260,48;
+08/03/25;PED-11341;  Luminária LED;Casa;Sigma Log;RJ;Elisa Prado;4;95,23;20%;R$ 304,73;???
+2025-09-14;PED-10609;Cadeira Ergonômica;Móveis;eta digital;Sao Paulo;Ana Souza;3;1249.54;0,05;3561.18;
+2025-04-13 00:00:00;PED-10851;Mesa Home Office;Móveis;null;BA;Elisa Prado;5;904,68;0,20;R$ 3.618,72;pago no pix
+11/03/25;PED-12576;Webcam Full HD;Acessórios;Gama ME;rio de janeiro;Carla Dias;7;R$ 218,91;20%;R$ 1.225,87;troca
+30/01/2025;PED-11597;Smartphone X;eletrônicos;Theta Mercado;rio grande do sul;Carla Dias;2;3005.92;0;R$ 6.011,83;troca
+15/11/25;PED-11404;Cadeira Ergonômica;Móveis;Theta Mercado;Paraná;BRUNO LIMA;1;1127,15;0;R$ 1.127,15;entrega urgente
+2026-10-25 00:00:00;PED-12012;mesa home office;Móveis;épsilon corp;SC;Carla Dias;7;R$ 876,58;;NaN;
+17/09/2025 00:00;PED-11176;Mesa Home Office;Móveis;Alfa Ltda;Rio De Janeiro ;Fábio Nunes;8;826,69;0,00;R$ 6.613,49;troca
+21/01/2025;PED-11364;Monitor 27 pol   ;Eletrônicos;Beta S.A.   ;sp;Diego Rocha;2;R$ 1.372,06;0,15;R$ 2.332,50;
+2025-12-12 00:00:00;PED-11561;  Garrafa Térmica;Casa;Kappa Home;São Paulo;Ana Souza;8;R$77,52;0;R$ 620,16;entrega urgente
+25/06/2025;PED-10530;Mesa Home Office;Móveis   ;Sigma  Log;rio grande do sul;ANA SOUZA;9;R$ 833,44;0,10;R$6.750,85;cliente VIP
+2026-08-30 00:00:00;PED-10143;Notebook Pro 14;Eletrônicos;  Lambda Shop;SP;Ana Souza;2;R$ 5.262,62;0;R$ 10.525,23;cliente VIP
+12/06/2025;PED-10866;  ;Eletrônicos;Ômega Foods;RJ;Ana Souza;3;R$ 1.890,86;0,05;R$ 5.388,95;
+30/03/2025;PED-11576;Teclado Mecânico;Acessórios;Zeta Store;São Paulo;Elisa Prado;4;R$ 412,11;0%;1.648,43;
+06-06-2025;PED-11845;Fone Bluetooth;Acessórios;Gama Me;SAO PAULO;Diego Rocha;2;250.01;;R$ 500,03;
+05/08/2026;PED-11134;mesa home office;Móveis;épsilon corp;BA;Ana Souza;1,0;R$ 873,89;15;742.81;???
+06/08/2025;PED-12559;Tablet Lite;Eletrônicos;Beta S.A.;Rio De Janeiro ;Carla Dias;1;R$ 1.695,46;0%;R$1.695,46;
+2026-03-23;PED-12006;Mesa  Home  Office;Móveis;Theta Mercado;rio de janeiro;sem informacao;5;R$ 891,40;0%;R$ 4.457,02;
+2025-10-28 00:00:00;PED-11205;Mesa Home Office;Móveis;Ômega Foods;Rio De Janeiro ;Diego Rocha;2;R$ 831,96;15;R$ 1.414,34;
+03-10-2026;PED-11837;Luminária LED;Casa;  Ômega Foods;São Paulo;Elisa Prado;7 un;R$ 85,08;0%;R$ 595,53;
+2025-01-29 00:00:00;PED-10012;Cadeira Ergonômica;Móveis;  Kappa Home;Bahia;Carla Dias;3;1.195,88;5%;3.408,24;
+2025-12-27 00:00:00;PED-11867;monitor 27 pol;eletrônicos;sem informacao;rio de janeiro;null;1;R$ 1.375,56;10%;R$ 1.238,01;troca
+07/07/2026;PED-10260;Teclado Mecânico;Acessórios;Mi Varejo;RS;Bruno  Lima;2;R$ 391,97;15%;666,34;pago no pix
+03/02/2025;PED-11653;Notebook  Pro  14;Eletrônicos;N/A;Sao Paulo;Bruno Lima;2;R$ 5.120,23;0;10.240,46;
+12/09/2025;PED-11058;Mouse Gamer;Acessórios;alfa ltda;RJ;Carla Dias;7,0;R$137,21;5;912,46;entrega urgente
+07/07/2026 00:00;PED-10045;Luminária LED;N/A;Eta Digital;MG;Diego  Rocha;9;91,02;5%;778.22;
+2026-06-14;PED-11680;CADEIRA ERGONÔMICA;Móveis;Beta S.A.;São Paulo;Fábio Nunes;2;1.188,30;0;2.376,60;entrega urgente
+31/12/2025;PED-11920;Cadeira Ergonômica;Móveis;Eta Digital   ;SAO PAULO;Carla Dias   ;3;R$ 1.124,01;0%;3372,04;
+10/02/2025;PED-10852;Fone Bluetooth;Acessórios;Ômega Foods;rio de janeiro;Elisa Prado;4;262.27;0%;R$1.049,08;
+10-01-2026;PED-11523;Smartphone X;Eletrônicos;  ;N/A;Diego Rocha   ;1;R$ 2.821,43;5;R$ 2.680,36;???
+06/08/2026;PED-11965;Garrafa Térmica;Casa;Épsilon Corp;Paraná;Bruno Lima;9;R$ 77,40;0,00;R$696,56;???
+23/10/26;PED-10961;Notebook Pro 14;Eletrônicos;Zeta Store;SP;Diego Rocha;;R$ 4.908,14;10%;13.251,97;
+2026-09-16 00:00:00;PED-11520;Tablet Lite;Eletrônicos;Zeta Store;PR;Ana  Souza;2;1769.24;15%;R$3.007,70;pago no pix
+09/05/26;PED-12304;Smartphone X;Eletrônicos;Delta Tech;Rio de Janeiro;Elisa Prado   ;1 un;R$ 2.878,03;;R$ 2.878,03;
+2025-09-12;PED-10208;Mesa Home Office   ;  Móveis;Theta Mercado;São Paulo;elisa prado;5;R$ 832,53;0,00;4162.63;pago no pix
+17/03/2025;PED-11039;Mesa Home Office;Móveis;Delta Tech;SAO PAULO;Bruno Lima;3;R$ 877,81;0%;R$ 2.633,43;
+29/11/2025 00:00;PED-10792;Smartphone X;-;Delta Tech;São Paulo;Elisa Prado;2,0;R$ 2.964,58;;R$ 5.632,69;cliente VIP
+03/11/2026 00:00;PED-10623;Luminária Led;  Casa;Eta Digital;sp;Elisa Prado;6;89,30;0,10;R$ 482,21;
+2026-04-08;PED-12512;Smartphone X;Eletrônicos   ;Gama ME;Minas Gerais;Diego Rocha;1,0;R$ 3.006,03;15%;R$ 2.555,12;
+27/09/2026;PED-11052;Webcam Full HD;Acessórios;beta s.a.;Paraná;Carla Dias;6;230.43;0,00;R$ 1.382,60;
+05/10/2026;PED-11445;Smartphone X;  Eletrônicos;Alfa Ltda;rio de janeiro;Diego Rocha;2;R$2.938,48;0,00;R$ 5.876,95;cliente VIP
+2026-02-26 00:00:00;#N/D;Mouse Gamer;Acessórios;Sigma Log;Rio de Janeiro;Diego Rocha;2;R$ 131,89;0,10;237,41;
+14/04/26;PED-10518;SMARTPHONE X;Eletrônicos;Iota Office;rio de janeiro;Fábio Nunes;2,0;R$ 3.065,62;0%;R$ 6.131,25;entrega urgente
+2026-09-01 00:00:00;PED-11295;Teclado Mecânico;Acessórios;Sigma Log;Santa Catarina;Bruno Lima;2;376,10;15;639,37;
+13-09-2025;PED-12485;notebook pro 14;null;Zeta Store;Minas Gerais;  Bruno Lima;3;R$ 5.458,27;0,20;13099.86;pago no pix
+16/02/25;PED-10418;Cadeira Ergonômica;Móveis;DELTA TECH;Bahia;Fábio Nunes;2;R$ 1.202,79;0%;R$ 2.405,58;entrega urgente
+16/04/2026 00:00;PED-11125;Garrafa Térmica;Casa;Kappa Home;RJ;Diego Rocha;8;74.79;0,15;R$ 508,60;troca
+2026-08-31 00:00:00;PED-11900;Teclado Mecânico;Acessórios;THETA MERCADO;São Paulo;N/A;5;382,94;15%;R$ 1.627,50;cliente VIP
+14/09/2026;PED-10094;Mesa Home Office;MÓVEIS;Alfa Ltda   ;SAO PAULO;Fábio Nunes;3;870,32;20;R$ 2.088,76;pago no pix
+2026-04-21 00:00:00;PED-11987;Luminária LED;Casa;Mi  Varejo;sp;Ana Souza;1;94,88;0;R$ 94,88;entrega urgente
+25/07/2025;PED-10863;Mesa Home Office;Móveis;Beta S.A.;MG;Fábio Nunes;6;887.94;10%;4.794,90;
+16/02/25;PED-10112;Teclado Mecânico;Acessórios;Delta Tech;SP;Fábio Nunes;3;393,35;0,00;  ;pago no pix
+12/12/2025;PED-12429;Mesa Home Office;Móveis;Delta Tech;RJ;ANA SOUZA;5;R$ 861,77;0%;4.308,86;entrega urgente
+2026-08-05;PED-10241;Webcam Full HD;Acessórios;Lambda Shop;Rio De Janeiro ;Carla Dias;3;230.63;20;553,51;
+11/10/2025 00:00;PED-10809;Luminária LED;Casa;Theta Mercado;minas gerais;Carla Dias;4;R$ 85,27;0;R$ 341,09;???
+31/03/2026;PED-10108;Notebook Pro 14;Eletrônicos;alfa ltda;rio grande do sul;Elisa Prado;2;R$ 5.367,96;0%;R$ 10.735,93;
+18/08/2025 00:00;PED-11978;Notebook Pro 14;Eletrônicos;Theta Mercado;PR;Fábio Nunes;3;5337.90;;R$ 16.013,70;
+26/09/2026 00:00;PED-10594;Garrafa Térmica;Casa;eta digital;rio de janeiro;DIEGO ROCHA;6;R$73,52;0;441.10;troca
+11/05/26;PED-10237;Smartphone X;Eletrônicos;Alfa Ltda;Rio Grande do Sul;Fábio Nunes;1;3010.58;0%;R$ 3.010,58;???
+05/05/2025 00:00;PED-11185;Monitor 27 pol;Eletrônicos;Theta Mercado;São Paulo;fábio nunes;2;1.411,05;0,20;R$ 2.257,68;
+11/08/2026 00:00;PED-12184;Notebook Pro 14;Eletrônicos;Épsilon Corp;minas gerais;Bruno Lima;2;R$ 4.931,43;0,20;7.890,29;entrega urgente
+02-09-2025;PED-10912;Luminária LED;Casa;N/A;sp;Diego  Rocha;9;R$ 89,93;15%;R$ 688,00;
+19/12/25;PED-11213;Mesa Home Office;Móveis;Épsilon Corp;BAHIA;Elisa Prado;7;R$ 850,49;;R$ 5.655,77;
+14-05-2025;PED-10869;Tablet Lite;eletrônicos;Delta Tech;Sao Paulo;Bruno Lima;2;R$ 1.733,94;5;R$ 3.294,49;entrega urgente
+21/03/2025 00:00;PED-11114;MOUSE GAMER;Acessórios;Sigma Log;MG;null;1;R$ 137,39;10;R$ 123,65;entrega urgente
+03/03/2025;PED-12475;Fone Bluetooth;Acessórios;Kappa Home;rio grande do sul;Diego Rocha;2;242,63;10%;R$ 436,74;pago no pix
+03/10/26;PED-10332;Webcam Full HD;Acessórios;Sigma Log;BA;Bruno Lima;7;R$ 216,48;10;R$ 1.363,83;troca
+2025-01-26 00:00:00;PED-11973;Luminária LED;Casa;Beta S.A.;rio de janeiro;Fábio Nunes;8 un;84.84;15%;R$ 576,93;???
+;;;;;;;;;;;
+13/02/2025 00:00;PED-11746;Garrafa Térmica;Casa;Gama ME;SP;Fábio Nunes;1;R$75,78;0%;R$75,78;
+25/10/2025 00:00;PED-12124;Mouse Gamer;Acessórios;ZETA STORE;PARANÁ;Bruno Lima;4;133,82;5%;508,50;
+2025-04-15 00:00:00;PED-11715;Smartphone X;Eletrônicos;Delta Tech;RJ;elisa prado;2 un;2826.20;0,00;5.652,40;
+2025-05-15;PED-10959;Teclado Mecânico;  Acessórios;Theta Mercado;rio grande do sul;Bruno Lima;8;R$ 388,89;5%;2955.56;
+04-12-2025;PED-12078;Fone Bluetooth;Acessórios;Beta S.A.;PR;Elisa Prado;9,0;R$ 251,32;10%;2.035,72;
+2026-06-07;-;Monitor 27 pol;Eletrônicos;Kappa Home;#N/D;Bruno Lima   ;3;R$ 1.523,95;0%;R$ 4.571,84;
+11/10/2025;PED-10196;Cadeira Ergonômica;Móveis   ;Gama  ME;rio grande do sul;Ana Souza;2;R$ 1.137,41;20%;R$ 1.819,85;
+30/01/2025;PED-10856;Cadeira Ergonômica;Móveis;Kappa Home;BA;Bruno Lima;3;1125.12;20;R$ 2.700,29;???
+2025-08-28 00:00:00;PED-11391;Tablet Lite;Eletrônicos   ;Beta S.A.;São Paulo;Elisa Prado;1;1843.54;0,00;  ;pago no pix
+19/04/25;PED-10197;Luminária LED;Casa;Ômega Foods;Bahia;Ana Souza;8;;0%;R$ 684,04;troca
+03/02/2025;PED-12272;Fone Bluetooth;Acessórios;Ômega Foods;RS;Diego Rocha;8;256.01;0,00;R$ 2.048,08;
+10/05/2026;PED-11871;Smartphone  X;N/A;Épsilon Corp;SC;Elisa Prado;3;2.758,50;0%;8275,49;
+04/09/2025;PED-10628;Mesa Home Office;Móveis;-;BAHIA;Diego Rocha;N/A;R$ 820,04;0,10;6.642,34;pago no pix
+28-08-2026;PED-10132;Tablet Lite;Eletrônicos;Beta  S.A.;SAO PAULO;Fábio Nunes;3;R$ 1.795,30;0,10;R$ 4.847,31;???
+19/02/25;PED-12277;Luminária  LED;;Eta Digital;RJ;carla dias;4,0;90,19;10;R$ 324,68;
+27/10/26;PED-11863;Tablet Lite   ;Eletrônicos;KAPPA HOME;SAO PAULO;Carla Dias;3;R$ 1.853,16;0;R$ 5.559,49;
+23/09/25;PED-10542;Fone Bluetooth;Acessórios;Theta Mercado;SAO PAULO;Fábio Nunes;9,0;264.48;10;R$ 2.142,31;cliente VIP
+15/06/2026;PED-12114;Teclado Mecânico;Acessórios   ;Gama ME;RJ;Carla Dias;9;R$381,72;5%;R$ 3.263,72;
+2026-06-26 00:00:00;PED-11977;Mouse Gamer;Acessórios;Gama ME;Bahia;Elisa Prado;6;137,64;;825.83;???
+2025-02-05 00:00:00;PED-12192;Teclado Mecânico;Acessórios;Theta Mercado;São Paulo;BRUNO LIMA;4 un;394,63;20%;1262.82;
+29/10/2026;PED-10597;Garrafa Térmica;Casa;  Eta Digital;SC;Fábio  Nunes;9;R$ 71,83;10;581,79;
+31/07/2026;PED-11191;  Mesa Home Office;móveis;Mi Varejo;PR;Bruno Lima   ;9;853,10;20%;sem informacao;
+01/07/2026;PED-11942;Luminária LED;Casa;  Alfa Ltda;RJ;BRUNO LIMA;4;R$ 84,70;0%;R$ 338,79;entrega urgente
+2025-02-08 00:00:00;PED-11150;Fone Bluetooth;Acessórios;Gama ME;SP;Elisa Prado;3;R$ 243,11;15%;R$ 619,93;???
+04/02/2025;PED-11923;Fone Bluetooth;Acessórios;Sigma Log   ;Parana;Diego Rocha;1;260,56;0%;R$ 260,56;
+05/07/25;PED-12537;  Cadeira Ergonômica;móveis;Beta S.A.;Rio de Janeiro;Ana Souza;2;1130.01;5%;2147.01;
+02/07/25;PED-11882;Mouse Gamer;Acessórios;Theta Mercado;RS;Bruno Lima;9;R$ 123,91;0%;1.115,23;troca
+28/10/2025;PED-12348;SMARTPHONE X;Eletrônicos;Delta Tech;Rio de Janeiro;Fábio Nunes;3;R$ 2.744,00;20;R$ 6.585,61;
+29-11-2025;-;Cadeira Ergonômica;Móveis;Lambda Shop;Rio de Janeiro;Carla Dias;2 un;R$ 1.220,70;5%;R$ 2.319,34;troca
+2025-10-06 00:00:00;PED-12355;Mesa Home Office;Móveis;NaN;minas gerais;Carla Dias;7;859,14;15%;N/A;
+02/05/2026 00:00;PED-11427;Fone Bluetooth;Acessórios;Épsilon Corp;sp;Carla Dias;5;R$ 249,51;0,00;1247.54;
+15-09-2025;PED-11106;Teclado Mecânico;Acessórios;Kappa Home;SC;;1;  ;0,15;R$ 345,64;
+01/08/2025 00:00;PED-12080;Notebook Pro 14;Eletrônicos;Mi Varejo;RS;Fábio Nunes;3;R$ 4.896,32;0%;R$ 14.688,95;cliente VIP
+03/04/2026 00:00;PED-12158;Tablet Lite;Eletrônicos;Lambda Shop;Rio Grande do Sul;Bruno Lima;3;R$ 1.806,84;5;R$ 5.149,50;entrega urgente
+2026-10-18;PED-10798;Notebook Pro 14;Eletrônicos;ALFA LTDA;Minas Gerais;sem informacao;3,0;R$ 5.401,96;10%;14.585,28;???
+08/06/2026;PED-10364;GARRAFA TÉRMICA;Casa;  Kappa Home;Minas Gerais;Bruno Lima;3,0;R$ 74,31;5%;R$ 211,79;???
+29/01/2026;PED-12458;Garrafa Térmica;Casa;Lambda Shop;minas gerais;Bruno Lima;9,0;70.54;0%;R$ 634,89;
+23-02-2025;PED-11513;;Acessórios;Mi Varejo;Sao Paulo;  Fábio Nunes;5;R$262,65;0,15;R$ 1.116,28;troca
+2026-08-07;PED-12481;Webcam Full Hd;Acessórios;Lambda Shop;MG;Fábio Nunes;5;210,41;0%;R$ 1.052,06;cliente VIP
+2025-03-09;PED-11129;Garrafa Térmica;casa;Alfa  Ltda;Rio de Janeiro;Fábio Nunes;9;70,63;15%;540,31;
+13/11/2025;PED-10374;Tablet  Lite;Eletrônicos;Alfa Ltda;Sao Paulo;Elisa Prado;1;R$1.733,44;10;1560.10;
+2025-04-04;PED-10138;Garrafa Térmica;Casa;Alfa Ltda;sp;Carla Dias;3;R$ 78,63;0;R$ 235,88;
+15-10-2026;PED-10022;Teclado Mecânico;Acessórios;alfa ltda;Minas Gerais;Bruno Lima;7;374.64;20%;R$ 2.098,01;cliente VIP
+17/06/2025;PED-10294;Tablet Lite   ;Eletrônicos;Theta Mercado   ;rio grande do sul;Ana Souza   ;3;1.765,86;20%;4238.06;cliente VIP
+2025-08-08;PED-12523;Monitor 27 pol;Eletrônicos;Ômega Foods;rio de janeiro;Carla Dias;1;R$ 1.534,89;0,00;R$ 1.534,89;
+29/03/2026;PED-11308;Smartphone X;Eletrônicos;gama me;SAO PAULO;  Diego Rocha;1;R$ 3.008,08;0,15;R$ 2.556,87;
+2025-12-18 00:00:00;PED-10844;null;  Casa;theta mercado;Rio De Janeiro ;Diego Rocha;1;R$70,04;0,10;R$63,03;cliente VIP
+29/01/2026;PED-10399;notebook pro 14;Eletrônicos;Alfa Ltda;SP;DIEGO ROCHA;2;5055.09;5;R$ 9.604,67;entrega urgente
+05/05/2026;PED-12135;Webcam Full Hd;Acessórios;Sigma Log;rio de janeiro;Carla Dias;4;232.77;0%;R$931,09;???
+2026-02-02;PED-11767;Fone  Bluetooth;NaN;Zeta Store;São Paulo;Carla Dias;4 un;257.37;0,10;R$ 926,54;
+2026-06-30;PED-10899;Garrafa Térmica;Casa;SIGMA LOG;MG;Diego Rocha;4;R$ 75,93;0,10;;
+16/05/26;PED-11453;Tablet Lite;Eletrônicos;Sigma Log;BA;Carla Dias   ;2;1727.31;0%;R$ 3.454,61;
+12/01/2025;PED-11091;Tablet Lite;Eletrônicos;Mi Varejo;sp;Elisa Prado;3;1708.95;0%;R$ 5.126,85;entrega urgente
+29/01/2026;PED-10608;Teclado Mecânico;Acessórios;Gama ME;SP;Elisa Prado;4;R$ 401,11;20;1283.54;cliente VIP
+25/05/2025;PED-10763;Webcam Full HD;Acessórios;Mi Varejo;SP;Carla Dias;6;R$ 209,54;15;null;
+2025-03-08 00:00:00;PED-10441;Garrafa Térmica;Casa;null;Sao Paulo;  Carla Dias;2;R$74,69;0%;#N/D;troca
+04/05/2026;PED-11766;Notebook Pro 14;Eletrônicos;Iota Office;BA;Fábio Nunes;3;R$5.224,82;10%;14107.01;???
+25/08/2026;PED-12092;Mesa Home Office;Móveis;ZETA STORE;RJ;Diego Rocha;1;R$ 849,78;0%;849,78;
+13-08-2026;PED-11337;Mesa Home Office;Móveis;Theta Mercado;Minas Gerais;Ana Souza;9;R$822,79;0;sem informacao;
+14/12/2025 00:00;PED-10910;cadeira ergonômica;Móveis;Sigma Log;BA;Ana Souza;1;R$ 1.211,26;;1.211,26;???
+19-08-2025;PED-10699;monitor 27 pol;Eletrônicos   ;Zeta Store;Rio De Janeiro ;Diego Rocha;2;R$ 1.503,07;10;R$ 2.705,52;troca
+20/01/2025 00:00;PED-10256;Mouse Gamer;ACESSÓRIOS;Gama ME;sp;  Fábio Nunes;9;122.34;10;R$ 990,97;
+2026-08-31 00:00:00;PED-10908;webcam full hd;Acessórios;Gama ME;Rio De Janeiro ;Bruno Lima;9;218,33;10%;R$ 1.768,47;entrega urgente
+12/04/2025;PED-10963;Tablet Lite;Eletrônicos;Delta Tech;Minas Gerais;Fábio Nunes;2;R$ 1.833,78;20;2.934,04;cliente VIP
+01/11/2025 00:00;PED-11196;Notebook Pro 14;Eletrônicos;Kappa  Home;São Paulo;Fábio Nunes;2;5.306,60;0,00;R$ 10.613,20;entrega urgente
+2026-03-08 00:00:00;PED-10165;Mouse Gamer;  Acessórios;Zeta Store   ;São Paulo;Bruno Lima;7 un;;0;R$ 930,95;entrega urgente
+17/10/2026;PED-10578;Mesa  Home  Office;Móveis;theta mercado;SAO PAULO;Diego Rocha;6;R$ 839,41;;4532.80;
+20/10/2025 00:00;PED-11940;Fone Bluetooth;Acessórios;Mi Varejo   ;MG;Ana Souza;8 un;R$ 246,96;15%;1679.34;pago no pix
+2026-01-16 00:00:00;PED-11261;Smartphone X;Eletrônicos;iota office;Minas Gerais;Carla Dias;3;3051.66;15;R$ 7.781,73;cliente VIP
+09/06/2026;PED-11398;CADEIRA ERGONÔMICA;Móveis;theta mercado;minas gerais;Carla Dias;2,0;R$ 1.233,67;5%;R$ 2.343,98;
+12/10/2026;PED-11012;Monitor 27 pol;Eletrônicos;ÉPSILON CORP;Paraná;Carla Dias;2;R$ 1.440,97;5%;R$ 2.737,84;troca
+2025-06-05;PED-12339;Monitor 27 pol;Eletrônicos;Delta Tech;rio grande do sul;DIEGO ROCHA;3;1.422,77;0%;R$ 4.268,30;
+2026-07-30 00:00:00;PED-11747;Fone Bluetooth;Acessórios;Theta Mercado;Sao Paulo;diego rocha;5;R$ 241,25;5%;1145.95;
+2025-12-29 00:00:00;PED-10072;Mesa Home Office;Móveis;Sigma Log;rio de janeiro;Elisa Prado;7;R$ 846,66;0;5926.62;troca
+09/05/25;PED-10556;Cadeira Ergonômica;Móveis;Mi Varejo;Sao Paulo;-;2;1145.97;0,10;R$ 2.062,74;cliente VIP
+2026-09-15 00:00:00;PED-12183;Mesa Home Office;Móveis;Lambda Shop;Rio de Janeiro;Ana Souza;9;R$ 815,84;20%;R$ 5.874,03;entrega urgente
+25/05/2025;PED-10377;Teclado Mecânico;Acessórios;Sigma Log;SAO PAULO;  Fábio Nunes;6,0;378.14;0,05;R$ 2.155,39;
+2025-04-19;PED-12421;Webcam Full HD;  Acessórios;Ômega Foods;sp;Fábio  Nunes;8 un;226,62;0;R$ 1.812,98;
+2025-05-29 00:00:00;PED-10825;Notebook Pro 14;Eletrônicos;Eta Digital;RS;Carla Dias;2;R$ 4.948,16;20%;7917.05;
+16/11/25;PED-10461;  Luminária LED;Casa;delta tech;#N/D;Fábio Nunes;1;90.11;;81,10;???
+15/04/2026;PED-10407;Fone Bluetooth;Acessórios;Kappa Home;RS;Elisa Prado   ;3;R$ 254,75;15;649,61;pago no pix
+2025-03-05;PED-10309;Mouse Gamer;Acessórios;Theta Mercado;rio de janeiro;Bruno Lima;9;R$ 125,88;0,00;R$ 1.132,92;pago no pix
+30/12/2025;PED-10085;Teclado Mecânico;Acessórios;Lambda Shop;BAHIA;Bruno Lima;8;400.69;0%;3.205,51;troca
+04/08/2025;PED-12455;Teclado Mecânico;Acessórios;Delta Tech;minas gerais;Carla Dias;4;371,02;10;R$ 1.335,67;
+04/01/2026;PED-12097;Smartphone X;Eletrônicos;Sigma Log;Rio de Janeiro;  Fábio Nunes;3;R$ 2.805,64;20;R$ 6.733,53;
+20/07/2025;PED-12215;Mesa Home Office;Móveis;Theta Mercado;Parana;Elisa Prado;6 un;null;15%;R$ 4.557,01;
+2025-11-06;PED-11660;Webcam Full HD;Acessórios;Mi Varejo   ;Santa Catarina;Diego Rocha;8 un;R$ 206,95;0;R$ 1.655,56;
+2025-01-07;PED-10574;Tablet Lite;Eletrônicos;Iota Office;SP;Fábio Nunes;3;R$ 1.782,96;0%;R$ -250,00;
+03-08-2026;PED-10058;  Teclado Mecânico;  Acessórios;  ;Minas Gerais;Ana Souza;4;380,50;0%;1.522,02;
+23-10-2026;PED-10417;Cadeira Ergonômica   ;Móveis;Delta Tech;SC;  Carla Dias;2;R$ 1.177,96;5%;R$ 2.238,13;
+2025-09-01;PED-11424;Teclado Mecânico;Acessórios;Alfa Ltda;SP;Diego Rocha;8;sem informacao;0%;R$ 3.266,59;???
+2025-01-18;PED-11186;Mesa Home Office;Móveis;Delta Tech;Minas Gerais;Carla Dias;1 un;R$ 878,62;0%;R$ 878,62;entrega urgente
+13/04/2025 00:00;PED-11833;Garrafa Térmica   ;Casa;Kappa Home;Sao Paulo;Diego Rocha;8;71,80;;516,97;???
+10-05-2025;PED-12410;Tablet Lite;eletrônicos;Ômega Foods;São Paulo;Elisa  Prado;1;1713,63;0,00;1.713,63;cliente VIP
+2026-08-13 00:00:00;PED-11789;Mesa Home Office;móveis;Mi Varejo;SP;Bruno Lima;2;R$ 824,73;20;R$ 1.319,57;troca
+06/07/2025;PED-11898;Mouse Gamer;Acessórios;  Iota Office;SC;Elisa Prado;6;R$ 123,91;20%;R$ 594,78;
+23-05-2026;PED-11344;Teclado Mecânico;Acessórios;Épsilon Corp;Rio Grande do Sul;Elisa Prado;2;R$ 369,76;5%;R$ 702,55;???
+21/10/2026;PED-12010;Luminária LED;  Casa;  Eta Digital;Rio de Janeiro;Diego Rocha;7 un;92,04;0;644.30;
+17/02/25;PED-12561;Fone Bluetooth;Acessórios;Eta Digital;minas gerais;Fábio Nunes;1;R$ 241,17;0;R$241,17;entrega urgente
+11/10/2026;PED-12373;garrafa térmica;Casa;Ômega Foods;sp;Diego Rocha;2;75,44;10%;135,79;troca
+16/01/2026;PED-11691;MONITOR 27 POL;Eletrônicos;Delta  Tech;Rio De Janeiro ;Elisa Prado;1;R$ 1.503,90;0%;R$ 1.503,90;cliente VIP
+28/06/26;PED-11952;  Mouse Gamer;Acessórios;Mi Varejo;SP;Fábio Nunes;5;131,07;0;R$655,36;pago no pix
+22/09/2025;PED-11768;Smartphone X;Eletrônicos;Theta Mercado;#N/D;Bruno Lima;1;R$ 2.768,27;20%;R$ 2.214,61;
+27/12/25;PED-11122;Mesa Home Office;Móveis;mi varejo;rio grande do sul;Bruno  Lima;7;R$ 831,87;;R$ 5.823,09;
+18-10-2025;PED-10751;Fone Bluetooth;Acessórios;Eta Digital;RJ;Fábio Nunes;5,0;R$ 248,20;0;R$1.240,99;???
+22/11/2025;PED-12276;  Smartphone X;Eletrônicos;Sigma Log;BAHIA;Elisa Prado;2;R$ 2.757,16;0;5.514,31;
+30/03/2025;PED-10905;  Monitor 27 pol;Eletrônicos;Iota Office;sp;Ana Souza;1;R$ 1.407,78;10%;1.267,00;
+11/05/2026;PED-10386;Smartphone X;Eletrônicos   ;Mi Varejo;sp;Bruno Lima;2;2.726,93;0%;5.453,87;troca
+17/04/2025;PED-10202;Webcam Full HD;Acessórios;Sigma Log;sp;Bruno Lima;8 un;230,24;0;R$ 1.841,91;
+17-04-2025;PED-11545;Luminária LED;Casa;Iota Office;BA;Ana Souza;9;88,22;0,00;R$ 794,01;cliente VIP
+17/05/2025 00:00;PED-11744;Notebook Pro 14;Eletrônicos;Kappa Home;RS;Elisa  Prado;1;5079,17;0,10;R$ 4.571,25;troca
+01/08/2026 00:00;PED-11682;Webcam  Full  HD;  Acessórios;ETA DIGITAL;rio de janeiro;Fábio Nunes;6;R$ 225,58;20%;R$ 1.082,78;troca
+13/07/2026 00:00;PED-10471;Smartphone X;Eletrônicos;Kappa Home;BAHIA;Bruno Lima;1 un;R$ 2.918,73;0%;R$ 2.918,73;
+26/01/2026;PED-11047;Cadeira Ergonômica;Móveis;Épsilon Corp;Rio de Janeiro;carla dias;1;R$ 1.181,55;0%;1.181,55;pago no pix
+2025-11-22;PED-11361;Notebook Pro 14   ;Eletrônicos;null;PR;null;3 un;R$ 5.253,17;;R$ 14.183,57;troca
+2025-09-21;PED-11711;Fone Bluetooth;Acessórios;Kappa Home;SAO PAULO;Diego Rocha;2;238,57;0;R$ 477,13;
+26-04-2025;PED-12020;Smartphone X;Eletrônicos;  Ômega Foods;minas gerais;CARLA DIAS;1 un;R$ 2.884,05;5;2739.85;pago no pix
+14/03/2026;PED-10247;Mesa Home Office;Móveis;Delta Tech;Paraná;Fábio Nunes;4,0;R$ 908,52;0%;R$ 3.634,08;
+10/04/2026;PED-11095;Webcam Full HD;Acessórios;Beta S.A.;Sao Paulo;Bruno Lima;5;222.46;0%;R$ 1.112,31;cliente VIP
+05/03/2026;PED-11343;Fone Bluetooth;Acessórios;Mi Varejo;BAHIA;  Elisa Prado;9;239,31;10%;null;
+11/03/2025;PED-11858;Cadeira Ergonômica;Móveis;Kappa Home   ;sp;Fábio Nunes;2;R$ 1.256,62;0,05;R$ 2.387,58;cliente VIP
+2025-01-28;PED-12359;Mesa Home Office;Móveis;Épsilon Corp;SAO PAULO;Diego Rocha;6;R$ 836,34;;R$ 5.018,07;
+25/11/25;PED-10817;Garrafa Térmica;Casa;Eta Digital;BA;Elisa Prado;4;R$ 74,31;0;R$ 297,25;cliente VIP
+01-10-2026;PED-12141;Smartphone  X;ELETRÔNICOS;Lambda Shop;Bahia;Bruno Lima;2;R$ 3.059,85;0%;R$ 6.119,70;
+29-12-2025;PED-10186;Tablet Lite;eletrônicos;Mi Varejo;Sao Paulo;;2,0;1783,46;0,20;R$ 2.853,53;entrega urgente
+2025-09-03 00:00:00;PED-10943;Mouse Gamer;Acessórios;Ômega  Foods;minas gerais;ELISA PRADO;5;123.85;0,05;588,28;cliente VIP
+27/03/2026;PED-11671;Webcam  Full  HD;Acessórios;Beta S.A.   ;MG;Carla Dias   ;9;228.57;20%;1645.68;???
+09/04/26;PED-10911;Mesa Home Office;sem informacao;Zeta Store;Minas Gerais;Fábio Nunes   ;2;849,34;;1443.88;
+01/04/2026 00:00;PED-11210;Webcam  Full  HD;Acessórios;Kappa Home;Bahia;Fábio Nunes;2;209,99;0,15;356,99;pago no pix
+03/03/2025;PED-10634;Mesa Home Office;Móveis;Alfa Ltda;PR;Diego  Rocha;7;R$ 851,82;0%;R$ 5.962,77;???
+2025-10-19;PED-10721;Luminária  LED;Casa;  Zeta Store;rio de janeiro;Carla  Dias;9;R$ 91,85;15%;R$ 702,65;pago no pix
+25/05/2026;PED-10189;  Mouse Gamer;Acessórios;Lambda Shop;sp;Carla Dias;8;R$ 126,95;20%;R$ 812,50;
+02/04/2026 00:00;PED-12172;Mesa Home Office;MÓVEIS;Zeta Store;SAO PAULO;Elisa Prado;sem informacao;R$ 846,87;0%;3.387,46;entrega urgente
+14/07/26;PED-10063;SMARTPHONE X;-;Ômega Foods;São Paulo;Carla Dias;3;R$ 3.027,81;5;8.629,26;
+08/11/2026 00:00;PED-12557;Tablet Lite   ;ELETRÔNICOS;Gama ME;Minas Gerais;Ana Souza;3;1774.96;;R$ 5.324,87;
+28/02/2025;PED-10599;Fone Bluetooth;  Acessórios;Iota Office;Bahia;sem informacao;5;R$ 242,11;;968,45;troca
+24/10/2025;PED-12072;  Tablet Lite;Eletrônicos;Beta S.A.;SC;Elisa Prado;1;R$ 1.804,38;0%;R$ 1.804,38;
+2025-11-22;PED-10317;Monitor 27 pol;Eletrônicos;Delta Tech;rio de janeiro;Ana Souza;1;1.443,76;15;R$ 1.227,19;
+04/02/26;PED-11422;Cadeira Ergonômica;Móveis;  Alfa Ltda;Parana;Diego Rocha;2;1.157,31;0;R$ 2.314,62;
+24/11/25;PED-10689;CADEIRA ERGONÔMICA;Móveis;Iota Office;PR;Ana Souza;1 un;1.151,21;0;1.151,21;
+06/12/2025;PED-11379;Garrafa Térmica;Casa   ;Gama ME;Rio De Janeiro ;Fábio Nunes;9;71.43;0,00;R$ 642,83;
+15/06/2026 00:00;PED-12356;Garrafa  Térmica;Casa;Kappa Home;RJ;Carla Dias;7 un;R$ 72,82;5%;R$484,27;
+04/06/26;PED-12292;Cadeira Ergonômica;Móveis;Épsilon Corp;Paraná;Fábio Nunes   ;2;R$ 1.196,27;15;2.033,66;
+2026-03-27;PED-11339;Monitor 27 pol   ;Eletrônicos;Mi Varejo;SC;Fábio Nunes;3;R$ 1.389,42;0%;R$ 4.168,27;
+2026-09-28;PED-10790;Monitor 27 pol;Eletrônicos;Sigma Log;PR;Bruno  Lima;1;R$1.478,96;0;R$ 1.478,96;
+08/09/2025;PED-11373;Tablet Lite;Eletrônicos;Mi Varejo;SP;CARLA DIAS;1;1.888,83;0;1.888,83;
+29-11-2025;PED-12245;Teclado Mecânico;Acessórios;Eta Digital;RJ;Ana Souza;9;R$ 390,19;20%;R$ 2.809,33;cliente VIP
+16/04/2025;PED-11183;Webcam Full HD;Acessórios;Kappa Home;RJ;Diego Rocha;6;R$ 215,37;0;1292.23;
+15/04/2025;PED-11202;Teclado  Mecânico;acessórios;Kappa Home;SAO PAULO;Carla Dias;1;R$ 385,79;0%;R$ 385,79;???
+11/05/2026;PED-10251;SMARTPHONE X;Eletrônicos;Ômega Foods;SP;N/A;3;R$ 2.817,74;0%;8.453,23;
+04/05/2026;PED-10443;Mesa Home Office;Móveis;Épsilon Corp;PARANÁ;Diego Rocha;9;R$ 833,91;5%;R$ 7.129,97;entrega urgente
+14/02/2025;PED-11273;Smartphone X;Eletrônicos;Mi Varejo;São Paulo;Ana Souza;2;2.931,68;0;5.863,35;
+25-06-2025;PED-12226;WEBCAM FULL HD;Acessórios;Kappa Home;Rio De Janeiro ;CARLA DIAS;1;R$ 209,61;15;R$ 178,17;cliente VIP
+13/11/25;PED-10115;Fone Bluetooth;Acessórios;Zeta  Store;MG;Bruno Lima;7;254.15;0,00;R$ 1.779,07;
+02/09/26;PED-11986;Notebook Pro 14;sem informacao;  Eta Digital;minas gerais;Elisa  Prado;2;R$ 4.944,84;0%;R$ 9.889,68;entrega urgente
+14/07/2025 00:00;PED-10392;Tablet Lite;eletrônicos;Iota Office;rio de janeiro;Elisa Prado;1 un;R$1.763,54;0%;R$ 1.763,54;cliente VIP
+2026-07-03;PED-11421;Tablet Lite;Eletrônicos;Eta Digital   ;BAHIA;Ana Souza;3,0;R$ 1.795,41;0;R$ 5.386,24;pago no pix
+03/09/2026;PED-12004;Mouse Gamer;Acessórios;Alfa Ltda;São Paulo;Diego Rocha;3 un;R$126,85;0%;380,56;
+04-11-2026;PED-10235;Webcam Full HD;Acessórios;Eta Digital;SC;Carla Dias;5;220,01;10%;990,04;
+31-08-2025;N/A;Webcam Full HD;Acessórios;DELTA TECH;São Paulo;Elisa Prado;9;R$ 212,91;15%;;
+30/08/26;PED-10483;Webcam Full HD;Acessórios;Mi Varejo;PARANÁ;Ana Souza;4;R$ 227,48;0,00;R$ 909,93;
+10/12/2025 00:00;PED-11371;Tablet Lite;Eletrônicos   ;Kappa Home;minas gerais;Ana Souza   ;1;R$ 1.750,31;20;R$ 1.400,25;
+2026-11-02 00:00:00;PED-12148;  Cadeira Ergonômica;MÓVEIS;Gama ME;SAO PAULO;Ana Souza;2;R$ 1.251,27;0%;2502.53;troca
+2025-12-23 00:00:00;PED-11985;Notebook Pro 14;Eletrônicos;Alfa Ltda;Santa Catarina;Bruno Lima;3 un;5034.66;0,20;12.083,19;entrega urgente
+01-10-2026;PED-11357;Tablet Lite;Eletrônicos;Épsilon Corp;SP;Fábio Nunes;2 un;R$ 1.745,32;0;R$3.490,64;???
+2025-11-20;PED-11369;TABLET LITE;Eletrônicos;Theta Mercado;SC;Elisa Prado   ;3;R$ 1.719,41;5;4900.32;cliente VIP
+29/08/2025;PED-12597;Notebook Pro 14;Eletrônicos;Épsilon Corp;Rio Grande do Sul;Bruno Lima;1;R$ 5.375,27;0;R$5.375,27;
+30-07-2026;PED-11275;TECLADO MECÂNICO;Acessórios;Alfa Ltda;Bahia;elisa prado;3 un;381,05;;R$ 1.143,14;
+2025-11-12 00:00:00;PED-11981;Fone Bluetooth;  Acessórios;ZETA STORE;Rio Grande do Sul;  Ana Souza;3;R$ 248,02;10%;R$ 669,64;cliente VIP
+22/12/2025;PED-11380;Webcam  Full  HD;Acessórios;Lambda Shop;Minas Gerais;Ana Souza   ;1;R$ 209,49;0,15;R$ 178,07;entrega urgente
+14/12/2025 00:00;PED-11594;Smartphone X;Eletrônicos;Kappa Home;MG;Elisa Prado;1;2.834,86;0%;NaN;
+12/01/2025;PED-10775;Notebook Pro 14;Eletrônicos;Kappa Home;São Paulo;Diego Rocha;2;R$ 5.458,86;5;R$10.371,83;entrega urgente
+18/06/2026;PED-10604;Mesa  Home  Office;Móveis;Kappa Home;sp;Bruno Lima;8;865,14;10;R$ 6.229,00;troca
+20-05-2025;PED-10279;Garrafa Térmica;Casa;Épsilon Corp;PARANÁ;Diego Rocha;5;R$ 71,76;0%;R$ 358,80;???
+2026-06-10;PED-10654;Cadeira Ergonômica;Móveis;Ômega Foods;Bahia;Bruno Lima;2;1171.46;5;R$ 2.225,77;???
+21/02/2025;PED-11355;Mouse Gamer;Acessórios;Delta Tech;minas gerais;Fábio Nunes;3;136,70;0,00;410,10;entrega urgente
+2025-01-25;PED-12415;Fone Bluetooth;null;Lambda Shop;rio de janeiro;Carla Dias;3;R$ 241,65;0,00;R$ 724,95;
+2026-08-28;PED-12367;Notebook Pro 14;Eletrônicos;Sigma Log   ;Rio de Janeiro;Bruno Lima;1;R$ 5.007,40;20%;;
+20/01/26;PED-11785;Cadeira Ergonômica;Móveis;Alfa  Ltda;sp;Bruno Lima;#N/D;R$ 1.241,86;0,15;R$ 1.055,58;
+2025-06-19 00:00:00;PED-10252;Mouse Gamer;acessórios;Lambda Shop;sp;  Carla Dias;9;#N/D;0,10;1.015,02;cliente VIP
+17/03/2026 00:00;PED-11994;Fone Bluetooth;Acessórios   ;Delta Tech;Rio De Janeiro ;Bruno Lima;4,0;242,45;0;969,78;
+13/05/2026;PED-12496;Fone Bluetooth;Acessórios;Sigma Log;Sao Paulo;elisa prado;6;246,00;0%;1.476,01;???
+28/12/25;PED-11610;Mouse Gamer;Acessórios;Gama  ME;minas gerais;Fábio Nunes   ;6 un;R$ 125,52;0;R$ 753,14;cliente VIP
+25-10-2026;PED-11541;  Webcam Full HD;Acessórios;Mi Varejo;rio de janeiro;Elisa Prado;4;R$222,74;0,00;R$ 890,97;
+23/06/2025;PED-10496;Cadeira Ergonômica;móveis;Lambda Shop;SP;Ana Souza;3;R$1.204,92;0%;3614,75;
+02/07/2026;PED-10656;Luminária LED;Casa;Eta Digital;Sao Paulo;Ana  Souza;6;86,14;;516.86;
+27/05/2025;PED-10391;Mouse Gamer   ;null;Zeta Store;Rio de Janeiro;Ana Souza;3;R$ 123,06;0,15;R$ 450.000,00;???
+07/01/2025;PED-11880;Notebook Pro 14;Eletrônicos;Iota Office;sp;Bruno Lima;1;5368.62;15%;R$ 4.563,33;troca
+17/08/2026;PED-11229;Garrafa Térmica;Casa;  Sigma Log;SAO PAULO;Fábio Nunes;1 un;78.94;0%;R$ 78,94;
+17/07/26;PED-10768;Cadeira Ergonômica;  Móveis;  Ômega Foods;São Paulo;Bruno Lima;1,0;R$ 1.208,85;;R$ 1.208,85;
+18/06/26;PED-11827;  Webcam Full HD;Acessórios;Eta Digital;rio grande do sul;Bruno Lima;8;224,93;0;R$ 1.799,41;
+30/06/2026 00:00;PED-10178;Mouse Gamer;Acessórios;Eta Digital;São Paulo;Diego Rocha;2;131,19;15%;R$ 223,02;
+24-09-2026;PED-11124;tablet lite;Eletrônicos   ;Alfa Ltda;SAO PAULO;Elisa Prado;3;R$1.745,35;0%;R$ 5.236,04;troca
+16/03/2025;PED-11916;Webcam Full HD;Acessórios;Iota Office;Rio de Janeiro;Bruno  Lima;4;R$ 223,23;0%;892.91;???
+2026-09-27;PED-12490;Fone Bluetooth;Acessórios;KAPPA HOME;Sao Paulo;Fábio Nunes;3;R$ 235,82;10;636,72;pago no pix
+2026-01-29;PED-10180;Smartphone X;Eletrônicos;Lambda Shop;sp;Carla Dias;1;R$ 2.981,32;0%;R$ 2.981,32;
+28/09/2026;PED-10211;Tablet Lite   ;Eletrônicos;sem informacao;São Paulo;ELISA PRADO;3;R$ 1.813,53;10;R$ 4.896,53;
+23/05/2026;PED-12144;  Mesa Home Office;Móveis;Ômega Foods;São Paulo;carla dias;8;R$ 908,97;0%;R$ 7.271,73;
+07/05/2026;PED-11243;Smartphone X;Eletrônicos;Zeta Store;sp;Diego Rocha;1;3.034,99;15;R$2.579,74;
+23/05/25;PED-12155;Smartphone X;Eletrônicos;Iota Office;Rio De Janeiro ;CARLA DIAS;1;2731.21;20%;R$ 2.184,96;
+17-07-2026;PED-10679;Fone Bluetooth;Acessórios;Sigma  Log;São Paulo;Bruno Lima;1;235.02;;235,02;
+2026-01-12 00:00:00;PED-11530;Notebook Pro 14;Eletrônicos;Sigma Log;RS;  ;3,0;R$ 5.474,80;0%;16424.39;troca
+22/09/2026;PED-11231;Webcam Full HD;Acessórios;Gama ME;MG;  Diego Rocha;8;R$ 219,64;10%;R$ 1.581,41;
+19/07/2025 00:00;PED-10650;  Mouse Gamer;Acessórios;delta tech;rio de janeiro;  Carla Dias;7;122.14;0%;R$ 855,01;entrega urgente
+17/06/2025;PED-10294;Tablet Lite   ;Eletrônicos;Theta Mercado   ;rio grande do sul;Ana Souza   ;3;1.765,86;20%;4238.06;cliente VIP
+15/06/2026 00:00;PED-12528;Notebook Pro 14;Eletrônicos   ;Alfa Ltda;Rio Grande do Sul;Fábio Nunes;2;5455.33;20;8728.52;
+2026-04-07;PED-11472;Fone Bluetooth;Acessórios;Alfa Ltda;Minas Gerais;Diego Rocha;8;R$ 255,31;15;1736.09;pago no pix
+22/11/2025;PED-10215;Garrafa Térmica;Casa;Épsilon Corp   ;rio grande do sul;Carla Dias;8;R$ 74,69;10;537,76;entrega urgente
+29/08/2026;PED-10770;Smartphone X   ;Eletrônicos;Eta Digital;rio grande do sul;Fábio Nunes;3,0;R$2.971,64;15;R$ 7.577,69;
+2026-03-13;PED-11589;Tablet Lite;Eletrônicos;Gama ME;SAO PAULO;Bruno Lima;3;1.770,59;0,00;R$5.311,78;pago no pix
+31-03-2026;PED-10396;Webcam Full HD;Acessórios;Delta Tech;sp;Carla Dias;7;R$ 213,42;5;1.419,25;
+27/09/2026 00:00;PED-12137;  Fone Bluetooth;Acessórios;Ômega Foods;rio grande do sul;Carla Dias;5;253,38;0,05;R$ 1.203,58;entrega urgente
+2025-10-31 00:00:00;PED-10121;Cadeira Ergonômica;Móveis;  Iota Office;minas gerais;ELISA PRADO;2 un;R$1.241,46;0%;2.482,91;
+01/12/25;PED-11055;Monitor 27 pol;Eletrônicos   ;Delta Tech;Rio de Janeiro;Elisa Prado;1;R$ 1.449,68;0%;R$ 1.449,68;pago no pix
+25/04/2026;PED-10978;Cadeira Ergonômica;Móveis;Gama ME;minas gerais;Elisa Prado;;1.164,05;10%;1047.64;
+18/07/2026;PED-10285;Fone Bluetooth;Acessórios;Theta Mercado;Sao Paulo;Bruno Lima;8;253,18;10;R$1.822,90;pago no pix
+04/10/2026;PED-10340;Teclado Mecânico;Acessórios;Lambda Shop;rio grande do sul;Carla Dias;2;R$ 404,08;15;sem informacao;
+19/08/2026;PED-11309;Cadeira Ergonômica;  Móveis;Delta Tech;BA;Elisa Prado;2 un;1.127,57;0;2.255,13;cliente VIP
+13/06/25;PED-11145;Teclado Mecânico;#N/D;Lambda Shop   ;PARANÁ;Fábio Nunes;6,0;398,73;0;R$ 2.392,41;
+13/12/2025;PED-12048;Cadeira Ergonômica;Móveis;Lambda Shop;SC;Carla Dias;3;R$ 1.174,55;5%;3347,46;troca
+2025-08-23 00:00:00;PED-10133;Tablet Lite;Eletrônicos;Sigma Log;RJ;Elisa Prado;2;R$ 1.737,66;;R$3.475,31;troca
+  ;PED-12581;Garrafa Térmica;Casa;  Ômega Foods;MG;Fábio Nunes;3;R$ 78,81;;R$ 200,96;
+19/07/2025;PED-11021;  Garrafa Térmica;Casa;Épsilon Corp;rio grande do sul;  Ana Souza;8;R$71,14;20%;R$ 455,27;
+08/04/25;PED-10145;SMARTPHONE X;Eletrônicos   ;Sigma Log;Bahia;Fábio Nunes;3;R$ 2.737,29;15%;6980.09;pago no pix
+03/03/2025;-;Teclado Mecânico;  Acessórios;Sigma Log;BAHIA;Fábio Nunes;4;407,00;5%;R$ 1.546,59;troca
+14-01-2025;PED-12401;Fone Bluetooth;Acessórios;Iota Office;sp;NaN;5;R$ 241,42;15%;1026,04;
+23/09/2026;PED-11177;Mouse Gamer;Acessórios;Delta Tech;RS;  Diego Rocha;5;  ;20%;R$ 545,58;
+2025-12-19 00:00:00;-;Tablet Lite;Eletrônicos;Mi Varejo;Rio De Janeiro ;Ana Souza;2;R$ 1.793,72;0%;R$ 3.587,43;cliente VIP
+20/06/2026;PED-10394;Teclado Mecânico   ;  Acessórios;Mi Varejo;PARANÁ;Elisa Prado;4;398,96;15%;1356.46;
+01/09/2025 00:00;PED-12575;Notebook Pro 14;ELETRÔNICOS;  Lambda Shop;SC;Diego Rocha;2;5508,51;0%;R$ 11.017,01;troca
+null;PED-11865;Luminária LED   ;Casa;Iota Office;SAO PAULO;Fábio Nunes;5;R$ 88,68;0%;R$ 443,38;pago no pix
+2025-12-08;PED-10658;#N/D;Eletrônicos;Gama ME;Bahia;Fábio Nunes;2;1.795,39;10;R$ 3.231,71;
+12/09/2026;PED-12134;Monitor 27 pol   ;Eletrônicos;Alfa Ltda;Bahia;Bruno Lima;null;R$ 1.374,63;0,00;1.374,63;
+29-01-2026;PED-11132;Monitor  27  pol;  Eletrônicos;Zeta Store;rio grande do sul;Carla Dias;2;R$ 1.474,40;;R$ 2.506,47;???
+04/03/2026;PED-11353;Garrafa  Térmica;Casa;IOTA OFFICE;MG;Ana Souza;5;R$ 75,84;0;379,18;
+06/09/2025 00:00;PED-10329;Cadeira Ergonômica;Móveis;;Santa Catarina;Diego Rocha;1 un;R$1.160,36;15;R$ 986,30;pago no pix
+22/08/2026;PED-10785;  Notebook Pro 14;ELETRÔNICOS;Mi Varejo;São Paulo;Ana Souza;3;5400,48;0%;R$ 16.201,44;
+18/05/2025;null;teclado mecânico;Acessórios;Iota Office;Rio de Janeiro;Bruno Lima;7;366,26;20%;(180,00);pago no pix
+26/05/2025 00:00;PED-10020;Mouse Gamer;Acessórios;Beta S.A.;PARANÁ;carla dias;8;R$ 132,43;5;1006.46;
+2026-09-13;PED-11996;MONITOR 27 POL;eletrônicos;NaN;Santa Catarina;Fábio Nunes;null;1480,16;0,20;R$ 2.368,26;cliente VIP
+02/02/2026;PED-11742;Luminária LED;Casa;Kappa Home;MG;Carla Dias;2;R$ 84,57;15%;143.76;
+21/07/26;PED-10755;Notebook Pro 14;Eletrônicos;Eta Digital;Rio Grande do Sul;  ;2;R$ 5.366,21;5%;10.195,81;entrega urgente
+29/01/2025;PED-10956;WEBCAM FULL HD;Acessórios;kappa home;Minas Gerais;Carla  Dias;6;221,25;0,00;R$ 1.327,48;entrega urgente
+24/06/2026 00:00;PED-11820;Monitor 27 pol;  Eletrônicos;Eta  Digital;SAO PAULO;Bruno Lima;2;R$ 1.365,26;;R$ 2.320,94;cliente VIP
+15/04/2025;PED-11758;GARRAFA TÉRMICA;CASA;Lambda Shop;rio grande do sul;Elisa Prado;3 un;R$ 72,90;15%;R$185,89;
+2025-07-16;PED-12181;Teclado Mecânico;Acessórios;Zeta Store;RJ;  Fábio Nunes;9;R$ 375,34;0,10;R$3.040,22;pago no pix
+20/12/2025;PED-10730;Smartphone X;ELETRÔNICOS;Alfa Ltda;SC;#N/D;2 un;R$ 2.912,74;5%;R$ 5.534,20;entrega urgente
+2026-03-19;PED-10320;Luminária LED;Casa;Eta  Digital;RS;Carla Dias;4;R$ 92,83;0;R$ 371,33;
+23/12/25;PED-10873;Smartphone X;Eletrônicos   ;Ômega Foods;Minas Gerais;Bruno Lima;1;2.735,15;10%;2.461,64;
+2026-11-06;PED-10366;Luminária LED;  Casa;Mi Varejo;Bahia;Carla Dias;1,0;R$ 87,72;0%;87,72;
+06/11/26;PED-12416;Monitor  27  pol;Eletrônicos;  Delta Tech;Rio de Janeiro;Diego Rocha;3 un;1.482,56;10%;N/A;cliente VIP
+12/06/2026;PED-10862;GARRAFA TÉRMICA;Casa;Mi Varejo;São Paulo;Fábio Nunes;#N/D;75,37;0%;150,74;
+23/08/25;PED-11035;Mouse Gamer;Acessórios;Delta Tech;MG;Bruno Lima;9;123,09;0,00;R$ 1.107,77;???
+10/09/2026 00:00;PED-10163;Tablet Lite;eletrônicos;Lambda  Shop;São Paulo;Elisa Prado;3 un;R$ 1.780,27;20%;R$ 4.272,65;
+2026-02-28;PED-11239;Cadeira Ergonômica   ;Móveis;Mi Varejo;SC;Elisa Prado;NaN;1250.27;5%;R$ 1.187,76;
+01/10/2025;PED-11436;Teclado Mecânico   ;  Acessórios;Lambda Shop   ;SC;Bruno Lima;6 un;R$ 394,08;0%;2364.46;pago no pix
+02/12/2025;PED-12133;  Webcam Full HD;Acessórios   ;Alfa Ltda;SC;Ana Souza;5;R$ 222,06;0,10;R$ 999,25;
+12/07/2026 00:00;PED-11057;FONE BLUETOOTH;Acessórios;  Alfa Ltda;São Paulo;Fábio Nunes;7;R$ 249,14;0,20;R$ 1.395,16;
+06/02/2025;PED-12221;Mouse  Gamer;Acessórios   ;Épsilon Corp;RJ;Bruno Lima;9;R$ 129,69;5%;1.108,89;???
+19/06/2025;PED-10123;Webcam  Full  HD;Acessórios;  Delta Tech;SAO PAULO;Carla  Dias;4;211,55;0%;R$ 846,19;???
+03/11/2026;PED-10528;Fone Bluetooth;Acessórios;THETA MERCADO;rio grande do sul;Diego Rocha;6;R$ 259,84;;1.325,18;cliente VIP
+05-07-2025;PED-11722;Webcam Full HD;Acessórios;N/A;Bahia;;8;211.50;5%;1.607,38;
+19/02/2026;PED-12551;MONITOR 27 POL;Eletrônicos;  Gama ME;RS;Ana Souza;3;R$1.477,89;5;R$ 4.211,98;
+2026-11-07 00:00:00;PED-12460;Fone Bluetooth;Acessórios;Sigma Log;Sao Paulo;Diego Rocha;7;R$ 262,76;0,10;R$ 1.655,39;
+11/10/2025;PED-11707;Monitor 27 pol;Eletrônicos   ;ZETA STORE;Paraná;Elisa Prado;2;R$ 1.515,95;20%;R$ 2.425,52;???
+15/08/2025;PED-12167;Mesa Home Office;Móveis;Zeta Store;SAO PAULO;Ana Souza;2 un;888,59;0,05;1688.32;
+02/09/25;PED-11462;monitor 27 pol;Eletrônicos;  Sigma Log;Rio De Janeiro ;Carla Dias;1;R$ 1.407,59;0;R$ 1.407,59;troca
+03/03/25;PED-12333;Webcam Full HD;Acessórios;#N/D;Rio de Janeiro;Diego Rocha;8;#N/D;;1.813,18;
+24/09/2026;PED-10773;Fone Bluetooth;Acessórios;Eta  Digital;SP;Carla Dias;1;253.81;5%;R$ 241,12;???
+31/01/2025;PED-11094;Webcam Full HD;Acessórios;Alfa Ltda;MG;Bruno Lima;7;R$207,22;0;R$ 1.450,52;
+17/09/25;PED-12088;Mesa Home Office;Móveis;Gama Me;Rio Grande do Sul;Elisa Prado;7;R$809,94;20;R$ 4.535,65;???
+11/08/2026;PED-11312;Tablet Lite;Eletrônicos;Alfa Ltda;RJ;Bruno Lima;2;1.720,63;0%;R$ 3.441,26;???
+2026-09-06;PED-12462;Cadeira Ergonômica;  Móveis;Alfa Ltda;BAHIA;Bruno Lima;3,0;1219.38;0%;#N/D;entrega urgente
+15/01/2025;PED-11204;Tablet Lite;Eletrônicos;  Zeta Store;Rio Grande do Sul;Fábio Nunes;1 un;R$1.827,05;10%;R$ 1.644,35;???
+08/08/26;PED-11647;Cadeira Ergonômica   ;Móveis;Épsilon Corp;Rio Grande do Sul;N/A;1;R$1.243,99;20;R$ 995,19;
+13/11/2025 00:00;PED-10170;  Fone Bluetooth;acessórios;Delta Tech;Minas Gerais;N/A;7;R$ 262,57;10%;1654.20;
+2025-09-15 00:00:00;PED-11726;Notebook Pro 14;Eletrônicos;NaN;SAO PAULO;Carla Dias;2;R$ 4.994,76;0%;R$ 9.989,52;
+19/10/25;PED-10592;Monitor 27 pol;  Eletrônicos;Gama ME;RJ;Elisa Prado;3;R$1.519,47;20;R$ 3.646,72;???
+12-10-2026;PED-11455;Cadeira Ergonômica;Móveis;Delta Tech;rio grande do sul;ana souza;1;R$ 1.123,32;0%;1123.32;entrega urgente
+2026-03-02 00:00:00;PED-11788;Webcam Full HD;;Mi Varejo;sp;Diego Rocha;5;221,39;0%;R$ 1.106,94;
+15/03/2026;PED-11019;Luminária LED;Casa;  Delta Tech;Sao Paulo;Bruno Lima;5;R$ 87,17;;435,86;
+04/03/2026 00:00;PED-11016;Tablet Lite;Eletrônicos;Sigma Log;sp;Carla Dias;3;R$ 1.808,54;15;R$ 4.611,79;pago no pix
+27/02/2026;PED-12278;Tablet Lite;Eletrônicos;iota office;SP;Elisa Prado;2;R$1.689,55;0%;R$ 3.379,09;
+2025-11-12 00:00:00;PED-11490;Mesa Home Office;Móveis;Alfa Ltda   ;MG;Diego Rocha;6 un;R$ 866,71;20%;4160.20;
+22/06/2026;PED-12241;luminária led;Casa   ;Kappa Home;Rio Grande do Sul;FÁBIO NUNES;7;85.15;15%;R$506,66;entrega urgente
+18/11/2025;PED-11383;Monitor 27 pol;Eletrônicos;Beta S.A.;Paraná;-;3;R$ 1.433,14;0;4.299,43;cliente VIP
+02/05/25;PED-11790;fone bluetooth;Acessórios;Ômega Foods;SAO PAULO;Fábio Nunes   ;9;242.28;;1744.42;cliente VIP
+19/02/2025;PED-10127;TECLADO MECÂNICO;Acessórios;Zeta Store;PR;Carla Dias   ;5;374,90;20;R$ 1.499,61;???
+21-07-2025;PED-10505;Monitor 27 pol;Eletrônicos;Gama ME;Sao Paulo;Bruno Lima;2;R$ 1.383,01;10%;R$ 2.489,42;
+29/11/2025;PED-12186;Teclado Mecânico;Acessórios;Mi Varejo;Sao Paulo;Elisa Prado;3;R$ 390,77;5%;1.113,69;troca
+2025-04-01 00:00:00;PED-11074;Garrafa Térmica;Casa;Gama ME   ;BA;Fábio Nunes   ;4;R$ 77,94;0%;R$ 311,75;cliente VIP
+18/01/2026;PED-11236;teclado mecânico;Acessórios;Iota Office;RS;Bruno Lima;N/A;R$ 392,11;0%;R$ 2.352,67;
+13/10/26;-;Monitor 27 pol;Eletrônicos;Ômega Foods;SP;Fábio Nunes;2 un;1.479,77;10%;R$ 2.663,58;???
+01/05/2026;PED-11626;Garrafa Térmica;Casa;sem informacao;SC;Diego Rocha;7;R$ 71,31;5;R$ 474,23;
+05/12/2025;PED-11332;Tablet  Lite;Eletrônicos;mi varejo;Rio De Janeiro ;bruno lima;1;1776.79;0%;1.776,79;
+2025-03-28;PED-11754;TECLADO MECÂNICO;Acessórios;Lambda Shop;SAO PAULO;Fábio Nunes;6;R$ 391,84;5;R$ 2.233,50;
+08/03/2025;PED-10618;Webcam Full HD;Acessórios;Eta Digital;BAHIA;Bruno Lima;8;R$ 216,64;15%;R$ 1.473,12;
+23/09/26;PED-12507;Garrafa Térmica;Casa;Gama ME;Paraná;ANA SOUZA;3;76,26;0%;228.77;troca
+15/01/2026;PED-10607;Luminária LED;Casa;Épsilon Corp;Paraná;Carla Dias;9;94.43;0,20;R$679,87;entrega urgente
+06/12/2025;PED-12390;Mesa Home Office   ;Móveis;Kappa Home;Sao Paulo;Diego Rocha;5;R$ 838,27;15;R$ 3.562,65;cliente VIP
+23-12-2025;PED-12268;Mesa Home Office;Móveis;Épsilon Corp;MG;Elisa Prado;9,0;R$ 840,75;0,15;R$ 6.431,77;entrega urgente
+2025-02-27;PED-12157;Luminária LED;Casa;Mi Varejo;RJ;Carla Dias;7;91.40;0,00;NaN;
+2026-08-25 00:00:00;PED-10801;Fone Bluetooth;Acessórios;Alfa Ltda;SAO PAULO;Elisa Prado;5;251,75;15%;R$ 1.069,94;troca
+2025-07-22 00:00:00;PED-12425;Monitor 27 pol;Eletrônicos;Alfa Ltda   ;Rio De Janeiro ;Diego Rocha;3;R$ 1.490,94;0%;4472.81;
+04/05/2026;PED-10263;Fone Bluetooth;Acessórios;Eta Digital   ;São Paulo;Fábio Nunes;8;R$ 248,96;;1991.68;troca
+20/01/26;PED-11785;Cadeira Ergonômica;Móveis;Alfa  Ltda;sp;Bruno Lima;#N/D;R$ 1.241,86;0,15;R$ 1.055,58;
+;;;;;;;;;;;
+02/10/2026;PED-10979;Fone Bluetooth;  Acessórios;  Beta S.A.;minas gerais;Fábio  Nunes;4,0;245,46;20%;null;
+22/06/2025 00:00;PED-11250;Fone Bluetooth;Acessórios;Sigma  Log;São Paulo;Fábio Nunes;3;R$ 243,69;0%;R$ 731,08;
+27-07-2026;PED-10484;Monitor 27 pol;eletrônicos;Iota Office;São Paulo;Bruno Lima;3;R$ 1.407,78;20%;3378.67;???
+14/05/2026 00:00;PED-10585;Notebook Pro 14;eletrônicos;  Iota Office;sp;-;3;R$ 5.362,39;0%;R$ 16.087,17;
+04/02/2026;PED-10216;  Tablet Lite;Eletrônicos;Lambda Shop;Sao Paulo;bruno lima;3;R$ 1.690,17;5;R$ 4.816,98;pago no pix
+22/12/2025;PED-10030;cadeira ergonômica;;Kappa Home;Rio de Janeiro;Fábio Nunes;2;R$ 1.202,89;0%;2405.79;cliente VIP
+13-04-2026;PED-11741;Luminária LED;Casa;Ômega Foods;Rio Grande do Sul;CARLA DIAS;5;85,71;15;R$ 364,26;
+13/10/26;PED-12149;Luminária LED;Casa;Sigma Log;BAHIA;Ana Souza;5;R$ 94,19;0,05;R$ 447,39;
+2026-03-02;PED-11098;Garrafa Térmica;Casa;Eta Digital;Rio De Janeiro ;  Ana Souza;5;74.32;;R$371,61;???
+05/03/2026 00:00;PED-11416;Webcam Full HD;Acessórios;Alfa Ltda;rio de janeiro;Diego Rocha;9;;0%;R$1.987,80;cliente VIP
+17/07/2026;PED-10920;Tablet Lite;Eletrônicos   ;Kappa Home;rio de janeiro;Elisa Prado;1;1749.47;0%;R$ 1.749,47;
+26/09/2026;PED-11695;Garrafa Térmica;Casa;Gama ME;Minas Gerais;Elisa  Prado;4 un;R$76,47;5;R$ 290,58;
+07/05/2026;PED-12206;Cadeira Ergonômica;Móveis;Mi Varejo;BAHIA;Elisa  Prado;2;1251.40;0%;R$ 2.502,79;???
+19-10-2025;PED-11832;Smartphone X;Eletrônicos;theta mercado;Rio de Janeiro;Elisa  Prado;3;R$ 2.757,31;20%;6.617,53;
+14-02-2026;PED-11328;Luminária LED;Casa;Gama ME   ;RJ;Bruno Lima;9;92.84;0%;null;
+18-09-2025;PED-10435;Garrafa Térmica;  Casa;Ômega Foods;Bahia;Elisa Prado;3;71.60;0,00;214,80;pago no pix
+18/09/2025;  ;Webcam  Full  HD;Acessórios;Theta Mercado;SP;Ana Souza;6;218.83;0,00;R$ 1.312,99;cliente VIP
+09/07/2025 00:00;PED-10595;Luminária LED;Casa;Mi Varejo;SP;Diego Rocha;7;R$ 92,01;20;515,28;
+2026-08-23 00:00:00;PED-10060;webcam full hd;Acessórios;Iota Office;Sao Paulo;Carla Dias;6,0;223,56;;R$1.341,37;pago no pix
+2026-03-26;PED-10065;Monitor 27 pol   ;Eletrônicos   ;Ômega Foods;SAO PAULO;Carla Dias;3;1527.40;;R$ 4.582,19;
+01/11/25;PED-10173;Luminária LED;Casa;Theta Mercado;rio de janeiro;Elisa Prado;5 un;R$ 84,57;5%;401,70;troca
+29/06/2026;PED-11442;Mouse Gamer   ;Acessórios;GAMA ME;São Paulo;Ana Souza;5;129.87;0,00;R$ 649,37;
+27/07/2026;PED-10079;Tablet Lite;Eletrônicos;lambda shop;Rio Grande do Sul;Bruno Lima;2;R$1.722,22;20%;R$ 2.755,55;cliente VIP
+15/12/25;PED-10035;Monitor 27 pol;Eletrônicos;NaN;Rio De Janeiro ;Bruno Lima;1;1426.18;0%;R$1.426,18;cliente VIP
+22-05-2025;PED-12344;Monitor 27 pol;Eletrônicos;Mi Varejo;SP;Diego  Rocha;3;R$ 1.469,50;0,15;3747,22;
+16/05/2025 00:00;PED-11278;GARRAFA TÉRMICA;Casa;Beta  S.A.;sp;Carla Dias;3;R$ 76,20;0,00;R$ 228,60;???
+22/03/2025;PED-10985;Tablet Lite;Eletrônicos;Lambda Shop;São Paulo;Diego Rocha;2;1715.78;0;3.431,57;entrega urgente
+11/03/2026;PED-11367;Monitor 27 pol;Eletrônicos;Lambda Shop;Paraná;diego rocha;1;1.395,28;;R$ 1.116,23;entrega urgente
+30/04/25;sem informacao;Teclado Mecânico;Acessórios;Zeta Store;MG;Elisa Prado;1 un;410,67;15;349,07;troca
+15/09/26;PED-12363;NOTEBOOK PRO 14;Eletrônicos;Eta Digital;sp;Fábio Nunes;3;R$ 4.909,90;;R$13.256,72;
+20/01/2025;PED-12235;Teclado Mecânico;Acessórios;Theta Mercado;MG;FÁBIO NUNES;2,0;R$ 394,22;0%;R$ 788,44;
+2026-07-16 00:00:00;PED-10422;Monitor 27 pol;Eletrônicos;Alfa Ltda;SC;Ana Souza;1 un;1441,61;;R$ 1.441,61;pago no pix
+2025-09-08 00:00:00;PED-12361;Notebook Pro 14;Eletrônicos;Sigma Log;MG;Carla Dias;2 un;R$ 5.171,43;0%;10342.85;
+20/10/2026;PED-11642;Monitor 27 pol;Eletrônicos;  ;MG;Fábio Nunes;3;R$ 1.475,70;0;R$ 4.427,10;
+17/09/2026 00:00;PED-11694;Teclado Mecânico;Acessórios   ;Zeta Store;rio grande do sul;Ana Souza;3;R$373,69;0%;1121,06;???
+17/12/2025;PED-11946;Mouse  Gamer;Acessórios;Kappa Home;MG;Fábio Nunes;7;129,31;0,20;null;cliente VIP
+2025-06-21 00:00:00;PED-11918;Cadeira Ergonômica;Móveis;Zeta Store;Minas Gerais;Bruno  Lima;3 un;R$ 1.195,73;0,00;R$3.587,20;???
+2026-04-16;PED-11444;Cadeira Ergonômica;Móveis;Zeta Store;Rio De Janeiro ;Elisa Prado;1;R$ 1.228,93;0,00;1.228,93;
+2026-02-20 00:00:00;PED-10579;Notebook  Pro  14;Eletrônicos;Gama ME;RS;Elisa Prado;1;5.334,48;;R$ 5.334,48;troca
+21/05/2026;PED-11556;Smartphone X;Eletrônicos;Ômega Foods;RJ;Carla Dias;3;R$ 2.995,09;0,05;R$ 8.536,02;???
+13/12/2025;PED-10291;Mesa Home Office;Móveis;Épsilon Corp;BAHIA;;3;865.77;5%;R$ 2.467,45;cliente VIP
+30/11/25;PED-10877;Teclado Mecânico;Acessórios;Épsilon Corp;RJ;  Ana Souza;7 un;R$ 369,58;0,00;R$ 2.587,06;???
+21/06/2026;PED-12515;Smartphone X;Eletrônicos;Sigma Log;SAO PAULO;Elisa Prado;2 un;R$ 2.920,86;0%;5841.72;???
+2026-05-19 00:00:00;PED-10827;#N/D;Casa;BETA S.A.;RS;Bruno Lima;7;R$ 76,92;0,00;R$ 538,46;cliente VIP
+03/09/25;PED-10326;Smartphone X;Eletrônicos;Delta Tech;Rio Grande do Sul;Carla Dias;1;2836.92;;R$2.269,54;
+09/04/2026;PED-10651;Mouse Gamer;Acessórios;  ;Sao Paulo;Fábio  Nunes;6;R$ 129,50;0%;R$ 776,98;
+2025-12-10;PED-11322;Mesa Home Office;Móveis;Alfa Ltda;SP;Diego Rocha   ;5,0;894.32;;R$ 4.471,58;
+13-09-2026;PED-10954;Fone Bluetooth;#N/D;  Delta Tech;RJ;Diego Rocha   ;3;R$ 253,12;0%;R$ 759,37;
+06-08-2026;PED-12279;Fone Bluetooth;Acessórios;ÔMEGA FOODS;SAO PAULO;Elisa Prado;4;R$ 254,73;10;917,03;troca
+02/09/2025;PED-12487;Cadeira Ergonômica;Móveis;Gama ME;MG;NaN;#N/D;1124.79;10%;R$ 1.012,31;
+null;PED-11347;Luminária LED;Casa;Gama ME;Rio Grande do Sul;Fábio Nunes;8;R$ 91,12;0,00;R$ 728,92;???
+15/05/2026;PED-11193;Fone Bluetooth;Acessórios;Gama ME;Paraná;Diego Rocha;9;237.28;0,15;R$ 1.815,20;
+07/12/25;null;Cadeira Ergonômica;Móveis;Eta Digital;Bahia;Diego Rocha;2;R$ 1.123,61;0,20;R$ 1.797,78;cliente VIP
+2025-11-11;PED-10254;Mouse Gamer;Acessórios;Ômega Foods;Rio De Janeiro ;Elisa Prado;7;126.93;0,10;799,65;
+31-01-2026;PED-10727;Mesa Home Office;Móveis;Alfa Ltda;Rio de Janeiro;Elisa Prado;4;833.03;0,00;R$ 3.332,13;???
+12/05/2026;PED-11498;Notebook Pro 14;Eletrônicos   ;Theta Mercado;Minas Gerais;  Bruno Lima;2;R$ 5.336,30;15%;R$ 9.071,71;cliente VIP
+03/08/2026;PED-10068;  Mouse Gamer;Acessórios;Gama ME;SAO PAULO;Ana Souza;7;R$ 133,84;0,10;843.19;
+13/11/2025;PED-12043;Mouse Gamer;Acessórios;  Sigma Log;Sao Paulo;Diego Rocha;8;R$ 125,91;;906.52;cliente VIP
+25/03/2026;PED-12352;Webcam Full HD;Acessórios;Épsilon Corp;PR;Fábio Nunes;7,0;R$ 207,39;15;R$ 1.233,99;???
+2026-06-11 00:00:00;PED-10714;Tablet Lite   ;Eletrônicos;Gama ME;SP;Bruno Lima;2;R$ 1.854,88;5;R$ 3.524,26;entrega urgente
+02/07/2026;PED-12289;Teclado Mecânico;  Acessórios;  ;Paraná;Diego Rocha   ;9;R$ 368,44;0;R$3.315,96;???
+24/07/2026 00:00;PED-12147;Mesa Home Office;móveis;Eta Digital;SAO PAULO;Diego Rocha;5;R$811,80;20;3247.21;troca
+2026-06-18;PED-10286;MOUSE GAMER;acessórios;ÉPSILON CORP;Sao Paulo;Bruno Lima;9;135,78;0%;R$ 1.221,99;troca
+29-01-2026;PED-12090;FONE BLUETOOTH;Acessórios   ;  Kappa Home;Santa Catarina;Fábio Nunes;4;R$257,95;;R$ 1.031,79;
+14/05/2026;PED-10193;Tablet Lite;Eletrônicos;Delta Tech;SAO PAULO;CARLA DIAS;3;;;R$ 4.471,99;
+2026-06-21 00:00:00;PED-11023;Monitor 27 pol;Eletrônicos;Eta Digital;Paraná;Ana Souza;3,0;1.456,62;0,05;4.151,36;
+2025-03-24;PED-12459;Luminária Led;casa;Eta Digital;sp;ana souza;5;90.53;15%;R$ 384,74;???
+2026-04-15 00:00:00;PED-12058;Monitor 27 pol;Eletrônicos;Ômega Foods;BAHIA;Elisa Prado;3;R$ 1.495,16;0,00;R$ 4.485,47;
+30/09/2026;PED-12447;LUMINÁRIA LED;Casa;Kappa Home;Rio De Janeiro ;Carla Dias;5;R$ 92,15;0%;R$ 460,74;
+2025-01-10;PED-12525;  Luminária LED;CASA;Iota  Office;minas gerais;elisa prado;2;87.21;10%;R$ 156,97;
+30/01/2026;PED-10513;Tablet Lite;  Eletrônicos;Épsilon Corp;RS;Fábio Nunes;3;R$1.895,39;;5686,17;
+18/07/2026;PED-12519;Luminária LED;Casa;Lambda Shop;null;Diego Rocha;2;88,77;0,10;159,79;
+02/03/26;PED-11515;Cadeira Ergonômica;Móveis;Delta Tech;SC;Bruno  Lima;3;R$1.241,97;15;R$ 3.167,02;
+null;PED-10321;Tablet Lite;eletrônicos;Épsilon Corp;MG;Elisa Prado;2;1796,56;10;3.233,80;
+25/11/2025 00:00;PED-12037;Mouse Gamer;Acessórios;gama me;BA;Diego Rocha;null;124,63;0%;249,26;cliente VIP
+26/12/2025;PED-11756;Smartphone  X;Eletrônicos;Épsilon  Corp;MG;Bruno Lima;3;R$ 2.840,72;0,15;R$ 7.243,84;cliente VIP
+2026-06-09;PED-11891;Mouse Gamer;Acessórios;alfa ltda;RS;Fábio Nunes;8 un;131,55;0;R$ 1.052,40;
+07/09/2026;null;SMARTPHONE X;Eletrônicos;Lambda Shop;Rio De Janeiro ;Diego Rocha;3;R$ 2.768,62;15%;R$ 7.059,99;cliente VIP
+13/08/2025;PED-10964;Notebook Pro 14;Eletrônicos;Kappa Home;São Paulo;Diego Rocha;1;N/A;0%;R$ 4.897,89;???
+28-12-2025;PED-11184;Cadeira Ergonômica;Móveis   ;Gama ME;Rio Grande do Sul;Fábio Nunes;1;R$ 1.168,13;0%;R$ 1.168,13;
+07/09/2026;PED-10796;Mesa Home Office;Móveis;Eta  Digital;minas gerais;Ana Souza;1;R$ 887,41;0,00;887,41;entrega urgente
+08-03-2025;PED-11755;Mouse Gamer;Acessórios;Beta  S.A.;SP;Bruno Lima;2;132.73;15%;R$ 225,64;
+19-09-2026;PED-10136;Mesa Home Office;móveis;Épsilon Corp;SAO PAULO;Fábio Nunes;7;885,83;0;6.200,79;
+05-08-2026;PED-10991;Webcam Full HD;acessórios;Zeta Store;SP;Diego Rocha;3;229,49;15%;585,19;
+03/01/2026;PED-11008;Monitor 27 pol   ;Eletrônicos;Beta S.A.;SP;Carla Dias;2,0;R$ 1.390,91;5;2642.73;
+21-06-2025;PED-11558;Tablet Lite;Eletrônicos;Sigma Log   ;SP;Diego Rocha;2;R$ 1.807,71;0,00;R$ 3.615,43;troca
+2026-09-11 00:00:00;PED-12251;Cadeira Ergonômica;Móveis;Épsilon Corp;São Paulo;Bruno Lima;2;1173,95;0,05;R$2.230,50;pago no pix
+25/09/25;PED-10343;Mouse Gamer;Acessórios;Épsilon Corp;RS;Elisa Prado;5 un;R$ 128,68;15;-99.90;
+2025-06-05;PED-11075;Webcam Full HD;Acessórios;Zeta Store;PR;Ana Souza;5;227.69;0%;1.138,46;
+01/07/2026;PED-11787;Webcam Full HD;Acessórios;  ;São Paulo;Ana Souza;5;R$ 217,53;0,20;R$ 870,12;troca
+23/02/2025;PED-10387;Mouse Gamer;Acessórios;alfa ltda;sp;Ana Souza;3;#N/D;0;400.17;cliente VIP
+15/06/2025;sem informacao;Luminária LED;Casa;Alfa Ltda;Rio De Janeiro ;sem informacao;3;R$ 89,96;0,00;269,87;
+18-04-2025;PED-10210;Mesa Home Office;Móveis   ;Ômega Foods;Rio de Janeiro;Diego Rocha;6,0;874,04;0,00;R$5.244,24;cliente VIP
+20/10/2026;PED-10675;Smartphone X;Eletrônicos;Alfa Ltda;Paraná;Elisa Prado;3;2936.75;0%;R$ 8.810,25;pago no pix
+13/11/25;PED-10816;MESA HOME OFFICE;Móveis;Alfa Ltda;São Paulo;Ana Souza;2 un;901.90;;R$ 1.713,61;
+16/05/2025;PED-10375;Teclado Mecânico   ;Acessórios;Mi Varejo;Sao Paulo;Bruno Lima;3;R$382,58;;R$ 1.032,98;
+18/10/2025;PED-10194;  Mesa Home Office;Móveis;ALFA LTDA;SP;Elisa Prado;5;899,95;;3599.80;cliente VIP
+09-05-2026;PED-12026;Smartphone X;Eletrônicos;Épsilon Corp;BA;  Diego Rocha;1;R$ 2.961,59;10%;2.665,43;cliente VIP
+11/10/25;PED-11187;Luminária  LED;Casa;Lambda Shop   ;rio de janeiro;Fábio Nunes   ;6;R$ 93,27;10;503,65;
+2026-01-01 00:00:00;PED-12142;Teclado Mecânico;Acessórios;Alfa Ltda;São Paulo;Fábio Nunes;7;R$ 397,64;20;2.226,80;???
+01/07/2026;-;Notebook Pro 14;Eletrônicos;Beta S.A.;SP;Bruno Lima;2;R$ 5.198,68;0%;R$ 10.397,36;
+28/10/2026 00:00;PED-10093;Cadeira Ergonômica;Móveis;Theta Mercado;Rio De Janeiro ;Diego Rocha;3;1148,28;15%;2.928,10;troca
+20/06/25;PED-12322;Webcam Full HD;Acessórios;Iota Office;rio de janeiro;FÁBIO NUNES;2 un;R$ 221,87;0;443,74;troca
+09-07-2026;PED-11539;monitor 27 pol;Eletrônicos;Theta Mercado;Santa Catarina;Bruno Lima;1;R$ 1.398,92;5;R$ 1.328,97;entrega urgente
+2025-11-10 00:00:00;PED-11717;Teclado Mecânico;Acessórios;Kappa Home;PARANÁ;Carla Dias;3;408,80;0%;R$ 1.226,41;
+2026-05-30 00:00:00;PED-10523;Mouse Gamer;Acessórios;DELTA TECH;Rio de Janeiro;diego rocha;2;R$ 129,36;20;206.97;pago no pix
+2026-09-10;PED-10784;Webcam Full HD;Acessórios;Delta Tech;RJ;Ana Souza;3 un;R$ 230,11;0,20;552.25;entrega urgente
+2026-09-14 00:00:00;PED-10051;Monitor 27 pol;Eletrônicos;DELTA TECH;SP;Fábio Nunes;1;1.366,52;0,00;R$1.366,52;
+28/11/25;PED-12253;Smartphone X;Eletrônicos;Lambda Shop;BAHIA;Fábio Nunes;1;R$ 2.837,88;15%;R$ 2.412,20;pago no pix
+23/10/2025;PED-11959;Garrafa Térmica;Casa;  Sigma Log;Rio de Janeiro;Carla Dias;1;74.27;0;R$ 74,27;cliente VIP
+26/09/2025 00:00;PED-11538;Monitor 27 pol;Eletrônicos;Beta S.A.;Minas Gerais;Bruno Lima;1;1492.76;;1.492,76;entrega urgente
+27/10/2026;PED-12357;Mouse Gamer;acessórios;Mi Varejo;Rio Grande do Sul;Bruno Lima;9;R$ 131,51;;1065.26;
+28/11/2025;PED-10990;GARRAFA TÉRMICA;Casa;LAMBDA SHOP;RJ;Diego Rocha;2;71,35;20%;R$ 114,17;
+16/04/26;PED-12106;TECLADO MECÂNICO;Acessórios;Gama ME;Sao Paulo;Elisa Prado;3;393,95;0,05;R$ 1.122,76;
+18/04/2026 00:00;PED-11112;monitor 27 pol;Eletrônicos;Iota Office   ;SC;Bruno Lima;1;R$ 1.368,81;15;1163,49;troca
+23/05/2026;PED-12321;Cadeira Ergonômica;Móveis;Mi Varejo;sp;Ana Souza;1;R$ 1.231,56;0;1231.56;???
+2026-01-02;PED-10820;Fone Bluetooth;Acessórios;Épsilon Corp;Parana;Diego Rocha;8;R$ 252,62;0,15;R$ 1.717,80;???
+06/04/2026;PED-11002;;Acessórios;Mi Varejo;Minas Gerais;Carla Dias;9;R$ 129,43;20;931.90;cliente VIP
+09/11/26;PED-11811;Mesa Home Office;  Móveis;Lambda Shop;Minas Gerais;Elisa Prado;1;871,92;0;871,92;entrega urgente
+18/11/2025;PED-11662;Mouse Gamer;Acessórios;Zeta Store;Paraná;Bruno Lima   ;3;R$ 132,71;0%;R$ 398,12;
+30/06/2026;PED-10524;Fone Bluetooth;acessórios;Mi Varejo;rio de janeiro;Bruno Lima;3;R$253,70;5%;R$ 723,04;pago no pix
+05/04/25;PED-11823;Garrafa Térmica;Casa;Ômega Foods;Rio Grande do Sul;;3;71,67;5;R$ 204,27;???
+01-08-2025;PED-12379;Mesa Home Office;Móveis;Kappa Home;São Paulo;Fábio Nunes;3 un;R$ 837,75;;R$ 2.136,27;???
+21/09/2025;PED-10350;Fone Bluetooth;Acessórios;  Mi Varejo;SC;;4;R$263,09;0,00;R$ 1.052,35;???
+28/08/2025;PED-11400;Monitor  27  pol;ELETRÔNICOS;Mi Varejo;Rio De Janeiro ;Bruno  Lima;3;1.530,18;10;4131,49;cliente VIP
+10/05/2025 00:00;PED-10368;Notebook Pro 14;Eletrônicos;Iota Office;SC;Fábio Nunes;1 un;5.419,14;15%;R$ 4.606,27;???
+06/05/2025;PED-11381;Webcam Full HD;Acessórios;Beta S.A.;SC;carla dias;5;R$ 214,45;0%;#N/D;pago no pix
+2026-03-03;PED-11501;Notebook Pro 14;Eletrônicos;  Beta S.A.;PR;Bruno Lima;1,0;5.296,40;15%;R$4.501,94;troca
+11/02/26;PED-10984;Smartphone X;ELETRÔNICOS;Iota Office;RJ;Bruno Lima;1;2.926,54;;R$ 2.341,23;
+22/01/2026;PED-12320;Webcam Full HD;Acessórios;Mi Varejo;RS;Bruno Lima;7,0;219,84;0,05;R$ 1.461,96;???
+06/09/2026;;Luminária LED;Casa;Sigma Log;Sao Paulo;Diego Rocha;9 un;84,55;0;760.99;
+2026-06-25 00:00:00;PED-12044;  Notebook Pro 14;Eletrônicos;Mi Varejo;Rio Grande do Sul;Carla Dias   ;3;R$ 5.213,18;0%;15639.54;
+2026-10-08;PED-12225;Luminária LED;Casa;Sigma Log;RJ;Ana Souza;9;R$ 89,31;0,05;R$ 763,56;
+18/08/2025;-;Garrafa Térmica;Casa   ;Eta Digital;BA;Carla Dias;5;78,46;15;333.48;
+31/08/2025 00:00;PED-11950;Smartphone X;;Sigma Log;PARANÁ;Carla Dias;2 un;R$ 2.832,66;0%;R$5.665,31;???
+10/01/2026;PED-11081;Teclado Mecânico;Acessórios   ;Zeta Store;sp;carla dias;3;385,78;10;1.041,61;
+06/04/2026;PED-10220;WEBCAM FULL HD;Acessórios;Theta Mercado;Rio De Janeiro ;Bruno Lima;7;R$ 210,82;20;R$ 1.180,57;???
+27/02/2026;PED-10249;Notebook Pro 14;Eletrônicos;Beta S.A.;sp;Ana Souza;null;5069,35;5%;9631.76;???
+02/08/2025 00:00;PED-11009;CADEIRA ERGONÔMICA;Móveis;Gama ME;MG;fábio nunes;;1213.58;;1.213,58;
+09/09/2026;PED-12396;Mouse Gamer;Acessórios;Gama ME;Rio De Janeiro ;Diego Rocha;9;R$ 124,26;;1.118,32;troca
+22/08/26;PED-10891;Fone  Bluetooth;Acessórios;sem informacao;BAHIA;  Bruno Lima;8;257,90;15;R$ 1.753,71;
+2025-12-07 00:00:00;PED-12161;Mesa Home Office   ;Móveis;Alfa Ltda;BA;Bruno Lima;3 un;R$ 876,28;10%;R$ 2.365,95;???
+14-05-2026;PED-10569;Notebook Pro 14   ;Eletrônicos   ;Alfa Ltda;São Paulo;Fábio Nunes;2;R$ 5.284,98;0,00;R$ 10.569,96;
+14/08/26;PED-12405;Monitor 27 pol;Eletrônicos;Kappa Home;sp;Fábio Nunes;3;1.377,85;;-;
+15/08/2026;#N/D;Mouse Gamer;Acessórios;Theta Mercado;São Paulo;Carla Dias;5;R$ 132,42;0;R$662,11;
+2025-08-02 00:00:00;PED-11571;Tablet Lite;Eletrônicos;Beta S.A.;Minas Gerais;diego rocha;3;R$ 1.844,48;0%;5.533,44;???
+2026-03-17;PED-10791;Monitor 27 pol;Eletrônicos;Mi  Varejo;Parana;  Diego Rocha;2;1415.57;0%;2.831,14;
+29/07/2025;PED-10692;Mesa Home Office   ;Móveis;Épsilon Corp;Santa Catarina;Ana Souza;6;R$ 823,93;0,10;4.449,23;troca
+14/02/2025 00:00;PED-10519;TECLADO MECÂNICO;  Acessórios;MI VAREJO;Minas Gerais;Carla Dias;8;R$ 400,32;0,00;R$ 3.202,60;
+17/11/2025;PED-12308;monitor 27 pol;Eletrônicos;Ômega Foods;BA;Bruno Lima;2;R$ 1.363,91;0,20;R$2.182,25;troca
+03/02/25;PED-10540;Teclado Mecânico;Acessórios;Mi  Varejo;Sao Paulo;Bruno Lima;9;412.08;5;R$ 3.523,25;pago no pix
+07-08-2026;PED-11192;Teclado Mecânico;Acessórios   ;Beta S.A.   ;São Paulo;  Bruno Lima;6;R$ 369,97;0,00;R$ 2.219,80;
+03/03/2025;PED-10865;Teclado Mecânico;Acessórios;Alfa Ltda;Parana;Fábio Nunes;6;R$ 384,56;5%;R$ 2.191,98;cliente VIP
+16/08/2026;PED-10575;Webcam Full HD;Acessórios;Iota Office;Minas Gerais;Bruno Lima;7;210,31;15%;1.251,32;cliente VIP
+31/10/2025;PED-10087;Cadeira Ergonômica;Móveis;Delta Tech;BA;Fábio Nunes;3;1126.71;20%;2704,10;pago no pix
+2025-11-16 00:00:00;PED-10284;Smartphone X;  Eletrônicos;Delta  Tech;SAO PAULO;Bruno Lima;2 un;3061.31;5;R$ 5.816,48;
+30/11/25;PED-10933;Webcam Full HD;Acessórios;Ômega Foods;rio grande do sul;Fábio Nunes;9;215,03;0,05;sem informacao;
+27/01/2026;PED-10520;Tablet Lite;Eletrônicos;Eta Digital;rio de janeiro;Fábio Nunes;3;1753.53;0%;R$ 5.260,59;???
+2026-01-24 00:00:00;PED-11721;Notebook Pro 14;Eletrônicos;Eta Digital   ;BAHIA;Fábio Nunes;2;R$5.286,44;0;10.572,88;entrega urgente
+31/05/26;PED-11980;Tablet Lite;Eletrônicos;Zeta  Store;RS;Bruno Lima;3;R$ 1.783,03;0,10;R$ 4.814,18;entrega urgente
+13/05/2026;PED-11097;Monitor 27 pol;eletrônicos;Alfa  Ltda;São Paulo;Fábio Nunes;3;R$ 1.440,67;0%;R$4.322,01;
+28/10/2026 00:00;PED-10037;Garrafa Térmica;Casa;  Lambda Shop;MG;Elisa Prado   ;5;R$78,05;15%;R$ 331,69;troca
+22/04/2026;PED-11342;Tablet Lite;Eletrônicos;Gama ME;sp;Diego Rocha;3;1750,51;0%;R$ 5.251,52;???
+27/03/2026;PED-11671;Webcam  Full  HD;Acessórios;Beta S.A.   ;MG;Carla Dias   ;9;228.57;20%;1645.68;???
+02/09/2025;PED-12341;  Mesa Home Office;Móveis;Mi Varejo;BA;null;8;R$ 870,83;5;R$ 6.618,30;pago no pix
+06/09/26;PED-12354;-;Casa;Gama ME;sp;Elisa Prado;7;R$ 87,54;0%;R$612,80;
+2026-01-01 00:00:00;PED-12125;Garrafa Térmica;Casa;ETA DIGITAL;rio de janeiro;null;4;R$71,34;10;R$ 256,82;
+2026-10-03 00:00:00;PED-11171;Teclado Mecânico   ;Acessórios;Theta Mercado;Sao Paulo;Fábio Nunes;8;379,98;10;2.735,85;
+21-12-2025;PED-10615;Mouse Gamer;Acessórios;épsilon corp;São Paulo;Diego Rocha;5;R$ 122,59;0,00;R$ 612,96;troca
+12/03/2026 00:00;PED-10225;Monitor 27 pol;Eletrônicos;Alfa Ltda;  ;Carla Dias;#N/D;R$ 1.517,98;0,00;R$ 1.517,98;
+30/07/2025;PED-12381;Garrafa Térmica;  Casa;Zeta Store;Rio de Janeiro;Elisa Prado;9;R$ 71,04;0%;R$ 639,32;
+2026-09-14;PED-10738;Monitor 27 pol;eletrônicos;Iota Office;RJ;Ana  Souza;1 un;R$1.419,85;0%;R$ 1.419,85;
+17/09/2026 00:00;PED-11431;Cadeira Ergonômica;Móveis;eta digital;SAO PAULO;Elisa Prado;3;R$ 1.238,31;10;R$ 3.343,44;troca
+06/10/2026 00:00;PED-10036;Garrafa Térmica;Casa;Sigma Log;Rio de Janeiro;Bruno Lima;4;R$ 72,46;0;289.83;entrega urgente
+2026-09-16 00:00:00;-;Tablet  Lite;Eletrônicos;Lambda  Shop;minas gerais;;3 un;1.717,26;;R$ 4.379,00;
+2025-09-12 00:00:00;PED-10084;Garrafa Térmica;Casa   ;Gama ME;SAO PAULO;bruno lima;7;R$ 70,85;20;R$ 396,76;troca
+19/12/2025;PED-12180;Notebook Pro 14;Eletrônicos;Zeta Store;MG;Ana Souza;2;R$4.962,58;15%;8.436,39;
+27/04/25;PED-11048;Garrafa Térmica;Casa;Alfa Ltda;Sao Paulo;Bruno Lima;8;R$ 78,50;0,00;R$628,02;cliente VIP
+2026-10-27 00:00:00;PED-11249;Monitor 27 pol;Eletrônicos;Delta Tech;RS;Bruno Lima;2;1512,69;0;R$ 3.025,38;
+21/11/2025;PED-10853;Cadeira  Ergonômica;Móveis;Gama ME;rio grande do sul;  Carla Dias;2;R$ 1.207,65;5%;2.294,53;
+12/04/2026;PED-10554;Luminária LED;Casa;Eta Digital;Minas Gerais;Ana Souza;4;R$ 95,10;0%;R$ 380,42;entrega urgente
+00/00/0000;PED-11595;Teclado Mecânico;Acessórios;Kappa Home;Rio De Janeiro ;Carla  Dias;3 un;391,55;0;R$ 1.174,66;???
+02/08/26;PED-11374;Smartphone X;Eletrônicos   ;Lambda Shop;minas gerais;Carla Dias;3;2867.76;10;R$ 7.742,94;
+27/08/2025;PED-11636;Webcam Full HD   ;Acessórios;IOTA OFFICE;SC;Diego Rocha;5;R$ 230,76;0%;R$ 1.153,82;
+2025-10-11 00:00:00;PED-12412;  Webcam Full HD;Acessórios;-;RS;Carla Dias;9;R$ 212,95;0,15;R$ 1.629,08;
+2025-04-18 00:00:00;PED-10939;Garrafa Térmica;Casa;Iota Office;MG;carla dias;2;;0%;140,73;entrega urgente
+22/06/2026;PED-12407;Mouse Gamer;Acessórios;Mi Varejo;Sao Paulo;Carla Dias;1;R$ 133,25;0,10;R$119,92;pago no pix
+11/01/2025 00:00;PED-11390;Teclado  Mecânico;Acessórios;Eta Digital;BAHIA;ANA SOUZA;4,0;384,93;10%;1.385,74;cliente VIP
+23/10/2026;PED-10100;CADEIRA ERGONÔMICA;Móveis;zeta store;sem informacao;Fábio Nunes;1;R$1.142,54;;R$ 971,16;
+18-05-2026;PED-12420;Luminária LED;Casa;Alfa Ltda;PARANÁ;BRUNO LIMA;7;R$ 91,52;0,10;R$ 576,60;
+22/04/2026;PED-10752;Mouse Gamer;Acessórios;null;RJ;Fábio Nunes;2;R$ 128,88;15;R$ 219,10;cliente VIP
+02-09-2026;PED-12018;Notebook Pro 14;Eletrônicos;Kappa Home;RJ;ANA SOUZA;3;5.282,72;10%;R$ 14.263,34;entrega urgente
+28/08/2026;PED-11038;Notebook Pro 14;Eletrônicos;GAMA ME;SP;Elisa Prado;2;R$ 5.049,54;0,00;R$ 10.099,08;cliente VIP
+17/08/2026 00:00;PED-12227;Fone Bluetooth;Acessórios;Delta Tech;Rio de Janeiro;diego rocha;9;240,61;0,10;R$ 1.948,94;
+31/03/2025;PED-10429;Webcam Full HD;acessórios;Ômega Foods;Rio De Janeiro ;Ana Souza;7;230,47;20%;1.290,64;cliente VIP
+2025-12-04 00:00:00;PED-11036;Notebook Pro 14;Eletrônicos;sem informacao;rio grande do sul;  Elisa Prado;3;R$5.077,64;15%;R$ 12.947,99;
+10/07/2026;PED-12052;Teclado Mecânico   ;Acessórios;Zeta Store;RJ;sem informacao;6;R$ 387,40;0,15;R$1.975,75;entrega urgente
+30-06-2026;PED-11162;Notebook Pro 14;ELETRÔNICOS;  Delta Tech;rio de janeiro;Fábio Nunes;1;5.131,72;10%;4.618,55;
+2026-03-27;PED-11339;Monitor 27 pol   ;Eletrônicos;Mi Varejo;SC;Fábio Nunes;3;R$ 1.389,42;0%;R$ 4.168,27;
+26/08/2026 00:00;PED-12408;Cadeira Ergonômica   ;Móveis;Zeta Store;rio de janeiro;DIEGO ROCHA;3;R$ 1.208,21;;R$ 3.262,18;cliente VIP
+03/12/2025;PED-12366;Teclado Mecânico;Acessórios;Theta Mercado;Sao Paulo;Carla Dias;9;383.82;15;R$ 2.936,24;pago no pix
+05/10/25;PED-11167;Garrafa Térmica   ;Casa;Eta Digital   ;SAO PAULO;Ana Souza;6,0;R$72,90;0,00;R$ 437,42;troca
+06-06-2026;PED-10722;  Smartphone X;Eletrônicos   ;Eta Digital;rio grande do sul;Diego Rocha;3;R$ 2.959,47;0;8878.42;
+05/12/2025;PED-12334;Luminária LED;Casa;Beta S.A.;São Paulo;Diego Rocha;2;N/A;0,00;R$ 176,69;pago no pix
+29/03/2026;PED-12368;Tablet Lite;Eletrônicos;Beta S.A.;RS;Ana Souza;1;R$ 1.701,72;0;R$ 1.701,72;cliente VIP
+09/11/26;PED-12326;Luminária LED;  Casa;Gama ME;Rio de Janeiro;Bruno Lima;9;NaN;0,00;778,52;entrega urgente
+26/01/2026 00:00;PED-12456;Cadeira Ergonômica;Móveis;Theta Mercado;Rio De Janeiro ;Fábio Nunes;1;R$ 1.229,87;0%;1229,87;entrega urgente
+2026-11-06;PED-10066;Webcam Full HD;Acessórios;Kappa Home;minas gerais;Elisa Prado;8;R$ 216,75;0%;1.733,99;
+08/11/25;PED-11208;Notebook Pro 14;Eletrônicos;Gama  ME;São Paulo;Carla Dias;3;R$ 5.089,07;0,10;13740,48;
+16/05/2025;PED-10988;Mouse Gamer;Acessórios;Delta Tech;Minas Gerais;Bruno Lima;3,0;R$ 134,81;5%;384,21;troca
+17/05/2025 00:00;PED-11951;Teclado Mecânico;Acessórios;sigma log;Bahia;Fábio Nunes;1;R$ 374,04;15%;317,94;pago no pix
+19/10/2026;PED-11082;Fone Bluetooth;  Acessórios;Ômega Foods;SP;Fábio Nunes;1;;15%;R$ 201,42;
+22/12/2025;;Webcam Full HD;Acessórios;Ômega Foods;Sao Paulo;Fábio Nunes;6;R$ 218,86;0;1313,18;pago no pix
+23/09/25;PED-11319;Fone Bluetooth;Acessórios;Alfa Ltda;SC;Diego Rocha;9;R$ 264,15;10%;2139.64;troca
+13/12/2025;PED-11080;Notebook Pro 14;Eletrônicos;ÔMEGA FOODS;BA;Bruno Lima   ;3;R$ 5.430,52;15%;R$ 13.847,82;cliente VIP
+2025-12-31;-;Tablet Lite;Eletrônicos;Gama ME;Parana;Fábio Nunes   ;3;1876.16;;5.628,47;troca
+13/08/2026;PED-11354;Cadeira Ergonômica;Móveis   ;Beta S.A.;SP;Fábio Nunes;3;R$ 1.176,20;20;2.822,88;
+22/08/2026;PED-10884;WEBCAM FULL HD;NaN;Sigma Log;rio grande do sul;Diego Rocha   ;9;224,13;15%;1714,60;
+2025-12-06;PED-11402;Webcam Full HD;Acessórios;Sigma Log;RS;Elisa Prado;3;R$ 229,39;0,10;R$ 619,35;cliente VIP
+;PED-11712;Garrafa Térmica;Casa;THETA MERCADO;São Paulo;  Ana Souza;1;R$ 71,46;0,10;R$ 64,31;entrega urgente
+08/02/2025;PED-11439;Mesa Home Office;Móveis;Beta S.A.;Sao Paulo;Fábio Nunes;7,0;-;10%;5531.18;troca
+28/09/2025;PED-10723;Webcam Full HD;Acessórios;Beta S.A.;Rio De Janeiro ;Elisa Prado;4;R$ 208,06;15;707,41;cliente VIP
+27/01/2025;PED-10054;Smartphone X;Eletrônicos;Épsilon Corp;Bahia;Fábio Nunes;3;R$ 2.733,33;5;R$ 7.790,00;pago no pix
+08/09/2026 00:00;PED-10353;Teclado Mecânico;Acessórios;Kappa Home;Rio De Janeiro ;  Bruno Lima;9;R$ 367,49;20%;2.645,93;pago no pix
+10-04-2025;N/A;Cadeira Ergonômica;Móveis   ;Ômega Foods;Santa Catarina;Bruno Lima;1;R$ 1.191,93;20;R$ 953,55;
+16/03/2026;PED-10889;Fone Bluetooth;Acessórios;Theta Mercado;minas gerais;Carla Dias;3,0;R$ 243,92;0,15;R$621,98;troca
+23/02/25;PED-11085;Notebook Pro 14;ELETRÔNICOS;Delta Tech;sp;Fábio Nunes;2;5086.86;;R$ 10.173,72;
+05-08-2026;PED-10991;Webcam Full HD;acessórios;Zeta Store;SP;Diego Rocha;3;229,49;15%;585,19;
+03/04/2025;PED-11088;Cadeira Ergonômica;Móveis;Eta Digital;RJ;Elisa Prado;3;R$ 1.129,50;0%;R$ 3.388,50;
+2025-10-16 00:00:00;PED-11173;Luminária LED;Casa;Zeta Store;SP;Ana Souza;4;92.32;0,00;R$ 369,28;troca
+20-02-2026;PED-10976;Smartphone X;Eletrônicos;Mi Varejo;Sao Paulo;Diego Rocha;1;3.033,64;0;R$ 3.033,64;entrega urgente
+17/01/2026;PED-10693;Teclado Mecânico;ACESSÓRIOS;Gama ME;sp;Bruno  Lima;4;R$ 384,65;0%;N/A;entrega urgente
+2025-09-17;PED-11033;FONE BLUETOOTH;Acessórios;  Épsilon Corp;MG;NaN;9;235,38;15%;R$ 1.800,67;
+09/01/25;PED-10641;Mouse Gamer;  Acessórios;Gama ME;Sao Paulo;Elisa Prado;1;R$ 125,10;0,00;125,10;cliente VIP
+10/01/2025;PED-10875;Notebook Pro 14   ;Eletrônicos;Zeta Store;RJ;  Elisa Prado;1;R$ 4.903,85;0%;R$ 4.903,85;pago no pix
+2026-07-30 00:00:00;PED-12469;Luminária LED;Casa;Gama ME;SAO PAULO;Fábio Nunes;4;86,06;0,00;R$ 344,25;troca
+25/08/2026 00:00;PED-10647;Cadeira Ergonômica;Móveis;Iota Office;Parana;Bruno Lima;1;R$ 1.140,42;15%;R$ 969,36;cliente VIP
+11/08/2026;PED-10736;Mesa Home Office;Móveis;theta mercado;sp;Diego Rocha;5;R$ 820,95;0%;R$4.104,73;
+20/04/25;PED-11904;Teclado Mecânico;Acessórios;  Kappa Home;MG;Bruno Lima;5;R$393,04;10%;R$ 1.768,70;
+2026-10-30 00:00:00;PED-10980;Mesa Home Office;Móveis;  Delta Tech;Bahia;Ana Souza;7;901,34;0,20;R$ 5.047,50;pago no pix
+02/10/2026;PED-12145;Fone Bluetooth;Acessórios;Kappa  Home;SP;Diego Rocha;4;R$ 260,29;0,20;R$ 832,93;cliente VIP
+2026-03-29;PED-12395;MONITOR 27 POL;Eletrônicos   ;GAMA ME;sp;Diego Rocha;2;R$ 1.447,35;15%;R$ 2.460,49;entrega urgente
+26/10/2025;PED-11521;Luminária LED   ;  Casa;Iota Office;Sao Paulo;Diego Rocha;4;NaN;10%;R$ 340,17;troca
+03/01/2026 00:00;PED-12243;Notebook Pro 14;Eletrônicos;Kappa Home;BA;elisa prado;1,0;R$ 5.138,27;15%;sem informacao;???
+12/07/25;PED-10760;Teclado Mecânico;  Acessórios;Épsilon Corp;São Paulo;Diego Rocha;3;R$ 391,47;0%;R$ 1.174,41;???
+2026-04-26;PED-11895;Monitor 27 pol;Eletrônicos;Épsilon Corp;São Paulo;FÁBIO NUNES;2;R$ 1.427,13;;R$ 2.711,55;
+05/10/2025;PED-12388;fone bluetooth;Acessórios;Lambda Shop;Parana;Elisa Prado;1;R$ 262,16;15;R$ 222,83;
+22/11/25;PED-10648;Fone Bluetooth;Acessórios;  Delta Tech;Santa Catarina;Carla Dias;6;R$ 235,48;0%;1412.91;
+17/08/2025 00:00;PED-10490;NaN;Acessórios;Iota  Office;PR;Diego Rocha;2;R$ 227,36;5%;R$431,98;troca
+26/12/2025;PED-11969;Mesa Home Office;Móveis   ;Alfa Ltda;Rio de Janeiro;ANA SOUZA;4;829,93;0,00;3.319,73;pago no pix
+19/07/2025;PED-11146;mesa home office;  Móveis;DELTA TECH;SP;Fábio Nunes;8,0;811.05;5%;R$ 6.164,00;pago no pix
+17-04-2026;PED-11548;Teclado Mecânico;ACESSÓRIOS;Épsilon Corp;BA;Carla  Dias;8;R$ 395,72;5%;R$ 3.007,45;entrega urgente
+08/07/2026 00:00;PED-11526;Tablet Lite;Eletrônicos;Kappa Home;Paraná;Bruno Lima;1;1.822,53;0,10;R$1.640,28;pago no pix
+2026-01-14 00:00:00;PED-12102;TABLET LITE;Eletrônicos;Kappa Home;Santa Catarina;Ana Souza;1 un;R$ 1.752,37;15%;R$ 1.489,52;
+2026-02-20;PED-11771;Mouse Gamer;Acessórios;Eta Digital   ;Rio de Janeiro;Diego Rocha;6;R$ 126,21;15;R$643,66;???
+2026-06-06;PED-12203;Monitor 27 pol;Eletrônicos;Épsilon Corp   ;SAO PAULO;Fábio Nunes;3;R$ 1.465,12;0,00;R$ 4.395,35;troca
+2026-07-28;PED-10517;  Fone Bluetooth;Acessórios;Beta S.A.;minas gerais;Bruno Lima;7;R$ 255,64;0,00;1.789,51;entrega urgente
+10/01/2026;PED-11641;Luminária LED;CASA;Delta Tech;Minas Gerais;Fábio Nunes;9;93.68;;R$ 843,10;entrega urgente
+2026-04-28 00:00:00;PED-11329;Tablet Lite;Eletrônicos   ;Zeta Store;MG;Elisa Prado;3;R$ 1.772,63;5%;R$ 5.051,99;
+03/08/2026;PED-10363;Luminária LED;Casa;Épsilon Corp;Rio De Janeiro ;Ana Souza;4;89,26;0%;R$ 357,04;
+25/09/26;PED-11779;Cadeira Ergonômica;Móveis;Ômega Foods;BA;Fábio Nunes;2;1186.68;;2017,35;
+09/10/2025;PED-12073;Garrafa Térmica;CASA;Épsilon Corp;Rio De Janeiro ;Fábio Nunes;3;N/A;5%;R$ 223,76;troca
+07-04-2026;PED-12028;Mouse Gamer;Acessórios   ;Alfa Ltda   ;rio de janeiro;Bruno Lima;3;126,08;0%;R$ 378,23;cliente VIP
+2025-11-17 00:00:00;PED-10605;Webcam Full HD;acessórios;Delta Tech;Parana;ana souza;8;R$ 227,97;0%;R$ 1.823,76;cliente VIP
+27/11/2025;PED-10456;Luminária LED;Casa;Épsilon Corp;Rio De Janeiro ;CARLA DIAS;4;R$ 92,98;;297,52;
+22/06/2025 00:00;PED-11156;  Garrafa Térmica;Casa;Gama ME;RJ;Bruno Lima;5;71.53;20%;286,12;
+04/05/2025;PED-10071;LUMINÁRIA LED;Casa;NaN;rio grande do sul;  Elisa Prado;5;92,17;0;R$ 460,87;???
+25-06-2026;PED-10586;Mesa Home Office;MÓVEIS;Theta Mercado;N/A;elisa prado;6;822.46;0%;-;???
+02-04-2025;PED-12419;Mouse Gamer;Acessórios;Gama ME;Paraná;Diego Rocha;1;R$ 133,49;5%;126,82;troca
+2025-10-18 00:00:00;PED-12113;Tablet Lite;Eletrônicos;Zeta Store;sp;Fábio Nunes;2;R$ 1.766,08;;R$ 3.532,17;
+02/01/26;PED-10864;Fone Bluetooth;Acessórios;Gama ME;Santa Catarina;Fábio Nunes;5;R$ 243,06;5;R$ 1.154,53;
+18/02/25;PED-12069;Tablet Lite;Eletrônicos   ;Ômega Foods;SP;Bruno Lima;3;R$ 1.813,24;0;5.439,73;troca
+24-05-2026;PED-10269;Webcam Full HD;Acessórios;Sigma Log;BAHIA;Ana Souza;-;R$ 227,24;0;sem informacao;
+2026-09-15 00:00:00;PED-10466;Monitor 27 pol;Eletrônicos;Theta Mercado;BAHIA;Fábio Nunes;2;R$ 1.462,46;0%;2.924,92;pago no pix
+2026-09-22;PED-12542;Luminária Led;casa;  Ômega Foods;RJ;Diego Rocha   ;2;R$ 91,51;0,00;R$ 183,01;entrega urgente
+;;;;;;;;;;;
+23/06/25;PED-12140;Mouse Gamer   ;acessórios;Sigma Log;São Paulo;N/A;5,0;127,91;0%;639,54;pago no pix
+19/07/26;PED-12454;Webcam Full HD   ;Acessórios;theta mercado;SC;null;1;217,59;0,05;NaN;???
+19/12/2025;PED-10031;Mesa Home Office;Móveis;Sigma Log;SP;Diego Rocha;9;R$ 823,99;0%;7.415,91;entrega urgente
+31/05/26;PED-11980;Tablet Lite;Eletrônicos;Zeta  Store;RS;Bruno Lima;3;R$ 1.783,03;0,10;R$ 4.814,18;entrega urgente
+09/03/2026;PED-12176;Mouse Gamer;Acessórios;  Eta Digital;BA;Carla Dias;4;R$ 129,26;0%;R$ 517,03;
+;PED-12119;Monitor  27  pol;Eletrônicos;  Ômega Foods;sp;  Diego Rocha;2,0;R$ 1.525,82;20;2441.31;pago no pix
+03-05-2026;PED-10643;Garrafa Térmica;Casa;LAMBDA SHOP;Rio de Janeiro;Fábio Nunes;1;73.46;0,20;58.77;
+30/07/25;PED-12061;Smartphone X;Eletrônicos;Zeta Store;SC;Elisa Prado;3;3.003,21;0;R$ 9.009,63;troca
+18/11/25;PED-11460;Notebook Pro 14;Eletrônicos;Gama ME;SP;Bruno Lima;0;5.181,04;0,00;R$ 15.543,12;
+11/01/2026;PED-12590;Notebook Pro 14;Eletrônicos   ;Gama  ME;sp;Ana Souza;-;R$ 5.424,37;0,15;9.221,43;???
+02/09/2025;PED-10802;Teclado Mecânico;Acessórios;Sigma Log;Rio De Janeiro ;Elisa Prado;3;R$ 397,22;15%;1.012,91;entrega urgente
+2025-03-16 00:00:00;PED-11138;Luminária LED;Casa;Iota Office;Rio de Janeiro;Carla Dias;5;89,70;5%;426,09;cliente VIP
+14/09/2026;PED-10919;Smartphone X;Eletrônicos;Mi Varejo;SP;Bruno Lima;2;R$ 2.879,72;0%;R$ 5.759,44;pago no pix
+07/03/2025 00:00;PED-12036;Mesa Home Office;Móveis;Lambda Shop;São Paulo;Diego  Rocha;6;R$ 879,81;;R$ 4.223,11;troca
+29/07/2025;PED-11066;Tablet Lite   ;Eletrônicos;Zeta Store;rio grande do sul;Carla  Dias;1;R$ 1.874,36;;R$ 1.874,36;
+04/10/2026 00:00;PED-12574;luminária led;Casa;Delta Tech;PR;ana souza;1;90.87;15;77.24;
+14/08/26;PED-12159;Garrafa Térmica;Casa;Beta S.A.;São Paulo;Bruno Lima;1;71.78;10;64,60;
+29/01/2026;sem informacao;Garrafa Térmica;Casa;Sigma Log;Bahia;ana souza;5;R$ 70,69;;R$ 335,77;entrega urgente
+2026-02-16;PED-10185;Smartphone X;  Eletrônicos;Kappa Home;BAHIA;Ana Souza;2 un;2.786,44;;4736.95;
+04/12/2025 00:00;PED-10204;Garrafa Térmica;Casa;Delta Tech;Rio De Janeiro ;Elisa Prado;6;R$ 78,44;0%;470.61;troca
+2025-06-18;PED-10009;Smartphone X;Eletrônicos;gama me;RJ;Carla Dias;1;R$ 2.966,83;0,20;2373.46;entrega urgente
+2025-11-01;PED-11471;Webcam Full HD;Acessórios;  Mi Varejo;Parana;Bruno Lima;6;R$ 221,39;0;R$ 1.328,35;troca
+05/05/2026;PED-10080;Smartphone X;ELETRÔNICOS;Alfa Ltda   ;PR;Carla Dias;2;R$ 2.872,08;5;R$ 5.456,95;entrega urgente
+07/11/2026;PED-10091;Fone Bluetooth;  Acessórios;Épsilon Corp;SP;ana souza;4,0;R$ 261,10;0;1.044,39;???
+05/06/2026 00:00;PED-10640;Luminária LED;Casa;Gama ME;minas gerais;Carla Dias;1;R$ 85,65;0%;R$85,65;cliente VIP
+09/11/2025;PED-12470;Garrafa Térmica;Casa;Ômega Foods;N/A;Bruno Lima;2 un;R$ 73,86;0;R$ 147,71;pago no pix
+16/12/2025 00:00;PED-10008;Mesa Home Office;Móveis;THETA MERCADO;RJ;Carla Dias;9,0;873.34;5;R$ 7.467,02;troca
+04/08/2026;PED-10090;Tablet Lite;Eletrônicos;Eta Digital;minas gerais;Diego Rocha;3;R$ 1.743,38;5%;R$4.968,63;entrega urgente
+10/10/2025;PED-10266;Webcam Full HD;Acessórios;Lambda Shop;MG;Bruno Lima;3;219.82;0%;R$ 659,46;
+23-01-2025;PED-11944;Webcam Full HD;Acessórios;Mi Varejo;BA;Diego Rocha;3;R$ 222,14;0,00;666,43;
+14/06/2025;PED-12450;Cadeira Ergonômica;Móveis;Delta Tech;BAHIA;Carla Dias;3,0;R$ 1.133,91;15;2.891,47;
+2026-01-10;PED-10258;Webcam Full HD;Acessórios   ;Eta Digital;PARANÁ;Diego Rocha;  ;209.57;15;1.425,10;troca
+23-10-2025;PED-11333;Teclado Mecânico;Acessórios;  Sigma Log;SP;Bruno Lima;3 un;R$ 391,02;;R$ -1.200,00;entrega urgente
+2025-07-27 00:00:00;PED-10169;Luminária LED;Casa;Gama ME;SAO PAULO;Elisa Prado;2,0;R$ 87,43;0%;R$ 174,86;
+11-12-2025;PED-12302;Smartphone X;Eletrônicos;Zeta Store;Sao Paulo;diego rocha;3;R$ 3.025,62;10%;R$ 8.169,19;???
+2026-11-01;PED-10327;Mesa Home Office;Móveis;Iota Office;rio de janeiro;Bruno Lima;8;822,88;0%;R$6.583,07;pago no pix
+18/03/25;PED-12463;Cadeira Ergonômica;MÓVEIS;Beta S.A.;São Paulo;Carla Dias;2;1.252,77;10;R$ 2.254,98;cliente VIP
+04/06/26;PED-12292;Cadeira Ergonômica;Móveis;Épsilon Corp;Paraná;Fábio Nunes   ;2;R$ 1.196,27;15;2.033,66;
+23/04/2025;PED-11847;Notebook Pro 14;Eletrônicos;Sigma Log;Minas Gerais;Carla Dias;3;4944,37;5%;R$ 14.091,44;???
+2026-01-29;PED-10949;Monitor 27 Pol;Eletrônicos;Mi Varejo;PARANÁ;Diego Rocha;3;R$ 1.422,90;15%;sem informacao;
+05/04/2025;PED-10191;Garrafa Térmica;Casa;Beta S.A.;Rio de Janeiro;Bruno Lima;1;R$ 71,97;20;R$ 57,57;troca
+2026-10-19 00:00:00;PED-10971;Fone  Bluetooth;  Acessórios;Épsilon Corp;Rio De Janeiro ;  Ana Souza;7,0;R$ 247,76;0,00;R$ 1.734,35;
+2026-07-05 00:00:00;PED-11069;Smartphone  X;Eletrônicos;Mi Varejo;Rio de Janeiro;carla dias;3;R$ 2.790,05;0,00;R$ 8.370,15;troca
+2025-09-24 00:00:00;PED-11005;Monitor  27  pol;Eletrônicos;Eta Digital   ;Sao Paulo;BRUNO LIMA;3;R$ 1.365,18;15%;R$ 3.481,21;
+25/08/25;PED-12015;Notebook Pro 14;Eletrônicos;Épsilon Corp;rio de janeiro;Ana Souza;1;#N/D;0%;5.166,31;???
+04/11/2025;PED-12003;Webcam Full HD;Acessórios;Ômega Foods;Rio De Janeiro ;Carla Dias;3;R$ 219,74;0,00;R$659,21;cliente VIP
+2025-11-07 00:00:00;PED-11378;Fone Bluetooth;Acessórios;Lambda Shop;PARANÁ;Fábio Nunes;3;260,93;0;R$ 782,80;troca
+17-10-2026;PED-11140;Luminária LED;Casa;Zeta Store;Parana;Bruno Lima;7;R$ 94,74;0,00;663,16;
+04/07/2026;PED-11149;Garrafa Térmica;Casa;Kappa Home;SAO PAULO;Diego Rocha;2;R$76,66;20%;122,65;entrega urgente
+23/10/2026;PED-10433;Luminária LED;Casa;Beta S.A.;BAHIA;Ana Souza;3;R$ 93,36;10;R$ 252,09;pago no pix
+29/07/2026;PED-12598;Webcam Full HD;  Acessórios;Épsilon Corp;Minas Gerais;Elisa Prado;1 un;R$ 220,77;0%;220,77;troca
+22/03/26;PED-11613;Webcam Full HD;Acessórios;Alfa Ltda;Paraná;Bruno Lima;2 un;R$224,95;5;R$ 427,40;
+2025-03-08;PED-10539;Smartphone X;Eletrônicos;Eta Digital;minas gerais;Elisa Prado;3;2733.52;20;R$6.560,44;
+2026-09-25;PED-11279;Cadeira Ergonômica;MÓVEIS;Beta S.A.;RJ;Carla Dias;3;R$1.179,40;15%;R$ 3.007,47;
+24/08/2026;PED-11692;Smartphone X;ELETRÔNICOS;Iota Office;Paraná;Bruno Lima;3;2.812,46;0,10;7.593,65;???
+2026-09-20 00:00:00;PED-11885;Mesa Home Office;Móveis;Kappa Home;Rio de Janeiro;Ana  Souza;2;R$ 847,96;5%;1611.13;troca
+29/11/25;PED-11825;Notebook Pro 14;Eletrônicos;Mi Varejo;Parana;Elisa Prado;2,0;R$ 4.955,71;0,00;9.911,41;
+26/07/2026;PED-11282;Cadeira Ergonômica;Móveis;Iota Office;sem informacao;bruno lima;3 un;1225.68;10%;3309.35;
+2025-12-08;PED-10789;Mouse Gamer;Acessórios   ;Delta Tech;São Paulo;Ana Souza;2;R$123,93;20;198.29;
+16/10/2025;PED-11251;NaN;Eletrônicos;Iota Office;PR;Fábio  Nunes;3;R$ 1.890,95;20;R$ 4.538,28;troca
+05/09/2025;PED-10702;Tablet Lite;Eletrônicos;Beta S.A.;rio de janeiro;Elisa Prado;3;R$ 1.793,99;5%;R$ 5.112,88;troca
+29/08/2026;PED-12461;  Luminária LED;CASA;Gama ME   ;MG;Elisa Prado;6,0;87,16;10;R$ 470,66;
+14/12/2025;PED-11991;MONITOR 27 POL;Eletrônicos;Delta Tech;minas gerais;Diego Rocha   ;3;R$ 1.418,12;5%;R$ 4.041,64;troca
+05/12/25;PED-10324;Smartphone X;Eletrônicos   ;Kappa Home;BA;Diego Rocha   ;sem informacao;R$ 2.751,67;0,20;4402.68;
+2026-05-11 00:00:00;PED-10880;Garrafa Térmica;Casa;Delta Tech;SP;BRUNO LIMA;5;71,54;15%;304,06;
+10/03/2025;PED-12436;Luminária LED;CASA;eta digital;São Paulo;Fábio Nunes;4;90,22;5;342,84;
+23/06/2026 00:00;PED-12173;Mouse Gamer;Acessórios;Sigma Log   ;  ;Carla Dias   ;4,0;129,47;0,00;R$ 517,88;pago no pix
+2025-03-06;PED-10944;MOUSE GAMER;Acessórios;Eta Digital;SP;Elisa Prado   ;3;R$ 124,54;10%;336,26;
+03/06/2026;PED-10541;Tablet Lite;Eletrônicos   ;Ômega Foods;BAHIA;Elisa Prado;1;R$ 1.785,89;0%;R$ 1.785,89;entrega urgente
+26/01/2026;PED-12032;Teclado Mecânico;Acessórios;Theta Mercado;Bahia;ANA SOUZA;9;R$ 399,67;;R$ 3.597,04;
+2025-01-28;PED-12112;Smartphone X   ;N/A;Iota Office;sp;Ana Souza;3;R$2.943,64;20%;R$ 7.064,74;
+17/08/2026 00:00;PED-11805;Webcam Full HD;Acessórios   ;Kappa Home;minas gerais;Fábio Nunes;3;229,10;10%;R$618,56;
+29/07/2026;PED-10086;Mesa Home Office;Móveis;Zeta Store;SP;Bruno Lima;2;R$ 857,26;0;R$ 1.714,51;troca
+2026-01-29;PED-12204;Mesa Home Office   ;móveis;  Mi Varejo;SC;Diego Rocha;6;R$ 863,31;10%;R$ 4.661,89;troca
+12/10/2026;PED-10018;Smartphone X;Eletrônicos;Zeta Store   ;SAO PAULO;Fábio Nunes;1;R$ 2.809,37;0%;R$ 2.809,37;cliente VIP
+30/05/2026;PED-11677;Smartphone X;Eletrônicos;Eta Digital;sp;Fábio Nunes;3;2.787,92;;R$ 6.691,01;entrega urgente
+03/01/2026;PED-11450;  Luminária LED;casa;Iota Office;Santa Catarina;Diego Rocha;3;89,94;0,00;R$ 269,81;???
+26-12-2025;PED-12033;  Monitor 27 pol;Eletrônicos;Alfa Ltda;rio de janeiro;Ana Souza   ;3;R$ 1.529,20;0%;4587.61;cliente VIP
+2026-07-31;PED-11689;  Cadeira Ergonômica;Móveis;Ômega Foods;Rio Grande do Sul;  Elisa Prado;1;R$ 1.184,69;10;R$1.066,22;???
+20/05/2025 00:00;PED-10168;Luminária LED;Casa;ETA DIGITAL;SAO PAULO;Diego Rocha;5;R$ 93,78;0%;468,91;entrega urgente
+2026-10-13 00:00:00;PED-10227;Mesa Home Office;Móveis;Épsilon Corp   ;PARANÁ;Fábio Nunes;7;826,67;0;5786.71;???
+04/11/2025;PED-12005;Smartphone X   ;Eletrônicos;  Zeta Store;São Paulo;Ana Souza;3 un;R$ 2.785,38;10%;7.520,53;
+sem informacao;PED-10475;Mouse Gamer;Acessórios;Épsilon Corp;SP;Bruno Lima;3,0;R$ 133,86;15%;R$ 341,35;
+21/06/2025;PED-10850;Tablet Lite;Eletrônicos;Delta Tech;MG;Elisa Prado;1;R$ 1.702,34;10%;1532.11;???
+29/08/2026 00:00;PED-10501;Teclado Mecânico;Acessórios;gama me;Rio De Janeiro ;Fábio Nunes;N/A;R$ 376,58;0;R$753,16;
+03/01/2025;PED-10916;Webcam Full HD;Acessórios;Kappa Home;rio de janeiro;Fábio Nunes;6;R$208,42;20;R$ 1.000,40;troca
+15/01/25;PED-11092;notebook pro 14;Eletrônicos;Ômega Foods;Santa Catarina;Carla Dias;0;R$5.381,06;15%;9147.80;troca
+26-08-2026;PED-10886;Smartphone X;Eletrônicos;beta s.a.;SC;Diego Rocha;2;R$ 2.748,90;20%;4398,23;entrega urgente
+2025-10-21 00:00:00;PED-11062;Mouse Gamer;Acessórios;Beta S.A.;São Paulo;Bruno Lima   ;1 un;130,39;5;R$ 123,87;troca
+14/04/2026;PED-11225;Garrafa  Térmica;Casa;Sigma Log;Sao Paulo;Bruno Lima;7;R$ 73,78;0,00;516,48;cliente VIP
+2026-10-30 00:00:00;PED-11397;Fone Bluetooth;  Acessórios;Kappa Home;RJ;Fábio Nunes;7;R$ 242,10;15;1440.47;???
+2026-11-07;PED-10545;Garrafa Térmica;Casa;GAMA ME;Rio De Janeiro ;Diego Rocha;4;R$76,53;15%;260,21;cliente VIP
+2025-10-18 00:00:00;PED-11896;Monitor 27 pol;  Eletrônicos;Iota Office;SP;Carla Dias;1;R$ 1.478,11;0,00;1.478,11;pago no pix
+2025-05-31 00:00:00;PED-10677;Mouse Gamer;Acessórios;Gama ME;Rio De Janeiro ;Ana Souza;1;126.43;0%;126,43;
+11/01/2025;PED-10635;Webcam Full HD;ACESSÓRIOS;Lambda Shop;rio grande do sul;Elisa Prado;7;R$211,36;20%;R$ 1.183,63;
+06/05/2025;PED-12084;Cadeira Ergonômica;N/A;Delta Tech;MG;Ana  Souza;1;R$ 1.162,69;0,00;NaN;
+31/01/2025;PED-12464;Notebook Pro 14;Eletrônicos;Theta Mercado;sp;Carla Dias;2;5247.29;5%;9969.85;cliente VIP
+22/07/2026;PED-11234;Luminária LED;Casa;Theta Mercado;BAHIA;Carla Dias;4;R$ 89,03;5%;R$ 338,32;
+02/01/2025 00:00;PED-12453;Garrafa Térmica;Casa;Beta S.A.;MG;CARLA DIAS;3;R$71,01;0%;R$ 213,03;entrega urgente
+25-09-2025;PED-12588;Tablet Lite;Eletrônicos;Theta Mercado;Bahia;Carla Dias   ;3;1833.35;10%;R$ 4.950,05;troca
+13/09/2025;PED-10026;Cadeira Ergonômica;Móveis;Eta Digital;minas gerais;null;1;R$ 1.243,72;5;R$ 1.181,54;???
+18/09/2025;PED-10134;Cadeira Ergonômica;Móveis;Zeta Store;Rio Grande do Sul;Carla Dias;1;R$ 1.138,15;0%;R$ 1.138,15;cliente VIP
+29/08/2025;PED-10325;Tablet Lite;Eletrônicos;Ômega Foods;SAO PAULO;Bruno Lima;2;R$ 1.709,89;0;N/A;
+16/04/2026 00:00;PED-10304;  Notebook Pro 14;  Eletrônicos;Iota  Office;MG;null;3;R$ 5.448,04;0,00;R$16.344,11;
+12/03/26;PED-12328;Webcam  Full  HD;Acessórios;Beta S.A.;minas gerais;elisa prado;5;230,79;;R$ 1.153,96;
+31/05/2026;PED-11384;Fone Bluetooth;Acessórios   ;Alfa Ltda;Sao Paulo;Elisa Prado;2;R$251,82;0%;503,63;
+21/08/2026 00:00;PED-12101;WEBCAM FULL HD;Acessórios;Delta Tech   ;RS;Bruno Lima;9;R$ 220,95;5;R$ 1.889,16;entrega urgente
+17/05/2025 00:00;PED-10129;Teclado Mecânico;Acessórios;Alfa Ltda;rio grande do sul;Diego Rocha;7;R$ 401,63;5%;-99.90;
+2025-07-30;PED-12514;Cadeira Ergonômica;Móveis;Ômega Foods;São Paulo;Ana Souza;1;R$ 1.258,54;5%;R$ 1.195,61;
+01-06-2026;PED-10302;Luminária LED;Casa;Sigma Log;SP;Ana Souza   ;7;91,75;0,15;R$ 545,94;???
+06-08-2026;PED-11195;Cadeira Ergonômica;Móveis;Ômega Foods;sp;  Fábio Nunes;3;1160,91;15;2960.31;cliente VIP
+03/04/25;PED-11926;Mesa Home Office;Móveis;Gama  ME;SP;Elisa Prado;7;R$ 827,91;;5795.34;
+27/09/2026 00:00;PED-12471;Teclado Mecânico;Acessórios;Kappa Home;São Paulo;Fábio Nunes;2;405.30;0%;810.60;
+12/11/2025;PED-10781;Luminária LED;  Casa;Delta Tech;rio grande do sul;Bruno Lima;5 un;R$ 91,21;0%;R$ 456,03;???
+2026-06-14;PED-12406;  Mesa Home Office;Móveis;Iota Office;PR;  Diego Rocha;1;R$ 898,19;0;R$ 898,19;entrega urgente
+23/02/2026 00:00;PED-11413;  Monitor 27 pol;Eletrônicos;ÔMEGA FOODS;SC;Diego Rocha   ;1;1521.15;0%;NaN;
+19-05-2025;PED-12483;Smartphone X;Eletrônicos;Beta S.A.;Parana;ANA SOUZA;3;R$ 2.767,42;0%;R$ 8.302,26;
+08/04/2026;PED-11826;teclado mecânico;Acessórios;Sigma Log;RS;Diego Rocha;2;R$411,42;20%;658,27;
+13/03/2026;PED-10013;Webcam Full HD;Acessórios;Zeta  Store;São Paulo;Elisa Prado   ;6;216.93;0%;R$ 1.301,61;troca
+13/09/2025;PED-10314;Luminária LED;Casa;  Delta Tech;RJ;Elisa Prado   ;3;92.14;0;R$ 276,43;entrega urgente
+08/05/2025;PED-10682;Monitor 27 pol;eletrônicos;Gama ME;SAO PAULO;Carla Dias;1;R$ 1.476,92;10%;1.329,23;troca
+15/09/2025;PED-11411;Smartphone X;Eletrônicos;Mi  Varejo;sp;carla dias;3;R$ 2.726,92;0%;R$ 8.180,75;
+17/12/2025;PED-10160;Smartphone X;Eletrônicos;Theta Mercado;PARANÁ;  Ana Souza;2;#N/D;5%;5.202,69;
+2025-07-22;PED-10044;Tablet Lite;  Eletrônicos;Épsilon  Corp;São Paulo;Fábio Nunes;1;1726.19;0%;R$ 1.726,19;???
+15/01/25;PED-11092;notebook pro 14;Eletrônicos;Ômega Foods;Santa Catarina;Carla Dias;0;R$5.381,06;15%;9147.80;troca
+07/09/2026;PED-10796;Mesa Home Office;Móveis;Eta  Digital;minas gerais;Ana Souza;1;R$ 887,41;0,00;887,41;entrega urgente
+11/01/2026;PED-12271;Cadeira Ergonômica;Móveis   ;Sigma Log;SAO PAULO;Ana Souza;3;R$1.246,35;0,00;R$ 3.739,06;
+2026-01-16;PED-12452;Fone Bluetooth;Acessórios;ÔMEGA FOODS;minas gerais;Bruno Lima;8;R$ 252,28;0%;R$ 2.018,25;
+2026-09-02;PED-11586;Webcam Full HD;ACESSÓRIOS;Gama ME;São Paulo;Diego Rocha;2;207,79;0,00;R$ 415,59;troca
+2025-12-04;PED-10983;Teclado Mecânico;Acessórios;Sigma Log;BAHIA;Elisa Prado;5;401.40;0,10;R$ 1.806,30;???
+24/10/2025;PED-10306;Cadeira Ergonômica;Móveis;Zeta Store;Santa Catarina;ana souza;1;R$ 1.129,36;0,10;R$ 1.016,42;troca
+15/08/2025;PED-11615;Notebook Pro 14;Eletrônicos;Sigma Log;São Paulo;Diego Rocha;3;R$5.266,98;20;12.640,75;???
+11/12/2025;PED-10303;Mouse Gamer;Acessórios;Mi Varejo;minas gerais;Diego Rocha;1;R$ 129,97;15%;;
+04/10/2026;PED-11873;Garrafa Térmica   ;Casa;Alfa Ltda;Sao Paulo;Ana  Souza;4;R$ 77,14;0;R$ 308,57;
+14/02/26;PED-10244;Tablet Lite;Eletrônicos;Zeta Store;Rio de Janeiro;Elisa Prado;3;R$1.798,99;5;R$5.127,12;
+2026-08-31;PED-10987;Mesa Home Office;móveis;Gama Me;minas gerais;Diego Rocha;6 un;877,94;0,15;R$ 4.477,50;entrega urgente
+25-04-2026;PED-11362;Garrafa Térmica;Casa;Lambda Shop;MG;N/A;5 un;R$ 70,74;;R$ 353,68;
+16/08/2026 00:00;PED-12193;Webcam Full Hd;acessórios;  Ômega Foods;BA;  ;6;R$ 211,58;20%;R$ 1.015,61;???
+2025-12-02;PED-11518;monitor 27 pol;  Eletrônicos;Sigma Log;RS;Carla  Dias;2;1.400,69;10;R$ -250,00;cliente VIP
+17/09/2026;PED-10264;Mesa Home Office;Móveis;NaN;Bahia;Ana Souza;7;R$ 850,65;;R$ 5.359,06;troca
+26-06-2025;PED-10667;Notebook Pro 14;Eletrônicos;eta digital;SAO PAULO;Ana Souza   ;-;R$ 5.300,24;0%;15.900,72;entrega urgente
+ontem;PED-10930;Teclado Mecânico   ;Acessórios;Iota Office;Sao Paulo;Bruno Lima;9;R$ 366,32;;R$ 2.637,51;
+08/07/26;PED-10050;Garrafa Térmica;Casa;sem informacao;minas gerais;Elisa Prado;9;R$ 77,20;15;590,58;pago no pix
+11/03/2025 00:00;PED-11555;Notebook Pro 14;Eletrônicos   ;Gama ME;SP;fábio nunes;1;R$ 5.055,73;15%;R$ 4.297,37;troca
+25/07/2026 00:00;PED-11732;Smartphone X;Eletrônicos;Theta  Mercado;sp;Fábio Nunes;2;2.940,27;20;R$ 4.704,43;
+23/05/2026 00:00;PED-11759;Monitor 27 Pol;Eletrônicos;Alfa Ltda;Sao Paulo;Carla Dias;2;R$ 1.526,89;20;R$ 2.443,03;
+2025-11-29 00:00:00;PED-10382;Garrafa Térmica;Casa;N/A;RS;Elisa Prado;3;R$ 74,33;10;R$ 200,69;pago no pix
+19/03/2026;PED-10729;Fone Bluetooth;Acessórios;Alfa  Ltda;São Paulo;DIEGO ROCHA;4;;0,00;R$ 1.038,59;entrega urgente
+16-11-2025;PED-11459;Cadeira Ergonômica;Móveis;Delta  Tech;SC;Fábio Nunes;1;1.135,78;5;R$ 1.078,99;
+10/07/2026 00:00;PED-10130;Monitor 27 pol;Eletrônicos;Delta Tech;Minas Gerais;Carla Dias;1;R$ 1.481,83;10%;1333.64;cliente VIP
+07/10/25;PED-10040;Monitor 27 pol;Eletrônicos;NaN;sp;Elisa Prado;2 un;1453.40;5;R$ 2.761,45;pago no pix
+17-01-2026;PED-10479;SMARTPHONE X;  Eletrônicos;mi varejo;rio grande do sul;Diego Rocha;3;R$2.748,25;0,05;#N/D;???
+29/01/26;PED-10504;Notebook  Pro  14;Eletrônicos   ;Kappa Home;Sao Paulo;Fábio Nunes;#N/D;NaN;10;N/A;entrega urgente
+03/06/2026;PED-11634;Garrafa  Térmica;Casa;Zeta Store;São Paulo;Fábio Nunes;2;R$ 76,90;5;R$ 146,11;
+12/07/2026;PED-10829;Monitor 27 pol;Eletrônicos;  Iota Office;RJ;Ana Souza;1;R$ 1.424,30;0;R$ 1.424,30;
+26/10/2025;PED-11476;Teclado Mecânico;Acessórios;Beta  S.A.;sp;Ana Souza;5;R$ 394,04;0%;R$ 1.970,22;
+16-12-2025;PED-12539;  Smartphone X;Eletrônicos;ÔMEGA FOODS;rio de janeiro;Elisa Prado;1;R$2.832,71;;R$ 2.832,71;entrega urgente
+12/10/2026 00:00;PED-12293;Teclado Mecânico;Acessórios;Zeta Store;minas gerais;fábio nunes;4;-;5%;-;
+26/08/26;PED-10737;Tablet Lite;Eletrônicos;Épsilon Corp;SAO PAULO;Diego Rocha;3;1.822,99;10;4.922,07;
+12/05/26;PED-10070;Tablet Lite;  Eletrônicos;Alfa Ltda;SP;Carla Dias;2;R$ 1.861,48;10;3350.67;pago no pix
+24/02/2025;PED-10213;Cadeira Ergonômica;Móveis;Sigma Log;SAO PAULO;Carla Dias;1;R$ 1.147,20;0%;R$ 1.147,20;
+20-11-2025;PED-10644;Monitor 27 pol;Eletrônicos;ZETA STORE;Rio De Janeiro ;  Fábio Nunes;3;R$ 1.518,81;0;R$ 4.556,43;pago no pix
+29-05-2026;PED-10174;Notebook Pro 14;Eletrônicos;Lambda Shop;Rio de Janeiro;Fábio Nunes;2;R$5.395,09;0,05;R$ 10.250,67;pago no pix
+22/05/2025;PED-12331;Monitor 27 pol;Eletrônicos;Eta Digital;Sao Paulo;Fábio Nunes;3;R$ 1.426,15;5%;R$ 4.064,52;troca
+14/10/2025;PED-11040;Teclado Mecânico;Acessórios;Theta Mercado;SP;Ana Souza   ;7;R$ 376,01;0%;2.632,07;troca
+19/01/2026;PED-12592;Monitor 27 pol;Eletrônicos;Lambda Shop;Bahia;  Ana Souza;3;1.492,88;0,15;3.806,85;cliente VIP
+22/08/2026;PED-10884;WEBCAM FULL HD;NaN;Sigma Log;rio grande do sul;Diego Rocha   ;9;224,13;15%;1714,60;
+10/07/2026;PED-11363;Luminária LED;Casa;Lambda Shop   ;SAO PAULO;Carla Dias;2;91,48;0;R$ -1.200,00;
+27-10-2026;PED-11219;Monitor 27 pol;Eletrônicos;  Gama ME;MG;Ana Souza;1;R$ 1.390,79;0;R$ 1.390,79;entrega urgente
+29/05/2025;PED-12030;teclado mecânico;Acessórios;Épsilon Corp;BA;Bruno Lima;6,0;R$398,46;10%;2.151,68;
+02/10/2025;PED-12431;Smartphone X;Eletrônicos;Alfa Ltda;minas gerais;Bruno Lima;2;3.038,17;0;R$ 6.076,34;cliente VIP
+15/04/2026;PED-12174;Tablet  Lite;ELETRÔNICOS;Alfa Ltda;Minas Gerais;Bruno Lima;3;R$ 1.765,87;15%;R$ 4.502,98;pago no pix
+28/10/2025;PED-11782;Mouse Gamer;Acessórios;Beta S.A.;RJ;Diego Rocha;6;R$ 125,04;10;R$ 675,20;cliente VIP
+21/01/26;PED-10124;Garrafa Térmica   ;Casa;Lambda Shop;Minas Gerais;FÁBIO NUNES;9;R$ 74,03;0,00;R$ 666,27;???
+10/02/2025;PED-12132;GARRAFA TÉRMICA;Casa;DELTA TECH;minas gerais;Diego Rocha;7;R$ 75,72;20%;R$ 424,03;cliente VIP
+04/10/26;PED-11157;Monitor 27 pol;Eletrônicos;  Zeta Store;São Paulo;Bruno Lima;-;1.427,81;0%;R$ 4.283,43;
+10/03/2026;PED-10750;Smartphone X   ;Eletrônicos;Beta S.A.   ;SC;Diego Rocha;1;R$ 3.031,36;;R$ 2.425,09;
+15-11-2025;PED-11764;Monitor 27 pol;Eletrônicos;Iota Office;RJ;ANA SOUZA;3;R$ 1.410,96;0,10;R$ 3.809,60;
+08/02/2026;PED-12071;Notebook Pro 14;Eletrônicos;Ômega Foods;;Carla Dias;2;R$ 5.166,53;15%;8.783,11;
+27/07/26;PED-11440;Notebook Pro 14;Eletrônicos;Kappa Home;SC;  Diego Rocha;1;5336.79;0%;5336.79;cliente VIP
+-;PED-11479;Cadeira  Ergonômica;Móveis;Kappa Home;Rio De Janeiro ;Diego Rocha;2;1.139,42;0%;2278.85;???
+02/02/2025;PED-11110;NOTEBOOK PRO 14;Eletrônicos;Mi Varejo;sp;Diego Rocha   ;2 un;R$ 5.211,22;0%;R$ 10.422,44;troca
+14/06/2026;PED-10567;Webcam Full HD;Acessórios;kappa home;rio de janeiro;Ana Souza;3;R$ 232,11;0%;696,34;
+19/09/2026;PED-10117;fone bluetooth;Acessórios;  Gama ME;rio de janeiro;Elisa Prado;8;R$ 257,56;;R$ 1.957,46;
+02/07/2025;PED-11783;Smartphone X;Eletrônicos;-;SC;  Carla Dias;3,0;R$ 2.968,34;0;R$ 8.905,01;???
+22/06/2025 00:00;PED-11250;Fone Bluetooth;Acessórios;Sigma  Log;São Paulo;Fábio Nunes;3;R$ 243,69;0%;R$ 731,08;
+07-08-2025;PED-11902;Monitor 27 pol   ;Eletrônicos;Theta Mercado;Santa Catarina;Ana Souza   ;1;R$ 1.410,37;0,00;R$ 1.410,37;
+2025-05-29;PED-11596;Monitor  27  pol;Eletrônicos;delta tech;SC;Elisa Prado;3;R$ 1.487,86;0,00;R$ 4.463,59;
+2025-05-14;PED-12294;Luminária Led;Casa;  Lambda Shop;PR;Ana Souza;4 un;86,04;0;R$ 344,15;
+2025-07-03 00:00:00;PED-11673;Garrafa Térmica;Casa;Delta Tech;São Paulo;Elisa Prado;4;75,28;0,05;R$ 286,08;
+06-08-2026;PED-12279;Fone Bluetooth;Acessórios;ÔMEGA FOODS;SAO PAULO;Elisa Prado;4;R$ 254,73;10;917,03;troca
+20/02/2026;PED-11776;Smartphone X;Eletrônicos;Theta Mercado;MG;Bruno Lima   ;2;R$ 2.820,57;5%;5.359,09;troca
+12/07/2025;PED-10333;Fone Bluetooth;  Acessórios;Beta S.A.;PARANÁ;Bruno Lima   ;4;R$ 255,80;5;R$ 972,04;???
+2026-04-23;PED-12430;Tablet Lite;Eletrônicos;Eta Digital;RJ;Ana Souza   ;3;1702.29;10;R$ 4.596,18;???
+19/10/2025;PED-10947;Cadeira Ergonômica;Móveis;Zeta Store;Rio de Janeiro;Carla Dias;2;1.162,97;10%;R$ 2.093,34;cliente VIP
+2026-01-11 00:00:00;PED-10666;Monitor 27 pol;Eletrônicos;Gama ME;Minas Gerais;Elisa Prado;1;R$1.492,01;0%;1.492,01;???
+2025-02-17 00:00:00;PED-10245;Mouse Gamer;Acessórios;Kappa Home;Santa Catarina;  Carla Dias;6;R$ 123,63;10%;667.59;cliente VIP
+23/03/2026;PED-12168;Luminária LED;casa;Delta Tech;RS;Ana Souza;8 un;R$ 87,44;0;699.53;
+2026-09-22 00:00:00;PED-10219;Smartphone X;Eletrônicos;sem informacao;Sao Paulo;Ana Souza;3;R$2.735,72;0,00;R$ 8.207,16;???
+2025-11-04;PED-12248;Garrafa Térmica;Casa;Sigma Log   ;PR;Diego Rocha;5;77,30;0,15;R$ 328,53;
+08/07/2026;PED-10457;Fone Bluetooth;Acessórios;Eta Digital;SP;Elisa Prado;5;241,85;0,00;R$ 1.209,25;entrega urgente
+2025-01-17 00:00:00;PED-11291;Mesa Home Office;móveis;Sigma Log;São Paulo;Ana Souza;6;814.75;10;R$ 4.399,66;troca
+24/03/26;PED-11155;mouse gamer;Acessórios;Theta Mercado;MG;Carla Dias;3;R$ 122,64;10%;R$ 331,12;
+2025-11-03 00:00:00;-;  Smartphone X;Eletrônicos;Lambda Shop;SAO PAULO;Diego Rocha;3;R$ 3.032,79;0;9098,36;
+2025-10-12;PED-11194;Smartphone X;Eletrônicos;SIGMA LOG;Sao Paulo;Elisa Prado;3;R$ 2.807,58;15%;R$ 7.159,34;
+22/09/2026;PED-11231;Webcam Full HD;Acessórios;Gama ME;MG;  Diego Rocha;8;R$ 219,64;10%;R$ 1.581,41;
+2025-11-24 00:00:00;PED-10982;Monitor 27 pol;  Eletrônicos;Beta S.A.;Parana;ANA SOUZA;2;R$ 1.380,67;20%;R$ 2.209,07;troca
+12/08/2026 00:00;PED-12324;Monitor 27 pol;sem informacao;Beta S.A.;Bahia;Fábio Nunes;2;1517,36;5;R$ 2.882,99;???
+2026-05-18;PED-12255;Notebook Pro 14;Eletrônicos;Theta Mercado;Rio Grande do Sul;Ana  Souza;3;R$ 5.247,52;0,00;R$15.742,56;
+13-08-2026;PED-11161;Garrafa Térmica;Casa;Beta S.A.;BAHIA;Elisa Prado;4;R$ 72,99;0%;R$ 291,96;
+2026-10-18 00:00:00;PED-11405;Cadeira Ergonômica;Móveis;  Theta Mercado;Minas Gerais;Ana Souza;N/A;R$ 1.226,44;20;R$ 981,15;pago no pix
+2025-07-22 00:00:00;PED-12491;Tablet Lite;Eletrônicos;Delta Tech;SC;Diego Rocha;3;R$1.850,94;0%;R$ 5.552,83;pago no pix
+2026-03-16;PED-10810;Mouse Gamer;  Acessórios;Mi Varejo;São Paulo;Fábio Nunes;7;124.89;5;R$ 830,49;entrega urgente
+25/03/2026;PED-10088;Monitor 27 pol;Eletrônicos;  Sigma Log;SAO PAULO;Diego Rocha;2;R$ 1.402,53;0,00;R$ 2.805,06;pago no pix
+20/04/2026 00:00;PED-11452;Teclado Mecânico;Acessórios;Kappa Home;rio grande do sul;N/A;4;R$ 374,77;0;R$ 1.499,07;pago no pix
+13/02/2025;PED-11656;Tablet  Lite;Eletrônicos;Beta S.A.;BA;Elisa Prado;3 un;1.866,68;0%;5600,03;troca
+08-08-2026;PED-12014;Fone Bluetooth;Acessórios;Kappa Home;minas gerais;Fábio Nunes;6;R$ 246,93;15;1.259,36;
+27/09/2026;PED-11072;Fone Bluetooth;ACESSÓRIOS;Zeta  Store;RS;Diego Rocha;2;R$255,11;15%;R$ 433,69;???
+2025-03-19 00:00:00;PED-11386;Teclado Mecânico;  Acessórios;Ômega Foods;Rio De Janeiro ;Elisa Prado;3;R$ 390,65;0,15;996,15;???
+06-01-2026;PED-11025;Mesa Home Office;Móveis;Zeta Store;MG;Bruno Lima;5;R$853,88;0,00;R$ 4.269,38;???
+27/02/2026;PED-10249;Notebook Pro 14;Eletrônicos;Beta S.A.;sp;Ana Souza;null;5069,35;5%;9631.76;???
+11/11/2025 00:00;PED-11740;teclado mecânico;Acessórios;Sigma Log;sp;Bruno Lima;-;387,41;10%;1.394,66;
+12/01/2025 00:00;#N/D;Smartphone X;Eletrônicos;Lambda Shop;RJ;Diego Rocha;3;R$ 2.915,92;15%;7435.59;
+02/02/2026;PED-10989;Smartphone X;ELETRÔNICOS;Épsilon Corp;Rio Grande do Sul;Ana Souza;3;R$2.841,58;0,10;N/A;troca
+04-01-2026;PED-10081;garrafa térmica;Casa;Zeta Store;PR;Bruno Lima;5;76,48;15;R$ 325,05;
+17/06/2025;PED-10301;Fone Bluetooth;  Acessórios;Delta Tech;São Paulo;  Ana Souza;1;R$ 238,70;0,20;R$ 1.250.000,00;
+03-12-2025;PED-10195;Tablet Lite;Eletrônicos;  Kappa Home;NaN;Ana Souza;1;1776,66;0,10;-;troca
+13/08/26;PED-10431;Cadeira Ergonômica;Móveis;Ômega Foods;Rio de Janeiro;Ana Souza;2;;0%;R$ 2.325,22;cliente VIP
+2025-05-12;PED-12267;Cadeira Ergonômica;Móveis;sigma log;SC;ana souza;0;1225,52;15%;R$ 3.125,09;
+05/04/2026;PED-11549;Notebook Pro 14   ;Eletrônicos;Theta Mercado   ;rio de janeiro;Carla Dias;1,0;R$ 4.997,45;20;R$3.997,96;
+01/08/25;PED-11667;Garrafa Térmica;Casa;Sigma Log;RJ;Ana  Souza;3;R$74,39;15%;R$ 189,71;pago no pix
+2025-07-29;PED-11713;luminária led;Casa;Alfa Ltda;PR;fábio nunes;3,0;89.21;15;R$ 227,49;troca
+04/08/2026;PED-10090;Tablet Lite;Eletrônicos;Eta Digital;minas gerais;Diego Rocha;3;R$ 1.743,38;5%;R$4.968,63;entrega urgente
+14/05/2026;PED-10402;Smartphone X;Eletrônicos;Delta Tech   ;Rio De Janeiro ;Diego Rocha;3;2926.75;15%;R$ 7.463,21;
+03/05/2025 00:00;PED-10462;Mouse Gamer;Acessórios;Épsilon Corp;Minas Gerais;Fábio Nunes   ;4;133.96;15%;455.46;pago no pix
+18-04-2026;PED-10719;Cadeira Ergonômica;Móveis;MI VAREJO;N/A;Diego Rocha;3;1160,45;;R$ 3.481,34;pago no pix
+26/07/2026;PED-12111;Cadeira Ergonômica;Móveis;Delta Tech;rio de janeiro;Ana Souza;N/A;1123.10;0,00;R$3.369,29;entrega urgente
+24/12/25;PED-10970;Notebook  Pro  14;Eletrônicos;DELTA TECH;Rio De Janeiro ;Carla Dias;3;R$ 5.045,61;5%;14379,98;troca
+19/07/2025;PED-10712;Teclado Mecânico;Acessórios;Alfa Ltda;Rio de Janeiro;Fábio Nunes;2 un;R$ 384,34;0;768.68;pago no pix
+2026-08-21;PED-10472;Tablet Lite;Eletrônicos;Zeta  Store;Parana;Bruno Lima;3;1819.00;0;R$5.456,99;???
+19/01/2025;PED-12377;Teclado Mecânico;Acessórios;  Zeta Store;RJ;Elisa Prado;7;sem informacao;0;R$ 2.609,04;pago no pix
+21-09-2025;PED-12281;luminária led;  Casa;KAPPA HOME;sp;Ana Souza;8;R$ 88,41;;601,21;cliente VIP
+09/06/2025;PED-10879;Fone Bluetooth;Acessórios;  ;Sao Paulo;Elisa Prado;-;R$ 248,96;15%;423,24;
+19/03/2026 00:00;PED-12016;NOTEBOOK PRO 14;Eletrônicos;Eta Digital   ;rio de janeiro;Carla Dias;3;sem informacao;5%;R$14.573,41;entrega urgente
+2026-06-07;PED-10734;TECLADO MECÂNICO;Acessórios;Delta Tech;PR;Ana Souza   ;4;399,03;5;R$ 1.516,32;???
+13/09/2025;PED-10858;Luminária LED;Casa;Mi Varejo   ;SAO PAULO;Carla Dias;1;R$ 91,93;0%;R$ 91,93;troca
+30/05/2026 00:00;PED-11223;Webcam Full HD;Acessórios;Lambda Shop;Sao Paulo;Bruno Lima;8;230.36;;R$ 1.474,28;
+08/10/26;PED-10928;Mouse Gamer;Acessórios;Sigma Log   ;minas gerais;  Carla Dias;3;125,27;20;R$ 300,66;troca
+2025-11-21;PED-10527;Teclado  Mecânico;  Acessórios;Mi Varejo;Rio de Janeiro;Diego Rocha;7;R$381,50;0;2.670,50;
+24/11/25;PED-11041;Webcam  Full  HD;Acessórios;Eta Digital;SP;Ana Souza;3;220,62;0,00;R$ 661,85;entrega urgente
+2025-10-11 00:00:00;sem informacao;#N/D;Casa;null;Parana;Diego Rocha;6;94,86;5;R$540,71;
+2025-02-26;PED-10601;Tablet Lite;Eletrônicos;Épsilon Corp;Parana;Bruno Lima;1;1.793,33;0%;R$ 1.793,33;???
+11/09/2026 00:00;PED-11087;Tablet Lite;Eletrônicos;Épsilon Corp;sp;Carla Dias;3;1858.56;0%;R$ 5.575,68;
+24-09-2026;PED-11124;tablet lite;Eletrônicos   ;Alfa Ltda;SAO PAULO;Elisa Prado;3;R$1.745,35;0%;R$ 5.236,04;troca
+2025-08-25 00:00:00;PED-12177;Mouse Gamer;Acessórios   ;Iota Office;minas gerais;Diego Rocha;1,0;R$ 127,36;0,10;114,63;
+11-08-2025;PED-11939;Garrafa Térmica;Casa   ;Beta S.A.;Rio De Janeiro ;Bruno Lima;5;77,03;0%;R$ 385,17;cliente VIP
+09/04/25;PED-11271;Mesa Home Office;null;Épsilon Corp;Rio Grande do Sul;Elisa Prado;6;R$ 885,58;5;R$ 5.047,83;pago no pix
+21/10/2025;PED-11551;Mouse Gamer;ACESSÓRIOS;zeta store;Sao Paulo;Bruno Lima;6;133.02;0;R$ 798,10;troca
+21/08/2026 00:00;PED-11148;Webcam Full HD;Acessórios;Iota Office;Paraná;Elisa Prado;4;R$ 223,29;0;R$ 893,16;
+06/01/2025 00:00;PED-10423;Monitor 27 pol;Eletrônicos;Eta Digital;Sao Paulo;Bruno Lima;1;1365,38;20%;R$ 1.092,31;
+16/04/26;PED-11113;Mesa Home Office;Móveis;Lambda Shop;SP;Ana Souza;9;R$ 906,24;0;R$ 8.156,13;
+15-11-2025;PED-10447;Tablet Lite;Eletrônicos;Épsilon Corp;minas gerais;Ana Souza;3 un;R$ 1.820,02;0,15;R$ 4.641,05;pago no pix
+2026-10-25;PED-11854;Smartphone X;Eletrônicos;ômega foods;Rio de Janeiro;  ;1;R$ 2.838,30;20%;R$ 2.270,64;troca
+2025-05-31;PED-12565;Garrafa Térmica;Casa;Theta Mercado;#N/D;Diego Rocha;0;R$ 76,81;;R$307,24;entrega urgente
+04/08/2026;PED-11408;Smartphone X;Eletrônicos;Alfa Ltda;Bahia;Diego Rocha;3;3.045,89;15%;7767,01;
+20/05/2025;PED-12087;Teclado Mecânico;Acessórios;Gama ME;Rio De Janeiro ;Diego Rocha;7;396,35;20%;R$ 2.219,57;???
+06/10/2026;PED-11883;Teclado Mecânico;Acessórios;Delta Tech;rio de janeiro;Bruno Lima;8;R$ 390,44;15;R$ 2.655,02;entrega urgente
+27/11/2025;PED-11619;Garrafa Térmica;Casa;Delta Tech;Minas Gerais;Diego Rocha;4;R$ 71,99;20;230.38;???
+19/05/2026;PED-10598;Luminária LED;Casa;Delta Tech;Paraná;Fábio Nunes   ;4;R$ 87,34;20;R$ 279,47;
+25-10-2026;PED-10175;Tablet Lite;Eletrônicos;Alfa Ltda;SAO PAULO;DIEGO ROCHA;1;R$ 1.766,84;0%;R$ 1.766,84;
+09/02/2025;PED-12427;Teclado Mecânico;Acessórios;Lambda Shop;Minas Gerais;-;1;376.87;;NaN;???
+24/02/26;PED-12270;Smartphone  X;Eletrônicos;Mi Varejo;SC;Elisa Prado;null;R$ 3.041,73;0,20;R$ 7.300,16;pago no pix
+2025-04-26;PED-11151;NOTEBOOK PRO 14;Eletrônicos;Eta Digital;Paraná;  ;1;R$ 5.016,90;0;R$ 5.016,90;troca
+03/07/2025;PED-12238;Teclado Mecânico;Acessórios;LAMBDA SHOP;Rio Grande do Sul;Bruno  Lima;6;R$ 400,62;5;R$ 2.283,53;
+28/07/26;PED-12104;Teclado Mecânico;Acessórios;Gama ME;BA;Bruno Lima;2;406.06;15%;690.30;pago no pix
+2025-09-14;PED-10156;Luminária LED;Casa;-;SP;Ana Souza;1;R$84,54;0,15;71.86;
+2025-11-13;PED-10259;Smartphone X   ;Eletrônicos;Eta Digital   ;Paraná;Carla Dias;1;2945,07;0,00;R$ 2.945,07;
+23/12/2025;PED-11338;  Teclado Mecânico;Acessórios;Theta Mercado;São Paulo;Carla  Dias;5;R$ 401,44;10%;R$ 1.806,47;
+25/01/25;PED-12013;Mesa Home Office;Móveis;Iota Office;rio grande do sul;Carla Dias;4 un;R$ 874,65;15;2.973,83;troca
+2026-08-17;PED-11314;smartphone x;Eletrônicos;Sigma Log;Parana;Diego Rocha;3;R$ 2.960,44;20;7.105,05;
+2025-03-14 00:00:00;PED-11784;Smartphone X;Eletrônicos;Mi Varejo;sp;Ana Souza;3,0;R$ 3.062,90;20%;R$ 7.350,95;
+2026-01-21 00:00:00;PED-10639;Mesa Home Office;móveis;sigma log;Paraná;Diego Rocha;1;R$ 892,75;20%;714,20;troca
+18-10-2025;PED-11889;Monitor 27 pol;  Eletrônicos;Mi Varejo;Bahia;Elisa Prado;2;R$ 1.405,18;;R$ 2.669,84;cliente VIP
+2025-10-01;PED-11929;Fone Bluetooth;Acessórios;ALFA LTDA;Paraná;Carla Dias;2;261,81;20%;R$ 418,89;???
+19/12/2025;PED-12263;Mouse Gamer;Acessórios;Iota Office;Sao Paulo;CARLA DIAS;6;R$ 122,91;0,10;R$ 663,71;
+05/03/2026;PED-11731;Smartphone X;Eletrônicos;Épsilon Corp;Minas Gerais;Bruno  Lima;3;R$ 2.931,23;5%;R$ 8.354,01;
+2025-04-07 00:00:00;PED-11813;Tablet Lite;Eletrônicos;Delta Tech;Bahia;Elisa Prado;2;sem informacao;0,00;R$ 3.479,72;entrega urgente
+2026-08-15;PED-11152;Smartphone X;eletrônicos;kappa home;Rio De Janeiro ;ana souza;1;2.819,68;15;R$ 2.396,73;entrega urgente
+26/09/2026 00:00;PED-11046;fone bluetooth;Acessórios;Delta Tech;MG;Elisa Prado;;-;0,00;252,56;
+21/04/2026;PED-12146;Luminária LED   ;Casa;Mi Varejo;rio de janeiro;  Bruno Lima;3;R$ 90,00;0%;R$ 269,99;
+24/02/2025;PED-11120;Notebook Pro 14;Eletrônicos;Épsilon  Corp;-;ANA SOUZA;1;5347,58;0,10;R$ 4.812,82;cliente VIP
+2025-12-15 00:00:00;PED-11321;Smartphone X;Eletrônicos;Theta Mercado;Bahia;Elisa Prado;3;R$ 2.846,41;0,10;7.685,30;entrega urgente
+2025-06-16 00:00:00;PED-12437;Monitor  27  pol;Eletrônicos;BETA S.A.;BA;Diego Rocha;2;R$ 1.382,21;20;R$ 2.211,54;
+09-11-2026;PED-11861;Monitor 27 pol;Eletrônicos;iota office;MG;Ana Souza;3;R$1.460,94;0;R$ 4.382,81;cliente VIP
+2026-10-30 00:00:00;PED-10400;Fone Bluetooth;Acessórios;theta mercado;SP;Elisa Prado;9;R$ 250,84;10%;2.031,80;troca
+2025-10-20 00:00:00;PED-10660;Smartphone X;Eletrônicos;#N/D;Rio Grande do Sul;Ana Souza;2;2.830,90;0%;R$ 5.661,80;
+2025-02-02 00:00:00;PED-11014;Smartphone X;Eletrônicos;Épsilon Corp;Sao Paulo;  Elisa Prado;3 un;2.799,77;0,15;R$ 7.139,42;
+2026-05-18;PED-10478;Teclado Mecânico;Acessórios;Delta Tech;Rio De Janeiro ;Bruno Lima;8;R$ 386,44;0%;3091,55;cliente VIP
+2025-07-10 00:00:00;PED-10125;Luminária LED;casa;Sigma Log;Rio de Janeiro;Elisa Prado;3 un;87,39;;R$ 209,72;
+25/02/2026;PED-11750;Teclado Mecânico;Acessórios;MI VAREJO;rio de janeiro;  Diego Rocha;9;401,78;0%;R$ 3.616,03;???
+23/03/2026;PED-10057;  Mesa Home Office;Móveis;mi varejo;SC;Fábio Nunes;6 un;R$ 812,50;0%;R$ 4.874,97;???
+23/07/2025;PED-11168;Notebook Pro 14;Eletrônicos;  Beta S.A.;MG;Bruno Lima;3;R$5.502,25;0%;R$ 16.506,75;???
+28/07/25;PED-12409;Fone Bluetooth;Acessórios;Alfa Ltda;Minas Gerais;Ana Souza;5;R$ 239,86;0,05;1139.32;pago no pix
+12/12/25;PED-10348;Teclado Mecânico;Acessórios;Gama ME;SP;ana souza;4;R$ 389,27;0,15;R$ 1.323,51;
+07/11/2026;PED-12347;Teclado Mecânico;Acessórios;Gama ME;rio de janeiro;Carla Dias;6;R$ 390,91;;R$ 1.876,36;cliente VIP
+03/11/2026 00:00;PED-10967;Teclado Mecânico;Acessórios;Ômega Foods;minas gerais;Carla Dias;8;R$ 389,78;20%;R$ 2.494,60;
+2026-01-11;PED-12011;Notebook Pro 14;Eletrônicos;Theta Mercado;Sao Paulo;Ana Souza;3;R$ 5.148,81;0;15446,42;
+17/10/2025;PED-11484;Teclado Mecânico;Acessórios;Delta Tech;rio de janeiro;Bruno Lima;4,0;R$ 386,35;0;R$ 1.545,40;cliente VIP
+01/11/2026 00:00;PED-11620;Tablet Lite;Eletrônicos;ZETA STORE;rio grande do sul;Carla  Dias;3;R$ 1.802,31;0;R$ 5.406,93;
+2026-05-26;PED-11059;Luminária LED   ;Casa;iota office;sp;Fábio Nunes;1;86,78;0%;R$ 86,78;
+17/09/2026 00:00;PED-11694;Teclado Mecânico;Acessórios   ;Zeta Store;rio grande do sul;Ana Souza;3;R$373,69;0%;1121,06;???
+2026-01-30 00:00:00;NaN;Fone Bluetooth   ;Acessórios;Épsilon  Corp;rio de janeiro;Carla Dias;5;R$ 243,66;10%;1.096,48;troca
+26/06/2026;PED-10059;Webcam Full HD;acessórios;Beta S.A.   ;RS;Elisa Prado;8;R$ 227,74;0%;1821,92;
+11/11/2025 00:00;PED-10684;Smartphone X;Eletrônicos;Theta Mercado;Rio de Janeiro;  Fábio Nunes;3,0;2949,02;0,20;7077,64;
+23/03/2026 00:00;PED-10412;Tablet Lite   ;ELETRÔNICOS;Delta Tech;RJ;Elisa Prado;1;1808.50;5;1.718,08;
+13/05/2025;PED-11821;Cadeira  Ergonômica;móveis;Theta Mercado;SP;Diego Rocha;2;1159.42;;R$ 2.318,84;pago no pix
+22-08-2026;PED-10940;Notebook Pro 14;ELETRÔNICOS;Mi Varejo;RS;Carla Dias;3;R$ 5.249,45;0%;R$ 15.748,35;
+02/08/2026 00:00;PED-10152;TECLADO MECÂNICO;Acessórios;Gama ME;  ;Fábio Nunes;1;371,83;5%;R$ 353,24;
+10/08/2026 00:00;PED-10845;-;Eletrônicos;NaN;Rio Grande do Sul;Fábio Nunes;3;R$ 5.057,26;10%;R$ 13.654,61;pago no pix
+18-12-2025;PED-11762;Webcam Full HD;Acessórios;  Épsilon Corp;SP;Fábio Nunes;8;R$ 220,69;20%;R$ 1.412,41;entrega urgente
+31/07/2026 00:00;PED-10968;Luminária LED;Casa   ;Alfa Ltda;BA;Ana Souza;5,0;  ;15;R$ 362,05;
+17/02/26;PED-10821;Monitor 27 pol;Eletrônicos;Sigma Log;Rio de Janeiro;null;2;R$ 1.448,21;0,00;2.896,43;cliente VIP
+08/05/2026;PED-10365;Smartphone X;eletrônicos;Delta Tech;RS;Fábio Nunes;1;R$ 2.833,53;15%;2.408,50;
+07/03/25;PED-10762;Garrafa Térmica;Casa;Sigma Log;sp;Carla Dias;2;R$ 78,17;15;N/A;
+2025-10-15;PED-12060;  Fone Bluetooth;Acessórios;Alfa Ltda;BA;Diego Rocha;6;R$ 262,50;0%;R$ 1.574,99;???
+14/03/26;null;smartphone x;Eletrônicos;ETA DIGITAL;minas gerais;Elisa  Prado;3;3.009,71;0;9.029,13;
+2026-10-04;PED-12494;Fone Bluetooth;Acessórios;Zeta Store;Parana;Elisa Prado;5;null;15%;R$ 1.044,22;
+2026-05-19 00:00:00;sem informacao;Smartphone X;Eletrônicos;Beta  S.A.;BAHIA;Bruno  Lima;2,0;R$ 2.807,96;15%;R$ 4.773,53;entrega urgente
+04/11/2025;PED-10297;Cadeira Ergonômica;Móveis;Zeta Store;SP;  ;  ;R$ 1.238,80;0%;R$ 3.716,39;
+21/10/2026;PED-11578;Webcam Full HD;Acessórios;Lambda Shop;Paraná;Carla Dias;9;R$ 219,77;0;1.977,93;
+24/09/2025;PED-11878;Smartphone X;Eletrônicos;Ômega Foods;São Paulo;Bruno Lima;1;R$ 3.031,96;15;R$ 2.577,16;cliente VIP
+06/03/2025;PED-12232;Webcam Full HD;Acessórios;Iota Office;Rio de Janeiro;sem informacao;2;227.08;5;sem informacao;
+02/12/2025;PED-10753;Cadeira Ergonômica;Móveis;Lambda Shop   ;Rio de Janeiro;Fábio Nunes;1;1.175,27;0,10;R$ 1.057,75;
+05/10/2026 00:00;PED-10828;Monitor 27 pol;#N/D;#N/D;RS;Elisa Prado;2;R$ 1.419,13;0%;R$ 2.838,26;???
+11/04/2025;PED-10273;Cadeira Ergonômica;  Móveis;N/A;Sao Paulo;N/A;2;R$ 1.224,80;0,00;R$ 2.449,60;
+2026-01-11;#N/D;Mesa Home Office;Móveis;Sigma Log;Santa Catarina;Ana Souza;8;R$ 857,66;;R$ 6.518,22;
+12/11/2025;PED-10781;Luminária LED;  Casa;Delta Tech;rio grande do sul;Bruno Lima;5 un;R$ 91,21;0%;R$ 456,03;???
+2026-07-13 00:00:00;PED-10748;Notebook Pro 14;Eletrônicos;Beta S.A.;RJ;Fábio Nunes;1;R$ 5.038,46;0,00;R$ 5.038,46;entrega urgente
+2025-08-09;PED-11289;FONE BLUETOOTH;ACESSÓRIOS;Zeta Store;PR;Ana Souza;7;R$ 253,97;0;R$ 1.777,80;pago no pix
+03/01/2026;PED-11450;  Luminária LED;casa;Iota Office;Santa Catarina;Diego Rocha;3;89,94;0,00;R$ 269,81;???
+29/10/26;PED-10468;Garrafa Térmica;Casa;Lambda  Shop;rio grande do sul;Bruno Lima;3;R$ 76,91;5;R$ 219,19;
+08/07/25;PED-12332;Mouse Gamer;Acessórios;Mi Varejo;PARANÁ;Elisa Prado;9;R$ 131,25;0;R$1.181,23;entrega urgente
+30/03/2026;PED-12546;notebook pro 14;Eletrônicos;Mi Varejo;Paraná;null;2,0;4918.59;0%;9.837,18;
+08/09/2026;PED-10831;Luminária LED;Casa;  Theta Mercado;sem informacao;Diego Rocha;7;R$92,66;20;518.89;
+26/05/2026;PED-11638;Tablet Lite;Eletrônicos;Épsilon Corp;sp;  Fábio Nunes;2;R$ 1.727,27;0%;3454,53;entrega urgente
+25/10/2025;PED-10137;Notebook Pro 14;Eletrônicos;Iota Office;SP;Elisa Prado;1;R$ 5.163,39;0%;5.163,39;???
+09/01/2026 00:00;PED-12555;Luminária LED;Casa;Lambda Shop;Rio Grande do Sul;Ana Souza;6;R$ 85,50;5;487,35;
+;;;;;;;;;;;
+2026-08-27;PED-12426;Smartphone X;Eletrônicos;Eta Digital;BAHIA;Diego Rocha;2;R$ 3.061,77;20%;4898.83;cliente VIP
+2026-07-31;PED-11497;Monitor 27 pol;Eletrônicos;Lambda Shop;rio grande do sul;Elisa Prado;1;R$ 1.366,08;15%;1161.17;
+10/04/2026 00:00;PED-11983;Luminária LED;Casa;Alfa Ltda;sem informacao;Elisa Prado   ;7;88,49;15%;526,52;
+2025-03-23 00:00:00;PED-12569;Luminária LED;CASA;NaN;Rio Grande do Sul;Fábio Nunes;8;R$ 87,35;20%;R$ 559,07;
+28/05/2026;PED-11807;Garrafa Térmica;Casa;Zeta Store;Rio De Janeiro ;Diego Rocha;8;R$76,32;;R$ 549,54;
+11-12-2025;PED-10171;Fone Bluetooth;Acessórios;eta digital;PR;  Carla Dias;2;261,44;0,15;NaN;
+2026-09-16;PED-10199;Mouse Gamer;acessórios;Theta Mercado;rio grande do sul;null;6 un;129.26;15%;R$ 659,21;pago no pix
+2025-10-25;PED-10404;Fone Bluetooth;ACESSÓRIOS;alfa ltda;SC;Diego Rocha;5;R$ 240,94;0,15;1.024,01;entrega urgente
+25/01/25;PED-10533;Garrafa Térmica;CASA;iota office;SAO PAULO;Fábio Nunes;5;R$ 78,43;20;R$ 313,73;cliente VIP
+11/07/2026;PED-11546;teclado mecânico;Acessórios;Iota  Office;São Paulo;Ana Souza;2;394.36;10;709,85;troca
+2025-09-03;PED-11727;Garrafa Térmica;Casa;  Kappa Home;Sao Paulo;Bruno Lima;2 un;R$ 74,36;0;148,71;pago no pix
+2026-07-10;PED-11743;Teclado Mecânico;Acessórios;Lambda Shop;Parana;Bruno Lima;9;R$ 380,26;0,05;R$ 3.251,24;entrega urgente
+17/03/2025;PED-11824;Webcam Full HD;Acessórios;Lambda Shop;minas gerais;Carla Dias;1,0;226,22;20;180,98;cliente VIP
+2026-08-28;PED-11841;Mouse Gamer;Acessórios;Kappa Home;São Paulo;Elisa Prado;6;R$ 130,28;10%;703,53;cliente VIP
+20/07/2025;PED-11267;Monitor 27 pol;Eletrônicos;Zeta Store;Sao Paulo;BRUNO LIMA;1;R$ 1.480,32;0%;R$1.480,32;
+2026-05-22 00:00:00;PED-12398;GARRAFA TÉRMICA;Casa   ;Lambda Shop;Rio de Janeiro;Bruno Lima;9;73.72;10%;597,12;pago no pix
+31/12/2025;PED-10969;Notebook Pro 14   ;Eletrônicos;  ;minas gerais;  Diego Rocha;2;R$ 5.248,03;0;R$ 10.496,06;pago no pix
+04/04/2026;PED-12309;Fone Bluetooth;Acessórios;ZETA STORE;RJ;Ana Souza;1,0;240.49;10;R$ 216,44;pago no pix
+29/12/2025;PED-11892;Mouse Gamer;Acessórios;Theta Mercado;null;ELISA PRADO;2;R$ 128,31;0,00;R$256,63;
+03/09/2026;PED-11565;monitor 27 pol;Eletrônicos;Mi Varejo;PARANÁ;BRUNO LIMA;2;R$ 1.518,28;0;3.036,55;entrega urgente
+24/06/2026;PED-10642;Tablet Lite;Eletrônicos   ;Mi Varejo;sem informacao;Elisa Prado;3;R$ 1.883,48;0,10;R$ 5.085,39;???
+14/10/2026;PED-10659;Luminária LED;  Casa;Sigma Log;Rio De Janeiro ;Ana Souza;9;90.82;0%;R$ 817,41;???
+2026-01-24;PED-12117;Cadeira Ergonômica;Móveis;Zeta Store;;Bruno Lima   ;3;R$ 1.254,90;0%;3764.69;
+11/06/26;PED-12229;webcam full hd;Acessórios;Épsilon Corp;São Paulo;elisa prado;5;229,62;0,00;1.148,09;
+12/08/2026;PED-11428;Notebook Pro 14;Eletrônicos;  Mi Varejo;Rio de Janeiro;bruno lima;2;R$ 5.116,12;0,10;R$9.209,01;
+28/12/25;PED-11800;Mesa Home Office;Móveis;Alfa Ltda   ;PARANÁ;carla dias;8;R$ 876,55;0%;R$ 7.012,41;pago no pix
+06-09-2026;PED-11241;  Luminária LED;casa;Iota Office   ;SAO PAULO;Ana Souza;5;R$94,22;15%;R$ 400,44;entrega urgente
+2025-11-27 00:00:00;PED-10188;Mouse Gamer   ;Acessórios;Épsilon Corp;Santa Catarina;Elisa Prado;4;R$ 124,31;20%;R$ 397,78;troca
+15/09/2026;PED-12121;SMARTPHONE X;  Eletrônicos;Sigma Log;minas gerais;Diego Rocha;1,0;R$ 3.006,60;0,15;2.555,61;
+05/04/2026;PED-11376;Mouse Gamer;Acessórios;Zeta Store;Paraná;Ana Souza;3;R$131,85;15%;336,23;???
+01/11/2025;PED-10378;Mesa Home Office;Móveis;Sigma Log;SP;Diego Rocha;2 un;R$ 810,93;20%;;???
+07/06/2025;PED-11179;Smartphone X;Eletrônicos;Sigma Log;SP;Fábio Nunes;3;R$ 2.803,74;10;R$ 7.570,10;entrega urgente
+2026-08-24 00:00:00;PED-11111;Webcam Full HD;Acessórios;Sigma Log;PARANÁ;Ana Souza;3;R$ 220,93;5%;R$ 629,65;pago no pix
+2026-10-28;PED-11676;CADEIRA ERGONÔMICA;Móveis;Épsilon Corp;Minas Gerais;Ana Souza;1;R$ 1.126,49;15%;R$ 957,52;
+03/01/2026 00:00;PED-12243;Notebook Pro 14;Eletrônicos;Kappa Home;BA;elisa prado;1,0;R$ 5.138,27;15%;sem informacao;???
+NaN;PED-12282;Teclado Mecânico;acessórios;Alfa Ltda;BA;Carla Dias;9;392,24;15;3000,61;
+2026-07-16 00:00:00;PED-10128;Mesa Home Office;móveis;  Zeta Store;minas gerais;Bruno Lima;7;R$855,67;15%;5091.25;
+25/02/2026;PED-10298;Smartphone X;sem informacao;  Mi Varejo;minas gerais;Fábio Nunes;1;3072,52;;R$ 2.918,89;???
+14-01-2025;PED-10769;Luminária LED;Casa   ;Alfa Ltda;sp;Bruno Lima;9;R$84,57;0%;R$ 761,14;pago no pix
+05/11/2026;PED-10262;Mesa Home Office;NaN;Gama ME;MG;Diego Rocha;4 un;R$ 888,83;5%;R$ 3.377,54;
+11/08/2026 00:00;PED-10857;Webcam Full HD;Acessórios;Delta Tech;Rio de Janeiro;Elisa Prado;3;217,09;10%;586.15;???
+01/12/25;PED-10489;Mouse Gamer;N/A;Kappa Home;MG;  Elisa Prado;6;R$ 130,23;0,05;R$742,32;???
+2026-04-07 00:00:00;PED-10680;Mouse Gamer;Acessórios;Kappa Home;SP;Carla  Dias;2;R$ 125,95;0;251,89;
+15/08/2026;#N/D;Mouse Gamer;Acessórios;Theta Mercado;São Paulo;Carla Dias;5;R$ 132,42;0;R$662,11;
+17/02/2026 00:00;PED-10359;Mesa Home Office;Móveis;Eta Digital;SAO PAULO;Bruno Lima;4;R$ 859,46;0%;R$ 3.437,85;troca
+29/10/2025;PED-10603;Garrafa Térmica;Casa;Theta Mercado;Bahia;Fábio Nunes;4;R$ 75,06;0,20;R$ 240,21;???
+06/01/26;PED-11068;Monitor 27 pol;Eletrônicos;Zeta Store;minas gerais;N/A;1,0;1480.24;0,00;R$ 1.480,24;troca
+16/02/2026;PED-12070;Mouse Gamer;Acessórios;Lambda Shop;minas gerais;Bruno Lima;1;R$ 128,48;0,00;R$128,48;
+2025-12-01 00:00:00;PED-12360;Smartphone X;N/A;Eta Digital;rio grande do sul;Carla Dias;1;2.836,00;;R$ 2.410,60;cliente VIP
+2026-03-05 00:00:00;PED-10600;Luminária LED   ;Casa;Épsilon Corp;-;  Bruno Lima;3;R$ 89,34;5%;-;
+09/07/2026 00:00;PED-12474;Garrafa  Térmica;Casa;Beta S.A.;SP;Ana Souza;2;74.85;15%;R$ 127,24;pago no pix
+22/09/26;PED-10923;Garrafa Térmica;Casa;Theta Mercado;BAHIA;Carla Dias;7;R$70,54;0%;493,81;troca
+29/09/2026;PED-10688;Tablet Lite;-;Épsilon Corp;Parana;Ana Souza;3;1.825,63;;4.929,19;troca
+31/08/2026 00:00;PED-11936;Garrafa  Térmica;Casa;Theta Mercado;SAO PAULO;Diego Rocha;1;R$ 76,53;0;76,53;???
+2025-05-16;PED-10069;Mesa Home Office   ;Móveis;LAMBDA SHOP;São Paulo;Fábio Nunes;8;822,15;0%;6577,18;cliente VIP
+2025-08-01 00:00:00;PED-10499;Fone Bluetooth;NaN;Mi Varejo;SAO PAULO;Fábio Nunes;2;R$ 246,97;10%;R$ 444,55;
+28/07/2025;PED-11107;Mesa Home Office;null;Épsilon Corp;SP;Carla  Dias;2;R$ 839,95;15;R$ 1.427,91;cliente VIP
+04/02/2026 00:00;PED-10544;Mouse Gamer;Acessórios;  Theta Mercado;SAO PAULO;Bruno Lima;4;R$ 125,97;0,00;503.87;
+10/03/2026;PED-11839;Mouse Gamer;Acessórios;Delta Tech;PARANÁ;Ana Souza;8;126,56;20;809,97;pago no pix
+16/01/26;PED-12038;Tablet Lite;Eletrônicos;Delta Tech;minas gerais;Bruno Lima;2;R$ 1.694,41;0%;3.388,82;
+24/05/2026;PED-10563;Notebook Pro 14;Eletrônicos;Iota Office;Sao Paulo;  Bruno Lima;1;R$ 5.370,23;0,15;R$ 4.564,69;
+2026-11-07 00:00:00;PED-11368;Webcam Full HD;Acessórios;Kappa  Home;Parana;Diego Rocha;6,0;228.39;0,00;1.370,37;
+14/07/2025;PED-12213;monitor 27 pol;Eletrônicos;#N/D;São Paulo;Fábio Nunes;2;1.369,01;5%;R$ 2.601,12;
+23/12/25;PED-12224;Smartphone X;Eletrônicos;Sigma Log;N/A;Bruno Lima;1;R$ 2.783,81;20%;2.227,05;
+12/08/2026;PED-11265;Mouse Gamer;Acessórios;Mi Varejo;Sao Paulo;Fábio Nunes;9;R$ 134,39;0;R$ 1.209,51;
+08/01/2025;PED-12001;Monitor  27  pol;Eletrônicos   ;Lambda Shop;rio grande do sul;Carla Dias;3;R$1.469,41;0%;4.408,23;
+20/12/2025;PED-11552;Smartphone X;Eletrônicos;Delta Tech;SAO PAULO;Carla Dias;2;R$ 2.823,27;;5.646,54;
+15/12/2025;PED-10113;Monitor 27 pol;  Eletrônicos;NaN;Minas Gerais;Elisa Prado   ;3;R$ 1.493,55;10;4032.58;entrega urgente
+02-04-2026;PED-10805;Tablet Lite;Eletrônicos;Gama ME;rio de janeiro;#N/D;3 un;R$ 1.717,24;0%;5151.72;
+2025-02-07 00:00:00;PED-11118;Garrafa Térmica;Casa;Kappa Home;minas gerais;Diego Rocha;5;74,86;0%;R$ 374,29;???
+08/10/2026;PED-10283;Mouse Gamer;Acessórios;Ômega Foods   ;RS;Elisa  Prado;4;R$ 131,67;20;421,34;entrega urgente
+30/09/2025 00:00;PED-11801;Monitor 27 pol;Eletrônicos;MI VAREJO;rio de janeiro;Carla Dias;1;1377,85;0%;R$ 1.377,85;entrega urgente
+26/06/26;PED-12100;Tablet Lite;Eletrônicos;Lambda Shop;BA;Bruno Lima;1;1.734,54;0%;1.734,54;entrega urgente
+02/09/2026 00:00;PED-11285;  Fone Bluetooth;Acessórios;Alfa Ltda;NaN;Carla Dias;3;R$ 262,57;10;R$ 708,95;
+08-04-2026;PED-11553;Tablet Lite;Eletrônicos;Iota Office;Rio Grande do Sul;Carla  Dias;2;1.834,88;0%;3669.75;
+08/08/2025;PED-10633;Mouse Gamer;Acessórios;Beta S.A.;Minas Gerais;Bruno Lima;7;R$ 137,00;0,00;R$959,03;pago no pix
+14/05/2025;PED-10432;Monitor 27 pol;NaN;Delta Tech;RJ;Carla Dias;2;R$ 1.535,16;0%;R$ 3.070,33;
+10/10/2026;PED-10177;Mesa  Home  Office;Móveis;Lambda Shop;minas gerais;Ana Souza;3;R$ 867,34;10%;R$ 2.341,82;cliente VIP
+28/03/2025;PED-10414;Tablet Lite;Eletrônicos;Theta Mercado;SAO PAULO;bruno lima;1;R$ 1.735,91;15;R$ 1.475,52;
+2025-11-16 00:00:00;PED-10206;SMARTPHONE X;Eletrônicos;-;RS;Ana Souza;2;2774.66;0%;R$ 5.549,31;
+2026-03-13;PED-12526;Fone Bluetooth;Acessórios;Iota Office;RJ;Carla Dias;1;R$ 246,00;0,15;209.10;entrega urgente
+12/10/26;PED-11318;Fone Bluetooth   ;Acessórios   ;Sigma Log;BAHIA;Carla Dias   ;1;R$ 242,31;;R$ 193,85;cliente VIP
+25/09/25;PED-11999;Mesa Home Office;Móveis;Theta Mercado;SC;Carla Dias;NaN;R$ 885,53;0,05;R$ 3.365,02;cliente VIP
+2026-03-23 00:00:00;PED-10242;Luminária LED;Casa;Iota Office;RS;Carla Dias;6;93.17;0%;R$ 559,02;
+18-01-2025;PED-10029;Luminária LED;  Casa;Kappa Home;Rio De Janeiro ;Ana Souza;2 un;R$ 94,94;0%;R$189,88;troca
+09/03/25;PED-10690;Tablet Lite;Eletrônicos;Eta Digital;Paraná;Ana Souza;2;1770,55;0;3541,11;???
+2026-08-30 00:00:00;PED-12130;  Monitor 27 pol;Eletrônicos;Delta Tech;Paraná;ANA SOUZA;3;R$ 1.391,03;20%;R$ 3.338,46;
+21/09/2026;PED-12393;MOUSE GAMER;  Acessórios;ETA DIGITAL;#N/D;Elisa Prado;4;127,56;;R$ 510,23;entrega urgente
+31/07/2026 00:00;PED-10897;Fone Bluetooth;Acessórios;Gama ME;sp;Ana Souza;1;R$ 264,29;5;R$ 251,07;cliente VIP
+02/11/2026 00:00;PED-10871;Fone Bluetooth;Acessórios;Sigma Log;rio grande do sul;Carla Dias;8;R$243,92;0;R$ 1.951,33;entrega urgente
+02/11/2025;PED-10515;Tablet Lite;Eletrônicos;Gama ME;Rio De Janeiro ;Ana Souza;3 un;R$ 1.870,96;0%;5.612,88;???
+07/11/2026;PED-10352;FONE BLUETOOTH;Acessórios;Eta Digital;rio grande do sul;Ana Souza;6 un;R$ 250,99;0,20;R$ 1.204,73;???
+2026-05-09;PED-11417;Fone Bluetooth;Acessórios;Eta  Digital;sp;Carla Dias;7 un;R$ 241,20;0%;R$ 1.688,42;pago no pix
+25/02/25;PED-12562;Smartphone X;eletrônicos;SIGMA LOG;Paraná;Carla Dias;1;R$2.864,58;15%;2434,89;
+09/08/2026;N/A;  Garrafa Térmica;Casa;Alfa  Ltda;PARANÁ;  Elisa Prado;9;R$ 71,61;0%;R$ 644,45;troca
+06/11/2025 00:00;PED-11437;mouse gamer;ACESSÓRIOS;Eta Digital;Santa Catarina;Fábio  Nunes;2;R$ 127,32;10;R$ 229,17;
+02-11-2025;PED-10141;Webcam Full HD;Acessórios;Iota Office;sp;Fábio Nunes;5;R$ 217,73;0,15;R$ 925,33;
+08-07-2026;PED-11564;Teclado Mecânico;Acessórios;Zeta Store;rio de janeiro;Fábio Nunes;1;R$ 406,59;10%;#N/D;entrega urgente
+27/07/26;PED-11830;Smartphone X;Eletrônicos;  Gama ME;rio grande do sul;Diego Rocha;2;R$ 3.054,17;20%;R$ 4.886,67;
+15/01/2026;PED-10717;Mesa Home Office   ;Móveis;Ômega Foods;SP;Ana Souza;null;R$ 840,16;15%;2142.40;entrega urgente
+09/11/2025 00:00;PED-10276;Tablet  Lite;Eletrônicos;Ômega Foods   ;PARANÁ;Ana Souza;3;R$1.807,62;5;5151,73;entrega urgente
+02/10/26;PED-10870;Tablet Lite;Eletrônicos;Épsilon Corp;São Paulo;Diego Rocha;3;1718,19;20%;R$ 4.123,66;
+2025-11-14;PED-12449;Mesa Home Office;Móveis;Sigma Log;Parana;Diego Rocha;5;R$ 848,19;0;#N/D;entrega urgente
+27/04/2025;PED-11280;CADEIRA ERGONÔMICA;Móveis;Delta Tech;RJ;Fábio Nunes;1;R$ 1.175,84;0,15;R$ 999,46;
+27/11/25;PED-11198;Webcam Full HD   ;  Acessórios;Iota Office;SP;Fábio Nunes;4 un;R$ 219,79;20;R$ 703,32;entrega urgente
+24/08/2025 00:00;PED-10718;Tablet Lite;Eletrônicos;Alfa Ltda;Parana;Diego Rocha;3;1.856,85;;R$ 5.570,56;
+N/A;PED-12118;Garrafa Térmica;CASA;Mi Varejo;São Paulo;Ana Souza;9,0;R$ 78,26;0%;R$ 704,38;pago no pix
+29/10/2025;PED-10307;mesa home office;  Móveis;Zeta Store;MG;Fábio  Nunes;4;855,87;0,05;R$ 3.252,30;
+12-01-2026;PED-11650;Smartphone  X;Eletrônicos;Beta S.A.;Paraná;carla dias;3;R$ 2.962,22;0%;8.886,67;
+30/07/2026;PED-10140;Notebook Pro 14;Eletrônicos;THETA MERCADO;Paraná;sem informacao;1;4.989,66;;R$ 4.989,66;???
+2025-10-07;PED-11763;Mouse Gamer;Acessórios;Delta Tech;Rio de Janeiro;Ana Souza   ;9;134,00;20;R$ 964,81;???
+14/02/2025;PED-12533;Luminária LED;Casa;Theta Mercado;sp;Diego Rocha;1;R$ 93,38;0,00;93,38;
+29/08/26;PED-12009;Notebook Pro 14;  Eletrônicos;Gama ME;PARANÁ;Elisa Prado;2;R$ 5.008,26;10%;R$ 9.014,88;
+11/07/2025;PED-11300;Mesa Home Office;Móveis;iota office;BA;Fábio Nunes;7,0;817.44;0%;R$ 5.722,11;
+04/07/2026;PED-11227;Tablet Lite;Eletrônicos;LAMBDA SHOP;rio de janeiro;Carla Dias;2;1739.50;0,00;R$3.479,01;cliente VIP
+2025-03-03 00:00:00;PED-10566;Webcam Full HD;Acessórios;eta digital;SAO PAULO;Carla Dias;8;209,23;0%;1673.82;troca
+19/02/2026;N/A;Notebook Pro 14;Eletrônicos;Iota Office;#N/D;Elisa Prado;3;R$ 5.235,58;0,00;15706,75;
+24/03/2026 00:00;PED-10335;Fone Bluetooth;Acessórios;Lambda Shop;NaN;Diego Rocha;2;246,99;0,10;R$ 444,58;
+18/05/2026 00:00;PED-12021;Smartphone X;Eletrônicos;  Sigma Log;RS;DIEGO ROCHA;3;R$ 3.027,05;5%;R$ 8.627,08;troca
+2025-12-14;PED-11438;Mouse  Gamer;Acessórios;DELTA TECH;MG;Fábio Nunes;7;122,32;;R$ 856,23;troca
+24-04-2025;PED-11260;Luminária LED;Casa;Delta Tech;null;Carla Dias;1 un;87,76;0,05;R$ 83,37;pago no pix
+15/10/2025 00:00;PED-11103;Luminária LED;Casa;Iota Office;Minas Gerais;Bruno Lima;3,0;94.57;0,20;226,96;???
+26/12/2025;PED-11876;luminária led;Casa;beta s.a.;São Paulo;Diego Rocha;4;-;0;R$370,93;troca
+05/12/2025 00:00;PED-10776;cadeira ergonômica;MÓVEIS;Eta Digital;Rio De Janeiro ;Ana Souza   ;2;R$ 1.125,15;0,00;2.250,30;
+2025-01-07;PED-10574;Tablet Lite;Eletrônicos;Iota Office;SP;Fábio Nunes;3;R$ 1.782,96;0%;R$ -250,00;
+28/11/2025;PED-10239;Garrafa Térmica;Casa;Épsilon Corp;Minas Gerais;#N/D;4,0;70,54;0,05;R$268,05;entrega urgente
+22-06-2026;PED-12051;Smartphone X;Eletrônicos;Lambda Shop;Parana;Elisa Prado;1,0;R$ 3.018,13;;2716.32;entrega urgente
+03/03/2026;PED-11433;Fone Bluetooth;Acessórios;Iota Office;sp;Diego Rocha;7;R$ 256,80;0;R$ 1.797,58;
+2026-06-11 00:00:00;PED-11147;Notebook Pro 14;Eletrônicos;Mi Varejo;Paraná;Bruno Lima;3;R$ 5.304,77;0,00;R$ 15.914,31;cliente VIP
+2025-04-04;PED-11527;Webcam Full HD;Acessórios;Beta S.A.;rio grande do sul;Fábio Nunes;8;222,71;15%;R$ 1.514,41;
+null;PED-11603;Smartphone X;Eletrônicos;THETA MERCADO;MG;Elisa Prado;2;R$ 2.727,06;0%;R$ 5.454,13;
+15-07-2026;PED-10724;Fone Bluetooth;Acessórios;Mi Varejo;BA;Fábio  Nunes;5 un;264.26;0%;R$1.321,31;???
+16/04/2026;PED-10268;Teclado Mecânico;Acessórios;Eta  Digital;SAO PAULO;Fábio Nunes;1 un;383,03;0,20;R$ 306,43;
+19/12/2025 00:00;PED-11834;Smartphone X;Eletrônicos;Zeta Store;São Paulo;Ana Souza;1;3007.20;20;2.405,76;cliente VIP
+25/10/2026 00:00;PED-10481;Monitor 27 pol;Eletrônicos;Mi Varejo;São Paulo;Ana Souza;3;R$1.440,33;0,00;R$ 4.321,00;pago no pix
+16/10/2025;PED-11396;TECLADO MECÂNICO;Acessórios   ;ZETA STORE;RS;Carla Dias;6;405,37;20%;R$ 1.945,76;
+13-04-2026;PED-10209;Fone Bluetooth;Acessórios;sigma log;SAO PAULO;Elisa Prado;8;R$ 253,99;0%;R$ 2.031,90;
+12/09/25;PED-12211;Teclado Mecânico;Acessórios;Beta S.A.;Minas Gerais;  Bruno Lima;9;391.51;20;R$ 2.818,90;
+24/09/25;PED-11065;Notebook Pro 14;Eletrônicos;Delta Tech;PARANÁ;  Carla Dias;3,0;5447.13;20%;13073.10;cliente VIP
+10/11/2025 00:00;PED-12394;NaN;Casa;Épsilon Corp;PARANÁ;Carla Dias   ;8,0;R$ 73,27;0%;R$ 586,19;
+19/11/2025;PED-10356;Notebook Pro 14;Eletrônicos;ÔMEGA FOODS;Rio de Janeiro;Diego Rocha;2;5.048,17;0,15;R$ 8.581,89;troca
+28/09/2026;PED-11268;tablet lite;eletrônicos;Kappa Home;Parana;Carla Dias;3 un;R$ 1.810,89;20;4346.14;
+2026-04-27;PED-11045;Luminária LED;Casa;Épsilon Corp;PARANÁ;Ana Souza;2;R$ 89,73;5%;R$ 170,48;entrega urgente
+10/05/2026;PED-11840;Luminária LED;Casa;Delta Tech;sp;Elisa Prado;2,0;R$95,18;0,00;190,36;
+22-04-2026;PED-12233;Fone Bluetooth;acessórios;Sigma  Log;Minas Gerais;CARLA DIAS;8;R$ 252,17;0,00;2017,37;
+08/05/2025;PED-10833;Monitor  27  pol;Eletrônicos;Kappa Home;rio grande do sul;Diego Rocha;;sem informacao;0,10;R$ 3.836,36;cliente VIP
+14/04/2026;PED-10957;Webcam Full HD;Acessórios;Theta Mercado;Sao Paulo;Ana Souza;1;208,68;;R$ 208,68;pago no pix
+01/10/2025;PED-11465;Webcam Full HD;Acessórios;Theta Mercado;Minas Gerais;elisa prado;1;R$ 218,59;20%;R$ 174,87;???
+01/10/2026;PED-10935;Tablet Lite;Eletrônicos;Gama Me;SC;Fábio Nunes;3;1.835,10;0,00;5.505,29;
+15/01/26;PED-10409;Luminária LED   ;Casa;Ômega  Foods;Santa Catarina;Bruno Lima;8;R$ 87,40;0%;R$ 699,23;
+09/11/2026 00:00;PED-12540;Garrafa Térmica;Casa;Mi Varejo;Rio De Janeiro ;Carla Dias;4;R$72,65;0,15;R$ 247,01;cliente VIP
+2025-09-17;PED-11033;FONE BLUETOOTH;Acessórios;  Épsilon Corp;MG;NaN;9;235,38;15%;R$ 1.800,67;
+16/09/2026 00:00;PED-10818;Mesa Home Office;Móveis;Gama ME;RJ;Carla Dias;3;875,89;0%;R$ 2.627,68;
+2026-09-03 00:00:00;PED-10746;MOUSE GAMER;Acessórios;Kappa Home;Santa Catarina;Elisa Prado;9;R$128,39;0,15;R$ 982,20;entrega urgente
+27/03/2025 00:00;PED-10454;TECLADO MECÂNICO;Acessórios;Theta Mercado;SP;Fábio Nunes;7;404,27;5%;R$2.688,43;???
+2025-05-04;PED-11990;Webcam Full HD;acessórios;Iota Office;minas gerais;  Ana Souza;4;R$ 210,94;10%;R$ 759,39;
+2026-04-09 00:00:00;PED-11645;webcam full hd;  ;  Iota Office;SAO PAULO;Diego Rocha;9;216,02;0;R$ 1.944,20;entrega urgente
+09/08/2026;PED-11945;Cadeira Ergonômica;  Móveis;Theta Mercado;Rio de Janeiro;Ana Souza;1;R$ 1.186,25;10%;R$ 1.067,63;entrega urgente
+24/10/2026;PED-11705;Luminária LED;Casa;ZETA STORE;São Paulo;Carla Dias;6 un;R$ 92,79;0,20;R$445,39;
+2026-04-27;PED-11616;Luminária LED;Casa;Eta Digital;MG;bruno lima;1;R$89,28;5;84,82;
+16-10-2025;PED-10767;Fone Bluetooth;Acessórios;LAMBDA SHOP;rio grande do sul;carla dias;7;241,92;0,20;N/A;
+10-02-2026;PED-10344;Garrafa Térmica;Casa;Alfa Ltda;Rio de Janeiro;Fábio Nunes;5 un;74,57;0%;372,85;
+18/06/2026;PED-10313;Garrafa Térmica   ;Casa;Beta S.A.;PR;diego rocha;8 un;R$ 78,66;10%;566,36;troca
+24/08/2026;PED-10305;Garrafa Térmica   ;Casa;Delta Tech;Rio Grande do Sul;Fábio Nunes;4;R$ 73,70;5%;280,04;
+09-05-2026;PED-11683;CADEIRA ERGONÔMICA;Móveis;Eta Digital;Minas Gerais;Ana Souza;2;1155.23;0%;R$ 2.310,45;
+24/10/2025;PED-12541;  Mesa Home Office;Móveis;Mi  Varejo;PARANÁ;Fábio Nunes;4;906.06;0%;3.624,26;cliente VIP
+2025-01-19 00:00:00;PED-12136;monitor 27 pol;Eletrônicos;Lambda Shop;SAO PAULO;Fábio  Nunes;2;R$ 1.431,02;0%;2.862,05;???
+28-05-2026;PED-12591;Notebook Pro 14;Eletrônicos;Gama ME;SP;Elisa Prado;1;R$ 5.440,64;0%;5440.64;
+22/08/25;PED-12197;Luminária LED;Casa;Épsilon Corp;Rio de Janeiro;Carla Dias;7;92,37;0;646,61;???
+06-06-2026;PED-10150;Fone Bluetooth;Acessórios;Iota Office;Rio Grande do Sul;Carla Dias;4;235,47;15%;R$ 800,58;cliente VIP
+;;;;;;;;;;;
+14/08/2026 00:00;PED-10277;Smartphone X;Eletrônicos;Delta Tech;Rio de Janeiro;Diego Rocha;3;R$ 2.794,55;0%;R$ 8.383,65;
+27/06/2026;PED-10158;  Monitor 27 pol;Eletrônicos;Delta Tech;rio grande do sul;Carla Dias;1 un;R$ 1.526,42;15%;1.297,46;
+27-12-2025;PED-10267;Fone Bluetooth;Acessórios;Ômega Foods;Bahia;Bruno Lima;2;252,97;15%;R$ 430,04;???
+2026-08-15;PED-12115;Garrafa Térmica;Casa;Delta Tech;sp;Carla Dias   ;8;R$ 76,23;0;R$ 609,80;
+15/05/2025;PED-11566;Mesa Home Office;Móveis;  Ômega Foods;Rio de Janeiro;Diego Rocha;9;R$ 872,11;10%;7064.11;
+27/12/25;PED-11122;Mesa Home Office;Móveis;mi varejo;rio grande do sul;Bruno  Lima;7;R$ 831,87;;R$ 5.823,09;
+07/01/2026 00:00;PED-10224;Garrafa Térmica;Casa;Sigma Log;PARANÁ;Fábio Nunes;3;R$ 75,25;15;R$ 191,88;
+2026-07-29;PED-10925;Cadeira Ergonômica;Móveis;Eta Digital;RS;Diego Rocha;2,0;R$1.165,93;0%;R$ 2.331,87;???
+24/08/2026 00:00;PED-11447;Luminária LED   ;Casa;Épsilon Corp;Sao Paulo;Ana Souza;2;R$ 89,64;0%;179,27;pago no pix
+2026-07-31;PED-12049;Luminária LED;Casa;Ômega Foods;RJ;Ana Souza   ;8;90,70;;653,05;???
+2025-10-24 00:00:00;PED-11101;Mouse Gamer;Acessórios;  ;MG;Bruno Lima;5;R$ 126,59;0;R$ 632,97;
+05/11/2025;PED-11745;Luminária LED;Casa;Kappa Home;minas gerais;Elisa Prado;4;R$ 91,74;0,10;330,27;cliente VIP
+26/08/2026;PED-11798;Fone Bluetooth;Acessórios;delta tech;SAO PAULO;fábio nunes;7;R$ 241,67;5%;1.607,10;
+14/10/2026;PED-11258;Cadeira Ergonômica;Móveis;Delta Tech;PARANÁ;fábio nunes;2;1195.22;10%;2.151,40;entrega urgente
+12/09/2026;PED-11710;Cadeira Ergonômica;Móveis;Sigma Log;Minas Gerais;Fábio Nunes;3;R$ 1.147,91;10%;R$ 3.099,36;???
+09/04/2026;PED-11305;Notebook Pro 14   ;Eletrônicos;Iota Office;sp;  Carla Dias;3 un;R$ 5.451,31;10%;R$ 14.718,54;
+25-11-2025;PED-10629;  Luminária LED;Casa;Gama ME;minas gerais;Carla Dias;4;94,13;0,20;R$ 301,20;pago no pix
+2026-05-11 00:00:00;PED-11890;Cadeira Ergonômica;Móveis;#N/D;sp;Bruno Lima;3;1.190,72;0;R$ 3.572,17;
+08/04/2025 00:00;PED-11493;Garrafa Térmica;Casa;eta digital;RJ;Fábio Nunes;1;76.74;0%;R$ 76,74;
+06-09-2026;PED-11733;Smartphone X;sem informacao;Lambda Shop;Minas Gerais;elisa prado;3;R$ 2.876,78;;7767.31;
+2026-04-18 00:00:00;PED-10927;Mouse Gamer;Acessórios;Kappa Home;rio grande do sul;Carla  Dias;8;R$ 132,98;0;1.063,85;entrega urgente
+2025-06-30;PED-12096;LUMINÁRIA LED;  Casa;Ômega Foods;BA;Carla Dias;7;84,79;0,05;R$ 563,83;
+13/11/2025 00:00;PED-11617;Mesa Home Office;Móveis;ÉPSILON CORP;PR;Fábio Nunes;7;R$ 835,86;;4680.81;
+2026-03-21;PED-12534;Smartphone X;Eletrônicos;Ômega Foods;minas gerais;Carla Dias;3;R$ 3.065,69;0,15;7.817,52;
+14/03/2026;PED-10497;Mouse Gamer;Acessórios;Ômega Foods;sp;Fábio  Nunes;5;R$ 134,04;0%;R$ 670,18;
+28/04/2026;#N/D;Mouse Gamer;Acessórios;Iota Office;PR;Carla  Dias;9;R$132,39;10;R$ 1.072,38;
+2025-12-28;PED-11962;Smartphone X;Eletrônicos;ZETA STORE;Rio de Janeiro;bruno lima;2;R$ 3.061,41;0,15;5204.39;
+2026-06-04;PED-11372;Mesa  Home  Office;Móveis;  Mi Varejo;Rio de Janeiro;  Bruno Lima;9;855.36;0,00;7.698,27;entrega urgente
+2025-11-24;PED-10860;Smartphone X;Eletrônicos;Sigma Log;MG;Ana Souza;1;R$ 2.745,64;0%;2745.64;cliente VIP
+2026-07-13;PED-11470;SMARTPHONE X;Eletrônicos;Beta S.A.;Sao Paulo;Elisa Prado;3;R$ 2.743,53;0;R$ 8.230,60;cliente VIP
+#N/D;PED-11729;NOTEBOOK PRO 14;Eletrônicos;Iota Office;SAO PAULO;Carla Dias;1;R$ 5.504,86;0%;R$ 5.504,86;???
+19/02/26;PED-10657;  Garrafa Térmica;Casa;Gama ME;Santa Catarina;Elisa Prado;5;R$ 71,23;0,20;284.94;troca
+2025-07-05 00:00:00;PED-11480;Notebook Pro 14;Eletrônicos;-;RJ;Carla Dias;3;5188,63;0,00;15565,89;???
+26/03/2026;PED-10521;Luminária LED;Casa;  Gama ME;Parana;Diego Rocha;1;R$ 85,46;0,00;R$85,46;troca
+2026-07-09;PED-11451;Teclado Mecânico;ACESSÓRIOS;Iota Office;Parana;Bruno Lima;6;369.90;;2219,42;entrega urgente
+2025-02-10;PED-12286;Mouse Gamer;Acessórios;Épsilon Corp;null;Ana Souza;6;R$123,70;0,00;742.18;
+2026-02-08;PED-12404;Luminária LED;casa;Ômega Foods   ;SAO PAULO;Fábio Nunes;7;R$ 89,33;20;R$500,27;???
+01-04-2026;PED-12323;Garrafa Térmica;Casa;Épsilon Corp;rio grande do sul;Fábio Nunes;6;78.51;5%;R$ 447,49;
+16/01/2026;PED-11701;  Teclado Mecânico;Acessórios;Theta Mercado;;Elisa Prado   ;8;400,54;5%;R$3.044,07;???
+03/11/2026 00:00;PED-11601;Webcam Full HD;Acessórios;Sigma Log;Rio De Janeiro ;Fábio  Nunes;5;R$ 228,58;0,00;R$ 1.142,90;
+2026-01-09 00:00:00;PED-10531;Garrafa Térmica;casa;Gama ME;Rio de Janeiro;Carla Dias;9,0;R$ 78,93;15%;603,78;cliente VIP
+07/04/26;PED-12548;Teclado Mecânico;acessórios;Delta Tech;minas gerais;Ana Souza;1;402.86;0%;R$ 402,86;???
+04/09/26;PED-11870;Notebook  Pro  14;eletrônicos;Épsilon Corp;Rio Grande do Sul;Carla Dias;2;5323.04;0%;R$ 10.646,08;troca
+17/09/2026;PED-10082;Mesa Home Office;Móveis;Sigma Log;Sao Paulo;Carla Dias;2 un;886,87;0,20;1418,99;
+2026-07-26;PED-10217;Tablet Lite;Eletrônicos;Ômega Foods;RJ;Bruno Lima;1;1.689,23;20%;R$1.351,38;
+06/05/2025;PED-12084;Cadeira Ergonômica;N/A;Delta Tech;MG;Ana  Souza;1;R$ 1.162,69;0,00;NaN;
+01-11-2026;PED-11917;Webcam Full HD;Acessórios;Zeta Store;SC;Fábio Nunes   ;9;R$ 230,24;15%;R$1.761,37;
+2025-04-29;#N/D;FONE BLUETOOTH;Acessórios;Zeta Store;rio de janeiro;Elisa Prado;5;R$ 238,24;20;R$ 952,96;troca
+22/08/26;PED-12342;monitor 27 pol;Eletrônicos;Ômega Foods   ;rio grande do sul;Elisa Prado;1 un;R$ 1.452,10;0,20;R$ 1.161,68;pago no pix
+28/11/2025;PED-11230;Garrafa Térmica;Casa;Alfa Ltda;rio de janeiro;;6;76,47;10;R$ 412,94;pago no pix
+04/10/2026;PED-10340;Teclado Mecânico;Acessórios;Lambda Shop;rio grande do sul;Carla Dias;2;R$ 404,08;15;sem informacao;
+17/05/2026;PED-12443;Tablet  Lite;Eletrônicos;Ômega Foods;rio de janeiro;Ana Souza;2;R$ 1.724,69;15%;R$2.931,97;troca
+07/09/2026 00:00;#N/D;Webcam Full Hd;Acessórios;Eta Digital;Rio De Janeiro ;  Diego Rocha;2,0;R$ 225,82;20;R$ 361,31;
+14/04/2026;PED-12493;Cadeira Ergonômica;Móveis;Theta Mercado;Rio De Janeiro ;Bruno Lima;1;sem informacao;;R$ 1.068,24;
+10/11/2025;PED-12240;MOUSE GAMER;Acessórios;Lambda Shop;Parana;ANA SOUZA;2;R$123,38;0%;246,75;
+17/12/2025;PED-10837;Webcam Full HD;Acessórios;Zeta Store;PARANÁ;ANA SOUZA;7;221,73;15%;R$1.319,29;
+19-03-2025;PED-10510;Mesa Home Office;NaN;NaN;RJ;Bruno Lima;-;884.97;10;R$ 4.778,84;
+10/06/25;PED-11232;CADEIRA ERGONÔMICA;Móveis;  Delta Tech;minas gerais;Carla Dias;3;1124,73;0,00;3374.19;
+29/06/2025;PED-11108;  Monitor 27 pol;Eletrônicos   ;Mi Varejo;Sao Paulo;Ana Souza;3;null;0,10;3.889,76;???
+23/12/25;PED-10067;Fone  Bluetooth;Acessórios;Gama ME;SAO PAULO;bruno lima;3;R$ 251,09;0%;753,26;cliente VIP
+-;PED-11206;Fone Bluetooth;Acessórios;kappa home;Paraná;DIEGO ROCHA;8 un;256,02;0,00;R$ 2.048,19;troca
+21-07-2026;PED-10002;MONITOR 27 POL;Eletrônicos;Beta S.A.;Paraná;Elisa Prado;3;R$ 1.515,00;0;R$ 4.544,99;
+26/09/2026 00:00;PED-11688;Smartphone X;Eletrônicos;Mi Varejo;Rio de Janeiro;  Diego Rocha;2 un;R$ 2.959,93;20;R$ 4.735,89;cliente VIP
+14/02/2026;PED-12082;Teclado Mecânico;Acessórios;BETA S.A.;minas gerais;Diego Rocha;9;R$410,50;5%;R$ 3.509,74;???
+29/03/2026;PED-11308;Smartphone X;Eletrônicos;gama me;SAO PAULO;  Diego Rocha;1;R$ 3.008,08;0,15;R$ 2.556,87;
+04-03-2026;PED-10390;;Eletrônicos   ;Theta Mercado;SAO PAULO;Diego Rocha;3;R$ 2.990,73;10%;R$8.074,97;
+24/04/2025;PED-12428;Monitor 27 pol;Eletrônicos;#N/D;sp;Bruno Lima;1;1462,94;0;1462.94;
+18/08/2025;PED-12175;Cadeira Ergonômica   ;Móveis;LAMBDA SHOP;minas gerais;CARLA DIAS;1;R$ 1.118,88;0%;1.118,88;entrega urgente
+2026-07-11 00:00:00;PED-12478;Luminária LED;Casa;Kappa Home;BAHIA;Ana Souza;7 un;R$90,51;10%;570,24;
+03/05/2026;PED-10413;Mouse  Gamer;Acessórios;Kappa  Home;Rio De Janeiro ;Ana  Souza;2;R$ 129,70;5%;R$246,43;
+2025-10-17 00:00:00;PED-10459;Cadeira Ergonômica;Móveis;null;minas gerais;Elisa Prado;2;R$1.226,18;0,10;2207.13;
+2025-03-21;PED-11567;webcam full hd;Acessórios;Theta Mercado   ;Sao Paulo;Bruno Lima   ;2;R$ 230,87;15%;392.49;pago no pix
+23-04-2025;PED-11382;Webcam Full HD;Acessórios;Sigma Log;rio grande do sul;  Fábio Nunes;1;R$216,60;0,10;194,94;???
+2025-10-26;PED-12495;Monitor 27 pol;Eletrônicos;zeta store;Paraná;Fábio Nunes;1,0;R$ 1.479,67;15%;NaN;
+30/01/26;PED-11699;Webcam Full HD;  Acessórios;Delta Tech;minas gerais;Carla Dias;null;216.93;5%;R$1.854,78;
+2025-08-12;PED-11924;Mouse Gamer;Acessórios;Alfa Ltda;RS;Elisa Prado;4;R$ 128,66;;514,63;troca
+24/07/26;PED-12202;luminária led;casa;Alfa Ltda;MG;Diego Rocha;2;R$ 93,88;;R$ 150,21;???
+21/09/25;PED-12019;Tablet  Lite;Eletrônicos;Épsilon Corp;sp;Carla Dias;1;R$ 1.816,68;;R$ 1.544,18;pago no pix
+26/03/2025;PED-11961;LUMINÁRIA LED;Casa;NaN;RS;Bruno  Lima;2;R$ 85,75;0;R$ 171,50;
+2026-04-30;PED-11423;Webcam Full HD;Acessórios   ;Theta Mercado   ;minas gerais;Elisa Prado   ;4;R$214,85;20%;R$ 687,52;
+28/07/2025 00:00;PED-10047;Monitor 27 pol;  Eletrônicos;gama me;São Paulo;Elisa Prado;2;R$1.473,53;0%;2947.06;pago no pix
+30/07/2025;PED-10826;Teclado Mecânico;Acessórios   ;MI VAREJO;São Paulo;Ana Souza;4;R$ 373,42;10;1.344,30;
+25/12/25;PED-12439;Teclado Mecânico;Acessórios;Mi Varejo;RS;Fábio Nunes;9;391,68;0%;R$ 3.525,09;
+19/10/25;PED-12465;Cadeira Ergonômica;Móveis;Iota Office;Rio De Janeiro ;carla dias;3;1.165,36;0,00;R$ -250,00;???
+2026-10-22;PED-11335;Smartphone X;Eletrônicos;Beta S.A.;RJ;Elisa Prado;2;2.970,99;0%;5.941,97;troca
+14/02/2026;PED-12297;Fone Bluetooth;Acessórios;Lambda Shop;-;Diego Rocha;9;R$236,71;5;R$ 2.023,89;entrega urgente
+2025-11-04 00:00:00;PED-11283;Monitor 27 pol;eletrônicos;Épsilon Corp;Rio de Janeiro;Elisa Prado;2;R$ 1.411,11;0,20;R$2.257,78;entrega urgente
+2025-10-31;PED-11510;CADEIRA ERGONÔMICA;móveis;Épsilon Corp;BAHIA;Fábio Nunes;2;R$ 1.169,09;10%;R$2.104,36;
+13/03/26;PED-11160;  Teclado Mecânico;Acessórios;Beta S.A.;PARANÁ;Ana Souza;8;R$ 385,60;;R$ 3.084,84;???
+2025-10-01 00:00:00;PED-11536;  Monitor 27 pol;  Eletrônicos;Theta Mercado;Santa Catarina;Carla Dias;3,0;1387.98;5%;R$ 3.955,74;entrega urgente
+25/10/2025 00:00;PED-10836;Smartphone X;Eletrônicos;Ômega Foods;RS;Ana Souza;1;R$2.974,49;;R$ 2.974,49;
+25/10/26;PED-11757;Webcam Full HD;Acessórios;Lambda Shop;Bahia;;3;R$ 216,43;0;null;
+2026-02-11 00:00:00;#N/D;Monitor 27 pol;Eletrônicos;Iota Office;MG;Ana Souza;2;R$ 1.429,92;5;sem informacao;
+03/08/25;PED-11554;Smartphone X;Eletrônicos;Gama ME;sp;Fábio Nunes   ;3,0;R$ 3.039,37;0;9.118,11;pago no pix
+08/10/2026 00:00;PED-11598;Webcam Full HD   ;ACESSÓRIOS;Theta Mercado;SAO PAULO;Ana Souza;2;R$ 217,51;0%;R$ 435,02;
+06-04-2025;PED-11955;Fone Bluetooth;Acessórios;Gama ME;Rio De Janeiro ;Fábio Nunes;9;#N/D;0,15;1846.25;cliente VIP
+15-11-2025;PED-11764;Monitor 27 pol;Eletrônicos;Iota Office;RJ;ANA SOUZA;3;R$ 1.410,96;0,10;R$ 3.809,60;
+07-01-2026;PED-11665;  Cadeira Ergonômica;Móveis;Iota Office;minas gerais;CARLA DIAS;3;R$ 1.156,74;20;null;
+12-10-2025;PED-11522;  Luminária LED;Casa;Ômega  Foods;SP;Bruno Lima   ;1;94,88;20%;75,90;entrega urgente
+12/07/2026;PED-11734;Notebook Pro 14;#N/D;Mi Varejo;RJ;Carla Dias   ;1;5368,69;15;4563.38;???
+05/02/2025;PED-12201;Garrafa Térmica;Casa;Lambda Shop;rio grande do sul;Diego Rocha;9;R$78,58;15;601,14;entrega urgente
+2025-09-07;PED-10932;webcam full hd;-;Theta Mercado;SP;Bruno Lima;7;225.55;20;R$ 1.263,06;entrega urgente
+11/07/2026;PED-11780;Fone Bluetooth;Acessórios;Iota Office;SC;Diego  Rocha;7;R$ 244,98;15%;R$ 1.457,64;pago no pix
+13/06/2026;PED-12596;Webcam Full HD;acessórios;zeta store;SC;CARLA DIAS;2;R$ 216,63;10;R$ 389,93;cliente VIP
+02/11/2026;PED-12583;Tablet Lite;Eletrônicos;theta mercado;Rio De Janeiro ;Elisa Prado;2;1735.05;0%;R$ 3.470,09;???
+19/02/2026 00:00;PED-12237;Mesa Home Office;Móveis;Alfa Ltda;SAO PAULO;Fábio Nunes;1;813,23;5%;R$ 772,57;entrega urgente
+14/01/2025;PED-12212;Mesa Home Office;Móveis   ;ALFA LTDA;rio de janeiro;elisa prado;5;R$856,02;0%;R$ 4.280,12;
+12/01/25;PED-11211;MOUSE GAMER;Acessórios;Beta S.A.;São Paulo;Fábio Nunes;2;136.99;0;R$ 273,97;troca
+12/10/2026;PED-10532;smartphone x;sem informacao;Épsilon Corp;BA;Carla Dias;2;2945,05;0,15;R$ 5.006,58;
+2026-10-08;PED-11203;Smartphone X;Eletrônicos;Zeta Store;Sao Paulo;Bruno Lima;1;R$2.844,88;5%;2702.64;troca
+2025-02-27;PED-10292;Cadeira Ergonômica;MÓVEIS;Épsilon  Corp;Bahia;Carla Dias;1;1220.26;0,00;R$1.220,26;entrega urgente
+03/03/25;PED-12492;Garrafa Térmica;CASA;SIGMA LOG;BAHIA;Carla Dias;8;N/A;0%;R$ 563,57;pago no pix
+2026-01-01 00:00:00;PED-10630;Cadeira Ergonômica;MÓVEIS;Gama ME;MG;Bruno Lima   ;1;R$1.213,94;0,10;R$1.092,55;troca
+07/10/2026 00:00;PED-10236;Webcam Full HD;Acessórios   ;Mi Varejo;minas gerais;fábio nunes;2 un;217.46;10%;R$ 391,43;cliente VIP
+2026-11-05 00:00:00;PED-10732;Smartphone X;Eletrônicos;Gama ME;RJ;Diego  Rocha;3;R$ 2.891,95;0,15;R$ 7.374,46;cliente VIP
+2025-06-22 00:00:00;PED-11728;Teclado Mecânico;Acessórios   ;Zeta Store;São Paulo;FÁBIO NUNES;1;378,63;0,05;359,70;cliente VIP
+27/09/2025;PED-10397;Fone Bluetooth;Acessórios;Lambda Shop;São Paulo;ana souza;6;-;20%;R$ 1.235,23;
+29-09-2025;PED-11922;  Tablet Lite;Eletrônicos;Ômega Foods;BA;Diego Rocha;1;R$ 1.859,69;;1859.69;
+18/12/2025;PED-10410;Notebook Pro 14;Eletrônicos;Sigma Log;Paraná;  Bruno Lima;1;R$ 5.293,31;0;5.293,31;???
+16/01/2025 00:00;PED-10715;Webcam Full HD   ;Acessórios;Gama Me;Rio de Janeiro;Bruno Lima;8;213,26;10%;R$ 1.535,46;
+10-08-2025;PED-12284;Tablet Lite;Eletrônicos;Mi Varejo;Minas Gerais;Diego Rocha;3;1834,48;0,00;R$ 5.503,43;
+02-02-2026;PED-10351;Webcam Full HD;Acessórios;Theta Mercado;sem informacao;Carla Dias;5;211.91;0%;R$ 1.059,55;
+14/12/2025;PED-12498;Teclado Mecânico;Acessórios;Mi Varejo;minas gerais;Fábio Nunes   ;6;R$ 407,08;5%;R$2.320,37;cliente VIP
+19/07/2025;;Smartphone X;Eletrônicos;Alfa Ltda;Minas Gerais;Carla Dias;1;R$ 2.817,51;0%;R$ 2.817,51;troca
+28/06/2025;PED-12228;Monitor 27 pol;Eletrônicos;Delta Tech;São Paulo;Bruno Lima;3;R$ 1.375,40;0,10;R$ 3.713,57;entrega urgente
+2025-11-18 00:00:00;PED-11791;Teclado Mecânico;Acessórios;Zeta Store;MG;  Bruno Lima;7;R$372,71;10%;R$ 2.348,07;
+14/05/2026;PED-10509;Monitor 27 Pol;Eletrônicos;Delta Tech;N/A;ELISA PRADO;3;R$ 1.383,17;0%;R$ 4.149,52;cliente VIP
+2025-03-22 00:00:00;PED-10003;Mouse Gamer;ACESSÓRIOS;Eta Digital;rio de janeiro;Diego Rocha;7;R$ 126,45;0;R$ 885,12;troca
+19/12/2025;PED-10584;Notebook Pro 14;Eletrônicos;Gama ME;sem informacao;Fábio Nunes;3;R$ 5.130,63;0%;15.391,88;
+12/08/2025 00:00;PED-12594;Cadeira Ergonômica   ;Móveis;#N/D;São Paulo;Carla Dias;3 un;R$ 1.150,78;0;sem informacao;
+03/10/2025;PED-11661;Smartphone X;Eletrônicos;Zeta Store;PR;Bruno Lima;3;R$ 2.867,60;15;R$ 7.312,37;troca
+06-11-2025;PED-10720;Monitor 27 pol;Eletrônicos;Theta Mercado;SP;Ana Souza;3 un;R$1.508,56;;R$ 4.073,10;cliente VIP
+2025-09-19;PED-11806;Smartphone X;Eletrônicos;Delta Tech;SP;Diego Rocha;1,0;R$ 2.902,71;;R$ 2.322,17;pago no pix
+2026-06-18;PED-10445;Tablet  Lite;Eletrônicos;Eta Digital;Parana;Elisa Prado;3;1861.87;0%;R$ 5.585,62;
+2026-04-08 00:00:00;PED-10685;Garrafa Térmica;Casa;Épsilon Corp;BA;  Elisa Prado;7;R$ 71,66;15;R$ 426,36;
+2025-12-10 00:00:00;PED-10255;Webcam Full Hd;Acessórios;beta s.a.;SC;Bruno Lima;7;209.20;0,15;R$1.244,72;
+2025-06-24 00:00:00;PED-10783;Garrafa Térmica;  Casa;Épsilon Corp;rio de janeiro;Fábio Nunes;4;R$ 76,69;0,20;245,40;troca
+16/01/2025;PED-11482;Luminária LED;Casa;  Ômega Foods;Bahia;Fábio Nunes;4;R$ 93,80;;337,70;
+2025-12-27;PED-11133;Webcam Full HD;acessórios;ÔMEGA FOODS;Paraná;Elisa Prado;8;R$ 221,68;0%;1.773,44;troca
+11/01/2025 00:00;PED-10316;Webcam  Full  HD;Acessórios;DELTA TECH;MG;carla dias;8;R$224,19;10%;1.614,16;
+26/06/2025 00:00;PED-11931;  Luminária LED;Casa;Alfa Ltda;São Paulo;Fábio Nunes;4,0;R$ 88,76;0,00;355.05;
+2026-06-08;PED-10631;Notebook Pro 14;Eletrônicos;Épsilon Corp   ;SP;Bruno Lima;1;R$ 5.408,28;0,00;R$ 5.408,28;pago no pix
+2026-02-15 00:00:00;PED-10415;Teclado Mecânico;  ;Mi Varejo;rio de janeiro;elisa prado;7;376,87;0;R$ 2.638,10;
+10/01/2025;PED-11365;GARRAFA TÉRMICA;Casa;Lambda Shop;minas gerais;Fábio Nunes;1 un;R$ 73,34;0%;R$ 73,34;pago no pix
+08/08/2025;PED-10633;Mouse Gamer;Acessórios;Beta S.A.;Minas Gerais;Bruno Lima;7;R$ 137,00;0,00;R$959,03;pago no pix
+2025-11-10 00:00:00;PED-10771;Luminária LED;Casa;iota office;sp;Bruno Lima;3;R$84,53;0%;253,58;entrega urgente
+2025-11-23 00:00:00;PED-11387;  Fone Bluetooth;Acessórios;Ômega Foods   ;BAHIA;Carla Dias;2;R$ 243,55;0%;487,10;
+23/07/2026;PED-10311;Luminária LED;Casa;Zeta Store;MG;Diego Rocha;6;R$94,24;20%;R$ 452,35;
+2026-02-16;PED-10185;Smartphone X;  Eletrônicos;Kappa Home;BAHIA;Ana Souza;2 un;2.786,44;;4736.95;
+22-06-2026;PED-12051;Smartphone X;Eletrônicos;Lambda Shop;Parana;Elisa Prado;1,0;R$ 3.018,13;;2716.32;entrega urgente
+03-06-2026;PED-10110;Mouse Gamer;Acessórios;#N/D;rio grande do sul;Ana Souza;5;R$ 133,34;0,05;R$ 633,35;entrega urgente
+2026-08-25;PED-10787;Mesa  Home  Office;Móveis;Zeta Store;sp;Carla Dias;9;829,66;0%;R$ 7.466,92;
+03/06/2026 00:00;PED-10636;Garrafa  Térmica;Casa;Épsilon Corp;sp;Diego Rocha;4;R$71,63;0,10;R$ 257,85;
+09/11/2026;PED-11723;Cadeira Ergonômica;Móveis;Theta Mercado;rio de janeiro;Bruno Lima;1;R$ 1.132,47;5%;1075.85;
+2026-07-26;PED-10089;Smartphone X;  Eletrônicos;Gama Me;SAO PAULO;Elisa Prado;2;R$ 3.025,45;5;5.748,35;
+2026-03-16 00:00:00;NaN;Webcam Full HD;Acessórios;Lambda Shop;  ;CARLA DIAS;6;R$ 231,89;20%;1113.06;
+05/02/2025 00:00;PED-12085;Tablet Lite;Eletrônicos;theta mercado;SAO PAULO;Carla Dias;2;1.692,77;5%;3216,26;
+2025-03-28 00:00:00;PED-12343;Mouse Gamer;Acessórios;IOTA OFFICE;SP;Elisa  Prado;5;136,63;;648.97;
+30/05/2026;PED-11677;Smartphone X;Eletrônicos;Eta Digital;sp;Fábio Nunes;3;2.787,92;;R$ 6.691,01;entrega urgente
+2026-03-05 00:00:00;PED-10700;Monitor 27 pol;  Eletrônicos;Delta Tech;MG;Ana Souza;2;1379.52;0,00;R$2.759,04;???
+16/09/2026;PED-11306;Notebook Pro 14;Eletrônicos;iota office;Rio de Janeiro;Bruno Lima;1;R$ 5.421,44;0%;R$ 5.421,44;
+05/11/2026;PED-10233;Tablet Lite;Eletrônicos;Gama ME   ;SAO PAULO;  Ana Souza;2;1884.33;5;R$3.580,22;
+08/02/2026;PED-10367;Luminária LED;Casa;ômega foods;Rio de Janeiro;FÁBIO NUNES;4;91,34;0%;R$ 365,36;???
+2026-09-02 00:00:00;PED-10473;Tablet Lite;Eletrônicos;Gama  ME;Rio Grande do Sul;FÁBIO NUNES;3;  ;10%;R$ 4.617,03;pago no pix
+2025-10-23;PED-11853;Monitor 27 pol;Eletrônicos;  Zeta Store;Bahia;Ana Souza;2;R$ 1.393,78;20%;R$ 2.230,05;
+11/06/2025;PED-11121;Mesa Home Office;Móveis;Ômega Foods;SAO PAULO;CARLA DIAS;sem informacao;897.15;0,00;6.280,08;pago no pix
+13/07/2026;PED-11593;MOUSE GAMER;-;Theta Mercado   ;SC;Elisa Prado;9;R$ 134,07;0,15;1025.65;
+18/12/2025;PED-10403;Fone Bluetooth;Acessórios;Zeta Store;PARANÁ;Elisa Prado;3;R$ 242,85;0,05;692,13;entrega urgente
+20-09-2025;PED-11457;Mouse Gamer;Acessórios;  Zeta Store;rio de janeiro;Carla Dias;7;128,83;5%;856,70;troca
+2026-06-12;PED-11714;Webcam Full HD   ;Acessórios;Ômega Foods;minas gerais;Bruno Lima;5;208,83;10%;939,73;
+18/01/2025;PED-10843;smartphone x;Eletrônicos;Ômega Foods;Rio de Janeiro;Ana Souza;2;R$3.000,12;15%;5.100,20;
+02/04/2026 00:00;PED-12172;Mesa Home Office;MÓVEIS;Zeta Store;SAO PAULO;Elisa Prado;sem informacao;R$ 846,87;0%;3.387,46;entrega urgente
+24/03/2025;PED-10408;Notebook  Pro  14;  Eletrônicos;Kappa Home;Rio de Janeiro;Carla Dias;-;R$5.209,11;0,10;R$ 14.064,60;???
+28/10/2026;PED-11720;Tablet Lite;#N/D;Alfa Ltda;Sao Paulo;Ana Souza;2;R$ 1.768,09;0%;3536.17;pago no pix
+11/10/2026;PED-11765;Tablet Lite;Eletrônicos;Theta Mercado;SC;Fábio Nunes;2;R$ 1.702,11;20%;2.723,37;pago no pix
+18/04/2026;PED-11297;Cadeira Ergonômica;Móveis;Ômega Foods;Santa Catarina;Fábio Nunes   ;2;R$ 1.147,15;15;R$1.950,16;
+13/09/25;PED-12599;CADEIRA ERGONÔMICA;Móveis;Zeta Store;Sao Paulo;Carla Dias;2;R$ 1.123,88;15%;R$ 1.910,60;
+14/07/2025 00:00;PED-10613;Tablet Lite;Eletrônicos;Alfa Ltda;Minas Gerais;  Fábio Nunes;3,0;1871.62;0,20;R$4.491,88;pago no pix
+12/06/2026;PED-10411;Cadeira  Ergonômica;Móveis;Alfa Ltda;Rio Grande do Sul;Fábio Nunes;2;R$ 1.244,51;0%;R$2.489,02;
+08/02/2025;PED-12387;Tablet Lite;Eletrônicos;Épsilon  Corp;SP;Fábio Nunes;2;R$ 1.716,36;5%;R$ 3.261,09;pago no pix
+12/09/2025;PED-11017;Notebook Pro 14;Eletrônicos;Mi Varejo;BAHIA;Ana Souza;2;R$ 5.121,71;0%;10243.42;cliente VIP
+31/03/25;PED-10774;Webcam Full Hd;Acessórios;Alfa Ltda;rio de janeiro;Fábio Nunes;8;232,73;;R$ 1.582,55;pago no pix
+2025-11-28 00:00:00;PED-11029;Webcam Full HD;Acessórios;Lambda  Shop;SAO PAULO;Ana Souza;6;R$ 210,59;0;R$ 1.263,54;cliente VIP
+2025-12-12 00:00:00;PED-12064;Mouse Gamer;Acessórios;Beta S.A.;minas gerais;Elisa Prado;3;R$ 129,56;0%;980000.00;
+18/05/2026 00:00;PED-11643;Teclado Mecânico;Acessórios;Épsilon Corp;MG;Elisa Prado;9 un;R$ 392,14;0,00;R$ 3.529,23;
+14/03/2026 00:00;PED-10107;Monitor 27 pol;Eletrônicos;Mi Varejo;RJ;Carla Dias;2 un;R$ 1.483,43;0%;2.966,86;troca
+13/02/26;PED-10887;Smartphone X;Eletrônicos   ;Iota Office;SP;Ana Souza;2;2881,26;0;R$ 5.762,51;
+19/10/2026 00:00;PED-11130;Mesa Home Office;Móveis;Zeta Store;Rio Grande do Sul;Fábio Nunes;3;896,15;5%;#N/D;pago no pix
+2025-12-18 00:00:00;PED-10614;  Cadeira Ergonômica;Móveis;Kappa Home;Rio de Janeiro;Bruno Lima;3;N/A;0%;R$ 3.535,32;
+27/07/2026;PED-10676;  Garrafa Térmica;  Casa;Alfa Ltda;Rio de Janeiro;Fábio Nunes;3;74,22;20%;178.14;pago no pix
