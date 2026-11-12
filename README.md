@@ -1,28 +1,45 @@
 # Vendas AI
 
-Aplicacao para analise de vendas com ETL automatizado, dashboard analitico e agente conversacional integrado para consultas e insights comerciais.
+Aplicacao analitica de vendas desenvolvida em Python que combina pipeline de engenharia de dados (ETL), dashboard executivo interativo e um agente financeiro conversacional baseado em IA generativa com suporte a multiplos provedores.
 
-## Visao geral
-Projeto pratico desenvolvido no contexto da formacao da DIO em parceria com o Santander. O objetivo e fornecer uma ferramenta completa em Python para higienizacao de bases comerciais (ETL tolerante a falhas), acompanhamento visual de indicadores de vendas e um agente de inteligencia artificial capaz de dialogar com os dados e fornecer analises em linguagem natural.
+## Contexto do Projeto
+Projeto pratico desenvolvido no âmbito do bootcamp **Santander Bootcamp 2026** em parceria com a **Digital Innovation One (DIO)**. O projeto integra conceitos de Engenharia de Dados, Analise de Negocios e Inteligencia Artificial Aplicada, construindo uma solucao orientada a resolver problemas reais de ingestao de dados desestruturados e extracao automatizada de insights comerciais.
+
+## Visao Geral
+Em cenarios comerciais cotidianos, dados de vendas costumam ser dispersos em planilhas com inconsistencias de formato monetario, tipos de data, valores ausentes e codificacoes conflitantes. Esta aplicacao resolve esse problema em tres camadas:
+1. **Pipeline de ETL:** Higieniza, valida e padroniza arquivos CSV e Excel automaticamente.
+2. **Dashboard Interativo:** Centraliza indicadores de desempenho (KPIs), distribuicao geografica, sazonalidade e rankings.
+3. **Agente de IA (Fin):** Agente conversacional que consulta o conjunto de dados sob demanda via function calling, garantindo que as respostas sejam embasadas estritamente nos dados reais, sem alucinacoes.
 
 ## Funcionalidades
-- Higienizacao e padronizacao de dados (CSV e Excel) com deteccao automatica de formato, delimitador e codificacao.
-- Dashboard comercial interativo com KPIs de receita, pedidos, itens, ticket medio e taxas de desconto.
-- Agente financeiro conversacional (Fin) com function calling para agregacoes sob demanda, analise de tendencias, curvas ABC e comparacao de periodos.
-- Suporte a multiplos provedores de LLM compativeis com a API OpenAI (Groq, OpenAI, Google Gemini, Anthropic, Mistral, DeepSeek, Together AI, Ollama e LM Studio).
-- Configuracao flexivel de modelos e chaves tanto pela interface web quanto por arquivo de ambiente.
-- Anonimizacao de clientes e modos de privacidade para controle de compartilhamento de dados com a LLM.
-- Suporte a streaming de respostas e exportacao de dialogos em formato Markdown.
+- **Ingestao e Higienizacao de Dados:**
+  - Leitura tolerante a falhas para arquivos `.csv` e `.xlsx`.
+  - Deteccao automatica de codificacao (UTF-8, Latin-1, CP1252) e separadores (`,`, `;`, `\t`, `|`).
+  - Tratamento de padroes monetarios brasileiros (`R$ 1.234,56`) e americanos (`1234.56`).
+  - Deduplicacao, deteccao de outliers e geracao de relatorio de qualidade dos dados.
+- **Dashboard Executivo:**
+  - Metricas principais: Receita Total, Pedidos, Itens Vendidos, Ticket Medio e Desconto Medio.
+  - Graficos interativos Plotly: Evolucao temporal com media movel, distribuicao por categoria, regiao, dia da semana e ranking de produtos.
+- **Agente Financeiro Inteligente (Fin):**
+  - Consultas deterministas via chamadas de funcoes seguras (Function Calling).
+  - Capacidades analiticas: Consulta sob demanda, analise executiva automatica, comparacao entre periodos, curvas ABC de clientes e calculo de tendencias.
+  - Suporte a streaming em tempo real das respostas.
+  - Opcao de anonimizacao de dados de clientes para preservacao de privacidade.
+  - Exportacao do historico de conversas em Markdown.
+- **Interoperabilidade de IA:**
+  - Compatibilidade com mais de 10 provedores: Groq, OpenAI, Google Gemini, Anthropic, Mistral, DeepSeek, Together AI, Ollama (local), LM Studio (local) e endpoints customizados.
+  - Parametrizacao dinamica tanto pelo arquivo `.env` quanto pela interface grafica.
 
-## Tecnologias
-| Camada | Tecnologia |
-|---|---|
-| Linguagem | Python 3.12+ |
-| Interface de Usuario | Streamlit |
-| Processamento e ETL | Pandas, NumPy, OpenPyXL |
-| Visualizacao Grafica | Plotly |
-| Integracao com LLMs | OpenAI SDK (protocolo OpenAI-compativel) |
-| Arquitetura do Agente | Function Calling com agregacoes deterministas no DataFrame |
+## Tecnologias Utilizadas
+| Camada | Tecnologia | Finalidade |
+|---|---|---|
+| Linguagem | Python 3.12+ | Linguagem base da aplicacao |
+| Frontend / Interface | Streamlit | Interface web unificada e interativa |
+| Manipulacao de Dados | Pandas, NumPy | Pipeline de ETL, transformacoes e agregacoes |
+| Ingestao de Planilhas | OpenPyXL | Leitura e conversao de planilhas Excel (.xlsx) |
+| Visualizacao de Dados | Plotly | Graficos analiticos interativos |
+| Integracao com LLMs | OpenAI SDK | Protocolo unificado para comunicacao com APIs de IA |
+| Agente Conversacional | Function Calling | Agregacoes seguras sem execucao de codigo arbitrario |
 
 ## Instalacao e Execucao
 
@@ -36,7 +53,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 cp .env.example .env
-# Configure sua chave e provedor no arquivo .env ou configure diretamente na barra lateral
+# Configure sua chave de API e provedor no .env ou ajuste pela barra lateral
 
 streamlit run app.py
 ```
@@ -51,19 +68,29 @@ python -m venv .venv
 pip install -r requirements.txt
 
 Copy-Item .env.example .env
-# Configure sua chave e provedor no arquivo .env ou configure diretamente na barra lateral
+# Configure sua chave de API e provedor no .env ou ajuste pela barra lateral
 
 streamlit run app.py
 ```
 
 ## Configuracao
-Copie `.env.example` para `.env` e defina as variaveis necessarias:
-- `LLM_PROVIDER`: Provedor desejado (`groq`, `openai`, `gemini`, `anthropic`, `ollama`, etc.).
-- `LLM_MODEL`: Identificador do modelo no provedor escolhido.
-- `LLM_API_KEY`: Chave de autenticacao da API.
-- Os parametros tambem podem ser definidos ou sobrescritos dinamicamente pelo menu lateral da aplicacao.
+O arquivo `.env.example` traz os modelos e variaveis suportados. As variaveis principais sao:
+- `LLM_PROVIDER`: Provedor desejado (ex.: `groq`, `openai`, `gemini`, `anthropic`, `ollama`).
+- `LLM_MODEL`: Modelo a utilizar (ex.: `llama-3.3-70b-versatile`, `gpt-4o-mini`, `gemini-2.0-flash`).
+- `LLM_API_KEY`: Chave de acesso fornecida pelo provedor.
 
-## Decisoes tecnicas
-- **Protocolo universal:** O uso do SDK oficial com base URLs compativeis unifica a integracao com mais de 10 provedores de IA sem introduzir multiplas bibliotecas proprietarias.
-- **Seguranca de dados com function calling:** O agente nao executa codigo em tempo de execucao (`eval`/`exec`). As consultas sao mediadas por funcoes de agregacao predefinidas no Pandas, prevenindo ataques de injecao e garantindo consistencia numerica.
-- **Higienizacao resiliente:** O modulo de extracao identifica variacoes entre padroes numericos (virgula e ponto decimal), formatos de data e codificacoes legadas (CP1252, Latin-1, UTF-8).
+Tambem e possivel definir provedor, modelo e chave diretamente pelo menu de configuracao da interface do Streamlit.
+
+## Decisoes de Arquitetura e Engenharia
+- **Sem execucao de codigo arbitrario:** O agente de IA nao executa interpretador Python ou queries SQL dinamicas geradas pelo modelo. As ferramentas expostas ao modelo sao metodos restritos com validacao estrita de parametros, garantindo seguranca contra injecoes.
+- **Protocolo OpenAI-compativel:** Utilizar a especificacao do OpenAI SDK permitiu conectar modelos comerciais em nuvem e modelos open-source locais (via Ollama e LM Studio) com a mesma base de codigo.
+- **Normalizacao de dados na ingestao:** O processo de limpeza unifica siglas e grafias de estados, converte percentuais e recalcula colunas faltantes (ex.: derivar valor total atraves de quantidade, preco unitario e desconto).
+
+## Autor
+Desenvolvido por **Rafael Paolielo Boaro**  
+GitHub: [Rafael-Boaro](https://github.com/Rafael-Boaro)  
+Estudante de Analise e Desenvolvimento de Sistemas - FATEC Mococa  
+Participante do Santander Bootcamp / Digital Innovation One (DIO)
+
+## Licenca
+Distribuido sob a licenca MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informacoes.
