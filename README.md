@@ -11,6 +11,11 @@ Em cenarios comerciais cotidianos, dados de vendas costumam ser dispersos em pla
 2. **Dashboard Interativo:** Centraliza indicadores de desempenho (KPIs), distribuicao geografica, sazonalidade e rankings.
 3. **Agente de IA (Fin):** Agente conversacional que consulta o conjunto de dados sob demanda via function calling, garantindo que as respostas sejam embasadas estritamente nos dados reais, sem alucinacoes.
 
+## Demonstração Online
+
+A aplicação interativa está publicada e acessível no Streamlit Community Cloud:
+- Link da aplicação: [vendas-ai-bjr7gzhrrkdjsbd6ve6qth.streamlit.app](https://vendas-ai-bjr7gzhrrkdjsbd6ve6qth.streamlit.app/)
+
 ## Funcionalidades
 - **Ingestao e Higienizacao de Dados:**
   - Leitura tolerante a falhas para arquivos `.csv` e `.xlsx`.
