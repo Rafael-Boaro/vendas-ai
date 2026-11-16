@@ -16,6 +16,15 @@ Em cenarios comerciais cotidianos, dados de vendas costumam ser dispersos em pla
 A aplicação interativa está publicada e acessível no Streamlit Community Cloud:
 - Link da aplicação: [vendas-ai-bjr7gzhrrkdjsbd6ve6qth.streamlit.app](https://vendas-ai-bjr7gzhrrkdjsbd6ve6qth.streamlit.app/)
 
+## Apresentação
+
+O arquivo da apresentação executiva do projeto está disponível no repositório:
+- Apresentação em PDF: [apresentacao.pdf](apresentacao.pdf)
+
+<details>
+<summary>Ver os slides</summary>
+
+
 ## Funcionalidades
 - **Ingestao e Higienizacao de Dados:**
   - Leitura tolerante a falhas para arquivos `.csv` e `.xlsx`.
