@@ -1,135 +1,242 @@
-"""Configuração da IA — TUDO vem do .env (ou das variáveis de ambiente).
-Suporta também override em tempo real via dicionário (para configuração pela UI).
+"""Configuração da IA — chave e provedor vêm exclusivamente do backend.
 
-Como funciona "qualquer provedor": quase todos os provedores atuais (Groq, OpenAI,
-OpenRouter, Gemini, Anthropic, Mistral, DeepSeek, Together, Ollama, LM Studio...)
-expõem o mesmo protocolo "OpenAI-compatível" (`/chat/completions` com function
-calling). Então o app fala esse protocolo com o SDK `openai`, apontando para o
-`base_url` do provedor escolhido. Se o seu provedor não está na lista abaixo, use
-LLM_PROVIDER=custom e informe LLM_BASE_URL.
+A API key NUNCA é informada pelo usuário na interface.
+Ela deve ser configurada via st.secrets (Streamlit Community Cloud ou
+.streamlit/secrets.toml local) ou via variável de ambiente.
+
+Provedores suportados (mesmo conjunto do cofre-estoque-inteligente):
+  anthropic | openai | groq | gemini | openrouter | compativel
+
+Como configurar (veja .streamlit/secrets.toml.example):
+  - st.secrets: adicione as variáveis em Settings > Secrets (nuvem)
+    ou em .streamlit/secrets.toml (local).
+  - Variáveis de ambiente: defina as variáveis no sistema ou em .env.
 """
 from __future__ import annotations
 
 import os
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
 
 RAIZ = Path(__file__).parent
 
-
-class ConfigErro(RuntimeError):
-    """Configuração da IA ausente ou inválida (mensagem apresentável)."""
-
-
-# nome -> (rótulo, base_url, variável da chave, exige chave?, modelos sugeridos)
-PROVEDORES: dict[str, dict] = {
-    "groq": dict(
-        nome="Groq",
-        base_url="https://api.groq.com/openai/v1",
-        chave_env="GROQ_API_KEY",
-        exige_chave=True,
-        modelos=["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768"],
-        modelos_sugeridos=[
+# ---------------------------------------------------------------------------
+# Registro central de provedores suportados (mesmo padrão do cofre).
+# ---------------------------------------------------------------------------
+REGISTRO_PROVEDORES: Dict[str, Dict[str, Any]] = {
+    "anthropic": {
+        "nome": "Anthropic (Claude)",
+        "tipo_cliente": "anthropic",
+        "base_url": None,
+        "var_chave": "ANTHROPIC_API_KEY",
+        "var_modelo": "ANTHROPIC_MODEL",
+        "modelo_padrao": "claude-3-5-sonnet-20241022",
+        "modelos_sugeridos": [
+            "claude-3-5-sonnet-20241022",
+            "claude-3-5-haiku-20241022",
+            "claude-3-haiku-20240307",
+        ],
+        "var_base_url": None,
+        "exige_chave": True,
+    },
+    "openai": {
+        "nome": "OpenAI (GPT)",
+        "tipo_cliente": "openai",
+        "base_url": "https://api.openai.com/v1",
+        "var_chave": "OPENAI_API_KEY",
+        "var_modelo": "OPENAI_MODEL",
+        "modelo_padrao": "gpt-4o-mini",
+        "modelos_sugeridos": ["gpt-4o", "gpt-4o-mini", "gpt-4-turbo"],
+        "var_base_url": None,
+        "exige_chave": True,
+    },
+    "groq": {
+        "nome": "Groq",
+        "tipo_cliente": "openai",
+        "base_url": "https://api.groq.com/openai/v1",
+        "var_chave": "GROQ_API_KEY",
+        "var_modelo": "GROQ_MODEL",
+        "modelo_padrao": "llama-3.3-70b-versatile",
+        "modelos_sugeridos": [
             "llama-3.3-70b-versatile",
             "llama-3.1-8b-instant",
             "mixtral-8x7b-32768",
             "gemma2-9b-it",
         ],
-    ),
-    "openai": dict(
-        nome="OpenAI",
-        base_url="https://api.openai.com/v1",
-        chave_env="OPENAI_API_KEY",
-        exige_chave=True,
-        modelos=[],
-        modelos_sugeridos=["gpt-4o", "gpt-4o-mini", "gpt-4-turbo", "o1-mini"],
-    ),
-    "openrouter": dict(
-        nome="OpenRouter",
-        base_url="https://openrouter.ai/api/v1",
-        chave_env="OPENROUTER_API_KEY",
-        exige_chave=True,
-        modelos=[],
-        modelos_sugeridos=[
+        "var_base_url": None,
+        "exige_chave": True,
+    },
+    "gemini": {
+        "nome": "Google Gemini (OpenAI compatível)",
+        "tipo_cliente": "openai",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "var_chave": "GEMINI_API_KEY",
+        "var_modelo": "GEMINI_MODEL",
+        "modelo_padrao": "gemini-2.5-flash",
+        "modelos_sugeridos": ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-pro"],
+        "var_base_url": None,
+        "exige_chave": True,
+    },
+    "openrouter": {
+        "nome": "OpenRouter",
+        "tipo_cliente": "openai",
+        "base_url": "https://openrouter.ai/api/v1",
+        "var_chave": "OPENROUTER_API_KEY",
+        "var_modelo": "OPENROUTER_MODEL",
+        "modelo_padrao": "meta-llama/llama-3.3-70b-instruct",
+        "modelos_sugeridos": [
+            "meta-llama/llama-3.3-70b-instruct",
             "openai/gpt-4o",
             "google/gemini-flash-1.5",
-            "meta-llama/llama-3.3-70b-instruct",
             "anthropic/claude-3.5-sonnet",
         ],
-    ),
-    "gemini": dict(
-        nome="Google Gemini",
-        base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-        chave_env="GEMINI_API_KEY",
-        exige_chave=True,
-        modelos=[],
-        modelos_sugeridos=["gemini-2.0-flash", "gemini-1.5-pro", "gemini-1.5-flash"],
-    ),
-    "anthropic": dict(
-        nome="Anthropic",
-        base_url="https://api.anthropic.com/v1/",
-        chave_env="ANTHROPIC_API_KEY",
-        exige_chave=True,
-        modelos=[],
-        modelos_sugeridos=[
-            "claude-3-5-sonnet-20241022",
-            "claude-3-5-haiku-20241022",
-            "claude-3-haiku-20240307",
-        ],
-    ),
-    "mistral": dict(
-        nome="Mistral",
-        base_url="https://api.mistral.ai/v1",
-        chave_env="MISTRAL_API_KEY",
-        exige_chave=True,
-        modelos=[],
-        modelos_sugeridos=["mistral-large-latest", "mistral-small-latest", "open-mixtral-8x22b"],
-    ),
-    "deepseek": dict(
-        nome="DeepSeek",
-        base_url="https://api.deepseek.com",
-        chave_env="DEEPSEEK_API_KEY",
-        exige_chave=True,
-        modelos=[],
-        modelos_sugeridos=["deepseek-chat", "deepseek-reasoner"],
-    ),
-    "together": dict(
-        nome="Together AI",
-        base_url="https://api.together.xyz/v1",
-        chave_env="TOGETHER_API_KEY",
-        exige_chave=True,
-        modelos=[],
-        modelos_sugeridos=[
-            "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-            "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-            "mistralai/Mixtral-8x7B-Instruct-v0.1",
-        ],
-    ),
-    "ollama": dict(
-        nome="Ollama (local)",
-        base_url="http://localhost:11434/v1",
-        chave_env="",
-        exige_chave=False,
-        modelos=[],
-        modelos_sugeridos=["llama3.3", "qwen2.5", "gemma3", "mistral", "phi4"],
-    ),
-    "lmstudio": dict(
-        nome="LM Studio (local)",
-        base_url="http://localhost:1234/v1",
-        chave_env="",
-        exige_chave=False,
-        modelos=[],
-        modelos_sugeridos=["(use o nome do modelo carregado no LM Studio)"],
-    ),
-    "custom": dict(
-        nome="Provedor personalizado",
-        base_url="",
-        chave_env="",
-        exige_chave=False,
-        modelos=[],
-        modelos_sugeridos=[],
-    ),
+        "var_base_url": None,
+        "exige_chave": True,
+    },
+    "compativel": {
+        "nome": "Compatível com OpenAI (Ollama / Local)",
+        "tipo_cliente": "openai",
+        "base_url": "http://localhost:11434/v1",
+        "var_chave": "LLM_API_KEY",
+        "var_modelo": "LLM_MODEL",
+        "modelo_padrao": "llama3",
+        "modelos_sugeridos": ["llama3.3", "qwen2.5", "gemma3", "mistral", "phi4"],
+        "var_base_url": "LLM_BASE_URL",
+        "exige_chave": False,
+    },
 }
+
+# Provedores expostos na UI (mapeamento nome → rótulo legível)
+PROVEDORES: Dict[str, str] = {pid: info["nome"] for pid, info in REGISTRO_PROVEDORES.items()}
+
+
+# ---------------------------------------------------------------------------
+# Leitura de segredos — st.secrets tem prioridade sobre os.environ
+# ---------------------------------------------------------------------------
+def obter_segredo(chave: str, padrao: str = "") -> str:
+    """Recupera configuração com prioridade: st.secrets > os.environ > padrão."""
+    try:
+        import streamlit as st
+
+        if hasattr(st, "secrets") and chave in st.secrets:
+            valor = st.secrets[chave]
+            if valor is not None:
+                return str(valor).strip()
+    except Exception:
+        pass
+
+    valor_env = os.environ.get(chave)
+    if valor_env is not None and str(valor_env).strip():
+        return str(valor_env).strip()
+
+    return padrao
+
+
+# ---------------------------------------------------------------------------
+# Resolução de credenciais por provedor
+# ---------------------------------------------------------------------------
+def obter_credenciais_provedor(pid: str) -> Optional[Dict[str, Any]]:
+    """Retorna credenciais de um provedor se sua chave estiver configurada no backend."""
+    pid = (pid or "").strip().lower()
+    if pid not in REGISTRO_PROVEDORES:
+        return None
+
+    info = REGISTRO_PROVEDORES[pid]
+    chave = obter_segredo(info["var_chave"])
+    modelo = obter_segredo(info["var_modelo"])
+
+    # Compatibilidade reversa com LLM_PROVIDER + LLM_API_KEY genéricos
+    provedor_legado = obter_segredo("LLM_PROVIDER", "").lower()
+    if not chave:
+        if pid == "compativel" and obter_segredo("LLM_BASE_URL"):
+            chave = obter_segredo("LLM_API_KEY", "sem-chave")
+        elif provedor_legado == pid:
+            chave = obter_segredo("LLM_API_KEY")
+        elif not provedor_legado and pid == "anthropic":
+            chave = obter_segredo("LLM_API_KEY")
+
+    if not chave or chave.startswith("sua-chave") or chave == "sua-chave-aqui":
+        # Provedores locais não exigem chave real
+        if not info["exige_chave"]:
+            chave = "sem-chave"
+        else:
+            return None
+
+    if not modelo:
+        if (provedor_legado == pid or (not provedor_legado and pid == "anthropic")) and obter_segredo("LLM_MODEL"):
+            modelo = obter_segredo("LLM_MODEL")
+        else:
+            modelo = info["modelo_padrao"]
+
+    base_url = info["base_url"]
+    if info.get("var_base_url"):
+        base_url = obter_segredo(info["var_base_url"], base_url or "")
+
+    return {
+        "id": pid,
+        "nome": info["nome"],
+        "tipo_cliente": info["tipo_cliente"],
+        "base_url": base_url,
+        "api_key": chave,
+        "modelo": modelo,
+        "modelos_sugeridos": info.get("modelos_sugeridos", []),
+    }
+
+
+def provedores_configurados() -> Dict[str, Dict[str, Any]]:
+    """Retorna apenas os provedores com chave de API configurada no backend."""
+    configurados = {}
+    for pid in REGISTRO_PROVEDORES:
+        creds = obter_credenciais_provedor(pid)
+        if creds:
+            configurados[pid] = creds
+    return configurados
+
+
+def ordem_de_tentativa(provedor_preferido: Optional[str] = None) -> List[str]:
+    """
+    Calcula a lista ordenada de provedores a tentar, sem duplicatas.
+    Prioridade:
+    1. Provedor preferido (se especificado e configurado)
+    2. Provedor principal em LLM_PROVIDER
+    3. Fallbacks em LLM_FALLBACKS (separados por vírgula)
+    4. Demais provedores configurados
+    """
+    disponiveis = provedores_configurados()
+    if not disponiveis:
+        return []
+
+    ordem: List[str] = []
+
+    if provedor_preferido:
+        pref = provedor_preferido.strip().lower()
+        if pref in disponiveis and pref not in ordem:
+            ordem.append(pref)
+
+    provedor_principal = obter_segredo("LLM_PROVIDER", "").lower()
+    if provedor_principal in disponiveis and provedor_principal not in ordem:
+        ordem.append(provedor_principal)
+
+    fallbacks_raw = obter_segredo("LLM_FALLBACKS", "")
+    if fallbacks_raw:
+        for f in fallbacks_raw.split(","):
+            f_clean = f.strip().lower()
+            if f_clean in disponiveis and f_clean not in ordem:
+                ordem.append(f_clean)
+
+    for pid in REGISTRO_PROVEDORES:
+        if pid in disponiveis and pid not in ordem:
+            ordem.append(pid)
+
+    return ordem
+
+
+# ---------------------------------------------------------------------------
+# ConfigLLM — dataclass imutável usada pelo AgenteFinanceiro
+# ---------------------------------------------------------------------------
+class ConfigErro(RuntimeError):
+    """Configuração da IA ausente ou inválida (mensagem apresentável ao usuário)."""
 
 
 @dataclass(frozen=True)
@@ -137,8 +244,8 @@ class ConfigLLM:
     provedor: str
     nome: str
     base_url: str
-    api_key: str = field(repr=False)  # nunca aparece em logs/prints
-    modelos: tuple[str, ...]          # [principal, fallback1, fallback2, ...]
+    api_key: str = field(repr=False)   # nunca aparece em logs/prints
+    modelos: Tuple[str, ...]            # (principal, fallback1, ...)
     temperatura: float
     timeout: float
     arquivo_instrucoes: Path
@@ -148,25 +255,19 @@ class ConfigLLM:
         return f"{self.nome} • {self.modelos[0]}"
 
     def assinatura(self) -> int:
-        """Muda quando qualquer parte da configuração muda (para recriar o agente)."""
+        """Muda quando qualquer parte da configuração muda (força recriação do agente)."""
         return hash((self.provedor, self.base_url, self.api_key, self.modelos,
                      self.temperatura, self.timeout, str(self.arquivo_instrucoes)))
 
     def instrucoes_mtime(self) -> int:
-        """Data de modificação do agents.md: editar o arquivo recria o agente."""
         try:
             return self.arquivo_instrucoes.stat().st_mtime_ns
         except OSError:
             return 0
 
 
-def _env(nome: str, padrao: str = "") -> str:
-    valor = os.getenv(nome, "")
-    return valor.strip().strip("\"'").strip() or padrao
-
-
 def _numero(nome: str, padrao: float, minimo: float, maximo: float) -> float:
-    bruto = _env(nome)
+    bruto = obter_segredo(nome)
     if not bruto:
         return padrao
     try:
@@ -178,61 +279,44 @@ def _numero(nome: str, padrao: float, minimo: float, maximo: float) -> float:
     return valor
 
 
-def carregar_config(override: dict | None = None) -> ConfigLLM:
-    """Lê o .env e devolve a configuração da IA ou levanta ConfigErro.
+def carregar_config(provedor_preferido: Optional[str] = None, modelo_preferido: Optional[str] = None) -> ConfigLLM:
+    """
+    Lê st.secrets / variáveis de ambiente e devolve a ConfigLLM do primeiro
+    provedor disponível.
 
     Args:
-        override: dicionário com valores que sobrescrevem o .env (usado pela UI).
-                  Chaves aceitas: provedor, modelo, api_key, base_url, temperatura, timeout.
+        provedor_preferido: ID do provedor selecionado na UI (sem chave — só escolha).
+        modelo_preferido:   Nome do modelo selecionado na UI.
     """
-    ov = override or {}
-
-    provedor = ov.get("provedor") or _env("LLM_PROVIDER", "groq")
-    provedor = provedor.lower().strip()
-    preset = PROVEDORES.get(provedor)
-    if preset is None:
+    ordem = ordem_de_tentativa(provedor_preferido)
+    if not ordem:
         raise ConfigErro(
-            f"LLM_PROVIDER='{provedor}' não é reconhecido. Use um de: "
-            f"{', '.join(PROVEDORES)}."
+            "Nenhum provedor de IA configurado. "
+            "Adicione as chaves de API em .streamlit/secrets.toml "
+            "(veja .streamlit/secrets.toml.example)."
         )
 
-    base_url = ov.get("base_url") or _env("LLM_BASE_URL", preset["base_url"])
-    if not base_url:
-        raise ConfigErro("Com LLM_PROVIDER=custom, defina também LLM_BASE_URL "
-                         "(ex.: https://meu-provedor.com/v1).")
+    pid = ordem[0]
+    creds = obter_credenciais_provedor(pid)
+    if not creds:
+        raise ConfigErro(f"Não foi possível carregar as credenciais do provedor '{pid}'.")
 
-    api_key = (ov.get("api_key") or _env("LLM_API_KEY")
-               or (_env(preset["chave_env"]) if preset["chave_env"] else ""))
-    if not api_key:
-        if preset["exige_chave"]:
-            raise ConfigErro(
-                f"Chave de API não encontrada. Defina {preset['chave_env']} "
-                "(ou LLM_API_KEY) no arquivo .env ou na barra lateral."
-            )
-        api_key = "sem-chave"  # servidores locais ignoram, mas o SDK exige um texto
+    # Modelo: preferência da UI > secret/env > padrão do provedor
+    modelo_principal = modelo_preferido or creds["modelo"]
+    fallbacks_raw = obter_segredo("LLM_FALLBACKS", "")
+    modelos = tuple(dict.fromkeys([modelo_principal]))  # sem repetidos
 
-    principal = ov.get("modelo") or _env("LLM_MODEL")
-    fallbacks_env = _env("LLM_FALLBACK_MODELS")
-    if fallbacks_env:
-        fallbacks = [m.strip() for m in fallbacks_env.split(",") if m.strip()]
-    else:
-        fallbacks = [] if principal else list(preset["modelos"][1:])
-    modelos = [principal] if principal else list(preset["modelos"][:1])
-    if not modelos:
-        raise ConfigErro(f"Defina LLM_MODEL no .env ou selecione um modelo na barra lateral.")
-    modelos = tuple(dict.fromkeys(modelos + fallbacks))  # sem repetidos, mantém a ordem
-
-    arquivo = Path(_env("AGENTS_FILE", "agents.md"))
+    arquivo = Path(obter_segredo("AGENTS_FILE", "agents.md"))
     if not arquivo.is_absolute():
         arquivo = RAIZ / arquivo
 
     return ConfigLLM(
-        provedor=provedor,
-        nome=preset["nome"],
-        base_url=base_url,
-        api_key=api_key,
+        provedor=pid,
+        nome=creds["nome"],
+        base_url=creds["base_url"] or "",
+        api_key=creds["api_key"],
         modelos=modelos,
-        temperatura=float(ov.get("temperatura", _numero("LLM_TEMPERATURE", 0.3, 0.0, 2.0))),
-        timeout=float(ov.get("timeout", _numero("LLM_TIMEOUT", 60.0, 5.0, 600.0))),
+        temperatura=_numero("LLM_TEMPERATURE", 0.3, 0.0, 2.0),
+        timeout=_numero("LLM_TIMEOUT", 60.0, 5.0, 600.0),
         arquivo_instrucoes=arquivo,
     )

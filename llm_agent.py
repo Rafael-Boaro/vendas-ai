@@ -1,10 +1,10 @@
 """Agente financeiro conversacional — independente de provedor de IA.
 
-- O provedor, o modelo e a chave vêm do .env ou da UI (veja `llm_config.py`).
+- O provedor, o modelo e a chave vêm do backend (st.secrets ou variáveis de
+  ambiente). A chave NUNCA é inserida pelo usuário na interface.
 - A personalidade e as regras do agente vêm do arquivo `agents.md`.
-- Fala o protocolo OpenAI-compatível (`/chat/completions` + function calling) com o
-  SDK `openai`, que funciona com Groq, OpenAI, OpenRouter, Gemini, Anthropic,
-  Mistral, DeepSeek, Together, Ollama, LM Studio e qualquer endpoint compatível.
+- Suporta Anthropic (SDK nativo) e qualquer endpoint OpenAI-compatível
+  (Groq, OpenAI, Gemini, OpenRouter, Ollama e compatíveis).
 - Ferramentas disponíveis (consultam o DataFrame com segurança):
     • consultar_vendas    — agrega por dimensão
     • resumo_geral        — KPIs de um período
@@ -236,8 +236,24 @@ class AgenteFinanceiro:
     def __init__(self, df: pd.DataFrame, config: ConfigLLM, incluir_amostra: bool = True):
         self.df = df
         self.config = config
-        self.client = OpenAI(base_url=config.base_url, api_key=config.api_key,
-                             timeout=config.timeout, max_retries=2)
+        # Escolhe o cliente de acordo com o tipo do provedor
+        from llm_config import obter_credenciais_provedor
+        creds = obter_credenciais_provedor(config.provedor)
+        self._tipo_cliente = (creds or {}).get("tipo_cliente", "openai")
+        if self._tipo_cliente == "anthropic":
+            import anthropic as _anthropic_sdk
+            self.client = _anthropic_sdk.Anthropic(
+                api_key=config.api_key,
+                timeout=config.timeout,
+                max_retries=2,
+            )
+        else:
+            self.client = OpenAI(
+                base_url=config.base_url or None,
+                api_key=config.api_key,
+                timeout=config.timeout,
+                max_retries=2,
+            )
         base = carregar_instrucoes(config.arquivo_instrucoes)
         contexto = contexto_para_llm(df, amostra=8 if incluir_amostra else 0)
         self._instrucoes = f"{base}\n\n=== RESUMO DOS DADOS CARREGADOS ===\n{contexto}"
@@ -438,28 +454,25 @@ class AgenteFinanceiro:
         return f"Erro do provedor {nome} ({status}): {msg[:300]}"
 
     def _chamar(self, stream: bool = False):
-        """Chama o provedor, com retentativas e fallback automático entre modelos."""
-        mensagens = [{"role": "system", "content": self._instrucoes}] + self.historico
+        """Chama o provedor (OpenAI-compatível ou Anthropic nativo), com retentativas."""
         candidatos = [m for m in self.config.modelos if m not in self._indisponiveis]
-        if not candidatos:  # todos foram recusados: tenta de novo do começo
+        if not candidatos:
             self._indisponiveis.clear()
             candidatos = list(self.config.modelos)
 
         ultimo_erro: Exception | None = None
         for modelo in candidatos:
             for _ in range(TENTATIVAS_POR_MODELO):
-                params = dict(model=modelo, messages=mensagens, tools=_SCHEMAS,
-                              tool_choice="auto", stream=stream)
-                if modelo not in self._sem_temperatura:
-                    params["temperature"] = self.config.temperatura
                 try:
-                    return self.client.chat.completions.create(**params)
+                    if self._tipo_cliente == "anthropic":
+                        return self._chamar_anthropic(modelo, stream)
+                    return self._chamar_openai(modelo, stream)
                 except AuthenticationError as e:
                     raise AgenteErro(self._traduzir_erro(e)) from e
                 except APIConnectionError as e:
                     raise AgenteErro(
                         f"Não consegui conectar ao provedor {self.config.nome} "
-                        f"({self.config.base_url}). Verifique a internet e o LLM_BASE_URL."
+                        f"({self.config.base_url}). Verifique a conexão."
                     ) from e
                 except NotFoundError as e:
                     self._indisponiveis.add(modelo)
@@ -486,39 +499,160 @@ class AgenteFinanceiro:
                         ultimo_erro = e
                         break
                     raise AgenteErro(self._traduzir_erro(e)) from e
+                except Exception as e:
+                    # Captura erros do SDK Anthropic que não herdam de APIStatusError
+                    ultimo_erro = e
+                    break
 
         if ultimo_erro is not None:
             raise AgenteErro(self._traduzir_erro(ultimo_erro)) from ultimo_erro
         raise AgenteErro(
-            "Nenhum dos modelos configurados está disponível. Defina LLM_MODEL no .env "
-            f"com um modelo válido do provedor {self.config.nome}."
+            "Nenhum dos modelos configurados está disponível. "
+            f"Verifique as chaves em .streamlit/secrets.toml para o provedor {self.config.nome}."
         )
+
+    def _chamar_openai(self, modelo: str, stream: bool = False):
+        """Chamada via SDK OpenAI-compatível."""
+        mensagens = [{"role": "system", "content": self._instrucoes}] + self.historico
+        params = dict(model=modelo, messages=mensagens, tools=_SCHEMAS,
+                      tool_choice="auto", stream=stream)
+        if modelo not in self._sem_temperatura:
+            params["temperature"] = self.config.temperatura
+        return self.client.chat.completions.create(**params)
+
+    def _chamar_anthropic(self, modelo: str, stream: bool = False):
+        """Chamada via SDK Anthropic nativo. Converte ferramentas e histórico."""
+        import anthropic as _ant
+
+        # Converte _SCHEMAS (formato OpenAI) para o formato Anthropic
+        tools_ant = []
+        for schema in _SCHEMAS:
+            fn = schema["function"]
+            tools_ant.append({
+                "name": fn["name"],
+                "description": fn.get("description", ""),
+                "input_schema": fn["parameters"],
+            })
+
+        # Separa a mensagem de sistema e converte histórico
+        mensagens_ant = []
+        for m in self.historico:
+            role = m.get("role")
+            if role == "user":
+                mensagens_ant.append({"role": "user", "content": m["content"]})
+            elif role == "assistant":
+                content: list = []
+                texto = m.get("content") or ""
+                if texto:
+                    content.append({"type": "text", "text": texto})
+                for tc in m.get("tool_calls", []):
+                    fn = tc.get("function", {})
+                    content.append({
+                        "type": "tool_use",
+                        "id": tc["id"],
+                        "name": fn["name"],
+                        "input": json.loads(fn.get("arguments", "{}") or "{}"),
+                    })
+                if content:
+                    mensagens_ant.append({"role": "assistant", "content": content})
+            elif role == "tool":
+                mensagens_ant.append({
+                    "role": "user",
+                    "content": [{
+                        "type": "tool_result",
+                        "tool_use_id": m["tool_call_id"],
+                        "content": m["content"],
+                    }],
+                })
+
+        if not mensagens_ant:
+            # Sem histórico ainda — não há nada a enviar
+            raise AgenteErro("Sem mensagens para enviar ao modelo.")
+
+        kwargs = dict(
+            model=modelo,
+            max_tokens=4096,
+            system=self._instrucoes,
+            tools=tools_ant,
+            messages=mensagens_ant,
+        )
+        if modelo not in self._sem_temperatura:
+            kwargs["temperature"] = self.config.temperatura
+
+        if stream:
+            return self.client.messages.stream(**kwargs).__enter__()
+        return self.client.messages.create(**kwargs)
+
+    # ---- adaptadores de resposta Anthropic → formato interno ----------------
+
+    def _normalizar_resposta_anthropic(self, resp) -> tuple[str, list]:
+        """Extrai texto e chamadas de ferramenta de uma resposta Anthropic."""
+        texto = ""
+        chamadas = []
+        for bloco in (resp.content or []):
+            if bloco.type == "text":
+                texto += bloco.text
+            elif bloco.type == "tool_use":
+                chamadas.append({
+                    "id": bloco.id,
+                    "function": {
+                        "name": bloco.name,
+                        "arguments": json.dumps(bloco.input or {}),
+                    },
+                })
+        return _limpar_resposta(texto), chamadas
 
     def _ciclo(self) -> str:
         """Loop não-streaming: executa ferramentas e retorna a resposta final."""
         for _ in range(MAX_PASSOS_FERRAMENTAS):
             resp = self._chamar(stream=False)
+
+            # ── Anthropic nativo ──────────────────────────────────────────
+            if self._tipo_cliente == "anthropic":
+                texto, chamadas = self._normalizar_resposta_anthropic(resp)
+                entrada: dict = {"role": "assistant", "content": texto or (None if chamadas else "")}
+                if chamadas:
+                    for i, c in enumerate(chamadas):
+                        if not c["id"]:
+                            c["id"] = f"call_{len(self.historico)}_{i}"
+                    entrada["tool_calls"] = [
+                        {"id": c["id"], "type": "function", "function": c["function"]}
+                        for c in chamadas
+                    ]
+                self.historico.append(entrada)
+                if not chamadas:
+                    return texto or "Não consegui gerar uma resposta. Tente reformular a pergunta."
+                for c in chamadas:
+                    self.historico.append({
+                        "role": "tool", "tool_call_id": c["id"],
+                        "content": self._executar_ferramenta(
+                            c["function"]["name"], c["function"]["arguments"]
+                        ),
+                    })
+                continue
+
+            # ── OpenAI-compatível ─────────────────────────────────────────
             if not resp.choices:
                 raise AgenteErro("O provedor devolveu uma resposta vazia. Tente novamente.")
             msg = resp.choices[0].message
-            chamadas = msg.tool_calls or []
+            chamadas_oai = msg.tool_calls or []
             texto = _limpar_resposta(msg.content)
 
-            entrada: dict = {"role": "assistant", "content": texto or (None if chamadas else "")}
-            if chamadas:
-                for i, c in enumerate(chamadas):
+            entrada = {"role": "assistant", "content": texto or (None if chamadas_oai else "")}
+            if chamadas_oai:
+                for i, c in enumerate(chamadas_oai):
                     if not c.id:
                         c.id = f"call_{len(self.historico)}_{i}"
                 entrada["tool_calls"] = [
                     {"id": c.id, "type": "function",
                      "function": {"name": c.function.name, "arguments": c.function.arguments or "{}"}}
-                    for c in chamadas
+                    for c in chamadas_oai
                 ]
             self.historico.append(entrada)
 
-            if not chamadas:
+            if not chamadas_oai:
                 return texto or "Não consegui gerar uma resposta. Tente reformular a pergunta."
-            for c in chamadas:
+            for c in chamadas_oai:
                 self.historico.append({
                     "role": "tool", "tool_call_id": c.id,
                     "content": self._executar_ferramenta(c.function.name, c.function.arguments),
@@ -528,23 +662,98 @@ class AgenteFinanceiro:
     def _ciclo_stream(self) -> Generator[str, None, None]:
         """Loop com streaming: executa ferramentas internamente, faz yield dos chunks de texto."""
         for _ in range(MAX_PASSOS_FERRAMENTAS):
+
+            # ── Anthropic streaming ───────────────────────────────────────
+            if self._tipo_cliente == "anthropic":
+                candidatos = [m for m in self.config.modelos if m not in self._indisponiveis]
+                if not candidatos:
+                    self._indisponiveis.clear()
+                    candidatos = list(self.config.modelos)
+                modelo = candidatos[0]
+
+                import anthropic as _ant
+                tools_ant = [
+                    {"name": s["function"]["name"],
+                     "description": s["function"].get("description", ""),
+                     "input_schema": s["function"]["parameters"]}
+                    for s in _SCHEMAS
+                ]
+                mensagens_ant = []
+                for m in self.historico:
+                    role = m.get("role")
+                    if role == "user":
+                        mensagens_ant.append({"role": "user", "content": m["content"]})
+                    elif role == "assistant":
+                        content: list = []
+                        if m.get("content"):
+                            content.append({"type": "text", "text": m["content"]})
+                        for tc in m.get("tool_calls", []):
+                            fn = tc.get("function", {})
+                            content.append({
+                                "type": "tool_use", "id": tc["id"],
+                                "name": fn["name"],
+                                "input": json.loads(fn.get("arguments", "{}") or "{}"),
+                            })
+                        if content:
+                            mensagens_ant.append({"role": "assistant", "content": content})
+                    elif role == "tool":
+                        mensagens_ant.append({
+                            "role": "user",
+                            "content": [{"type": "tool_result", "tool_use_id": m["tool_call_id"],
+                                         "content": m["content"]}],
+                        })
+
+                texto_acc = ""
+                chamadas: list = []
+                with self.client.messages.stream(
+                    model=modelo, max_tokens=4096, system=self._instrucoes,
+                    tools=tools_ant, messages=mensagens_ant,
+                    temperature=self.config.temperatura if modelo not in self._sem_temperatura else _ant.NOT_GIVEN,
+                ) as s:
+                    for bloco in s:
+                        tipo = getattr(bloco, "type", "")
+                        if tipo == "content_block_delta":
+                            delta = getattr(bloco, "delta", None)
+                            if delta and getattr(delta, "type", "") == "text_delta":
+                                chunk = delta.text or ""
+                                texto_acc += chunk
+                                yield chunk
+                    final = s.get_final_message()
+
+                texto_ant, chamadas = self._normalizar_resposta_anthropic(final)
+                entrada: dict = {"role": "assistant", "content": texto_acc or (None if chamadas else "")}
+                if chamadas:
+                    entrada["tool_calls"] = [
+                        {"id": c["id"], "type": "function", "function": c["function"]}
+                        for c in chamadas
+                    ]
+                self.historico.append(entrada)
+                if not chamadas:
+                    return
+                for c in chamadas:
+                    self.historico.append({
+                        "role": "tool", "tool_call_id": c["id"],
+                        "content": self._executar_ferramenta(
+                            c["function"]["name"], c["function"]["arguments"]
+                        ),
+                    })
+                continue
+
+            # ── OpenAI-compatível streaming ───────────────────────────────
             stream = self._chamar(stream=True)
 
-            # Acumula o stream para detectar tool_calls
             texto_acc = ""
-            tool_calls_acc: dict[int, dict] = {}  # índice -> dados parciais
+            tool_calls_acc: dict[int, dict] = {}
 
             for chunk in stream:
                 if not chunk.choices:
                     continue
                 delta = chunk.choices[0].delta
 
-                # Texto normal → emitir ao vivo
                 if delta.content:
                     texto_acc += delta.content
                     yield delta.content
 
-                # Tool calls chegam fragmentados
                 if delta.tool_calls:
                     for tc in delta.tool_calls:
                         idx = tc.index
@@ -562,23 +771,21 @@ class AgenteFinanceiro:
                             if tc.function.arguments:
                                 tool_calls_acc[idx]["function"]["arguments"] += tc.function.arguments
 
-            chamadas = list(tool_calls_acc.values())
+            chamadas_oai = list(tool_calls_acc.values())
             texto = _limpar_resposta(texto_acc)
 
-            # Adiciona turno do assistente ao histórico
-            entrada: dict = {"role": "assistant", "content": texto or (None if chamadas else "")}
-            if chamadas:
-                for i, c in enumerate(chamadas):
+            entrada = {"role": "assistant", "content": texto or (None if chamadas_oai else "")}
+            if chamadas_oai:
+                for i, c in enumerate(chamadas_oai):
                     if not c["id"]:
                         c["id"] = f"call_{len(self.historico)}_{i}"
-                entrada["tool_calls"] = chamadas
+                entrada["tool_calls"] = chamadas_oai
             self.historico.append(entrada)
 
-            if not chamadas:
-                return  # fim do fluxo — texto já foi emitido via yield
+            if not chamadas_oai:
+                return
 
-            # Executa ferramentas (sem yield — são internas)
-            for c in chamadas:
+            for c in chamadas_oai:
                 self.historico.append({
                     "role": "tool",
                     "tool_call_id": c["id"],

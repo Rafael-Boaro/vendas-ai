@@ -5,6 +5,10 @@
 *.pem
 *.key
 
+# Streamlit secrets (nunca comitar a versao real)
+.streamlit/secrets.toml
+!.streamlit/secrets.toml.example
+
 # Ambientes virtuais e Python
 .venv/
 venv/

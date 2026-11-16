@@ -5,15 +5,13 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
-from dotenv import load_dotenv
 
 import charts
 from analytics import brl, contexto_para_llm, evolucao_mensal, kpis, tem_dimensao
 from data_processing import anonimizar_clientes, carregar_arquivos
 from llm_agent import AgenteErro, AgenteFinanceiro
-from llm_config import PROVEDORES, carregar_config, ConfigErro
+from llm_config import carregar_config, provedores_configurados, ConfigErro
 
-load_dotenv()
 st.set_page_config(page_title="Vendas + IA", layout="wide")
 
 # Arquivo de exemplo — usa o primeiro CSV disponivel na pasta data/
@@ -109,71 +107,56 @@ with st.sidebar:
     # ---- Secao 3: Configuracao da IA ----
     st.subheader("3. Configuracao da IA")
 
-    with st.expander("Configurar provedor e modelo", expanded=False):
-        _prov_env = os.getenv("LLM_PROVIDER", "groq").lower()
-        _prov_env = _prov_env if _prov_env in PROVEDORES else "groq"
-        _modelo_env = os.getenv("LLM_MODEL", "")
-        _chave_env = os.getenv("LLM_API_KEY", "")
+    # Descobre quais provedores estão configurados no backend
+    from llm_config import provedores_configurados, obter_segredo
+    prov_disponiveis = provedores_configurados()
 
-        lista_provedores = list(PROVEDORES.keys())
-        idx_prov = lista_provedores.index(_prov_env) if _prov_env in lista_provedores else 0
-        provedor_ui = st.selectbox(
-            "Provedor",
-            lista_provedores,
-            index=idx_prov,
-            format_func=lambda p: PROVEDORES[p]["nome"],
+    if not prov_disponiveis:
+        st.warning(
+            "Nenhum provedor de IA configurado. "
+            "Adicione as chaves em `.streamlit/secrets.toml` "
+            "(veja `.streamlit/secrets.toml.example`)."
         )
-        preset = PROVEDORES[provedor_ui]
+        provedor_ui = None
+        modelo_ui = None
+    else:
+        with st.expander("Provedor e modelo", expanded=False):
+            lista_prov = list(prov_disponiveis.keys())
+            # Respeita LLM_PROVIDER como padrão
+            _prov_padrao = obter_segredo("LLM_PROVIDER", lista_prov[0]).lower()
+            _prov_padrao = _prov_padrao if _prov_padrao in lista_prov else lista_prov[0]
 
-        sugestoes = preset.get("modelos_sugeridos", [])
-        if sugestoes:
-            modelo_padrao = _modelo_env if _modelo_env else sugestoes[0]
-            modelo_ui = st.selectbox(
-                "Modelo",
-                ["(digitar manualmente)"] + sugestoes,
-                index=(sugestoes.index(modelo_padrao) + 1
-                       if modelo_padrao in sugestoes else 0),
+            idx_prov = lista_prov.index(_prov_padrao)
+            provedor_ui = st.selectbox(
+                "Provedor",
+                lista_prov,
+                index=idx_prov,
+                format_func=lambda p: prov_disponiveis[p]["nome"],
             )
-            if modelo_ui == "(digitar manualmente)":
-                modelo_ui = st.text_input("Nome do modelo", value=_modelo_env or "")
-        else:
-            modelo_ui = st.text_input("Modelo", value=_modelo_env or "")
 
-        if preset["exige_chave"]:
-            chave_especifica = os.getenv(preset["chave_env"], "") if preset["chave_env"] else ""
-            chave_padrao = _chave_env or chave_especifica
-            chave_ui = st.text_input(
-                f"Chave de API ({preset.get('chave_env', 'LLM_API_KEY')})",
-                value=chave_padrao,
-                type="password",
-                placeholder="sk-... ou sua chave aqui",
-            )
-        else:
-            chave_ui = ""
+            creds_selecionado = prov_disponiveis[provedor_ui]
+            sugestoes = creds_selecionado.get("modelos_sugeridos", [])
+            modelo_atual = creds_selecionado.get("modelo", "")
 
-        base_url_padrao = os.getenv("LLM_BASE_URL", preset["base_url"])
-        mostrar_url = provedor_ui in ("custom", "ollama", "lmstudio")
-        if mostrar_url:
-            base_url_ui = st.text_input("Base URL", value=base_url_padrao or preset["base_url"])
-        else:
-            base_url_ui = ""
+            if sugestoes:
+                modelo_padrao = modelo_atual if modelo_atual in sugestoes else sugestoes[0]
+                modelo_ui = st.selectbox(
+                    "Modelo",
+                    ["(digitar manualmente)"] + sugestoes,
+                    index=(sugestoes.index(modelo_padrao) + 1 if modelo_padrao in sugestoes else 0),
+                )
+                if modelo_ui == "(digitar manualmente)":
+                    modelo_ui = st.text_input("Nome do modelo", value=modelo_atual or "")
+            else:
+                modelo_ui = st.text_input("Modelo", value=modelo_atual or "")
 
-        temperatura_ui = st.slider(
-            "Temperatura", 0.0, 1.5,
-            float(os.getenv("LLM_TEMPERATURE", "0.3")), 0.05,
-        )
-
-    _override: dict = {
-        "provedor": provedor_ui,
-        "modelo": modelo_ui,
-        "api_key": chave_ui,
-        "temperatura": temperatura_ui,
-    }
-    if base_url_ui:
-        _override["base_url"] = base_url_ui
+            st.caption("🔒 A chave de API é gerenciada pelo backend (secrets.toml).")
 
     try:
-        config_llm = carregar_config(_override)
+        config_llm = carregar_config(
+            provedor_preferido=provedor_ui if provedor_ui else None,
+            modelo_preferido=modelo_ui if modelo_ui else None,
+        )
         st.success(f"Configuracao carregada: {config_llm.descricao}")
     except ConfigErro as e:
         st.error(str(e))
