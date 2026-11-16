@@ -27,8 +27,8 @@ Em cenarios comerciais cotidianos, dados de vendas costumam ser dispersos em pla
   - Opcao de anonimizacao de dados de clientes para preservacao de privacidade.
   - Exportacao do historico de conversas em Markdown.
 - **Interoperabilidade de IA:**
-  - Compatibilidade com mais de 10 provedores: Groq, OpenAI, Google Gemini, Anthropic, Mistral, DeepSeek, Together AI, Ollama (local), LM Studio (local) e endpoints customizados.
-  - Parametrizacao dinamica tanto pelo arquivo `.env` quanto pela interface grafica.
+  - Suporte a multiplos provedores de ponta: Anthropic (Claude), OpenAI (GPT), Groq (Llama), Google Gemini e endpoints compativeis com OpenAI (como Ollama ou LM Studio locais).
+  - Gerenciamento seguro de credenciais via backend (`.streamlit/secrets.toml` ou `.env`), sem exposicao de chaves na interface.
 
 ## Tecnologias Utilizadas
 | Camada | Tecnologia | Finalidade |
@@ -38,7 +38,7 @@ Em cenarios comerciais cotidianos, dados de vendas costumam ser dispersos em pla
 | Manipulacao de Dados | Pandas, NumPy | Pipeline de ETL, transformacoes e agregacoes |
 | Ingestao de Planilhas | OpenPyXL | Leitura e conversao de planilhas Excel (.xlsx) |
 | Visualizacao de Dados | Plotly | Graficos analiticos interativos |
-| Integracao com LLMs | OpenAI SDK | Protocolo unificado para comunicacao com APIs de IA |
+| Integracao com LLMs | OpenAI SDK, Anthropic SDK | Protocolo unificado e SDK nativo para comunicacao com APIs de IA |
 | Agente Conversacional | Function Calling | Agregacoes seguras sem execucao de codigo arbitrario |
 
 ## Instalacao e Execucao
@@ -52,8 +52,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-cp .env.example .env
-# Configure sua chave de API e provedor no .env ou ajuste pela barra lateral
+cp .streamlit/secrets.toml.example .streamlit/secrets.toml
+# Preencha a chave do provedor escolhido no secrets.toml (ou copie .env.example para .env)
 
 streamlit run app.py
 ```
@@ -67,19 +67,21 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
-Copy-Item .env.example .env
-# Configure sua chave de API e provedor no .env ou ajuste pela barra lateral
+Copy-Item .streamlit\secrets.toml.example .streamlit\secrets.toml
+# Preencha a chave do provedor escolhido no secrets.toml (ou copie .env.example para .env)
 
 streamlit run app.py
 ```
 
 ## Configuracao
-O arquivo `.env.example` traz os modelos e variaveis suportados. As variaveis principais sao:
-- `LLM_PROVIDER`: Provedor desejado (ex.: `groq`, `openai`, `gemini`, `anthropic`, `ollama`).
-- `LLM_MODEL`: Modelo a utilizar (ex.: `llama-3.3-70b-versatile`, `gpt-4o-mini`, `gemini-2.0-flash`).
-- `LLM_API_KEY`: Chave de acesso fornecida pelo provedor.
+As credenciais e modelos podem ser definidos em `.streamlit/secrets.toml` (recomendado para Streamlit Cloud e local) ou em variáveis de ambiente / `.env`:
+- `GROQ_API_KEY`: Chave de API para o provedor Groq.
+- `ANTHROPIC_API_KEY`: Chave de API para Anthropic Claude.
+- `OPENAI_API_KEY`: Chave de API para OpenAI GPT.
+- `GEMINI_API_KEY`: Chave de API para Google Gemini.
+- `LLM_PROVIDER`: Provedor padrao a ser utilizado (`groq`, `openai`, `anthropic`, `gemini` ou `compativel`).
 
-Tambem e possivel definir provedor, modelo e chave diretamente pelo menu de configuracao da interface do Streamlit.
+A interface gráfica permite selecionar entre os provedores que tiverem credenciais válidas configuradas no backend, sem expor as chaves de acesso.
 
 ## Decisoes de Arquitetura e Engenharia
 - **Sem execucao de codigo arbitrario:** O agente de IA nao executa interpretador Python ou queries SQL dinamicas geradas pelo modelo. As ferramentas expostas ao modelo sao metodos restritos com validacao estrita de parametros, garantindo seguranca contra injecoes.
