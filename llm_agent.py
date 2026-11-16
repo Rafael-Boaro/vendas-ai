@@ -437,8 +437,8 @@ class AgenteFinanceiro:
         msg = str(getattr(e, "message", None) or e)
         baixo = msg.lower()
         if isinstance(e, AuthenticationError):
-            return (f"O provedor {nome} recusou a chave de API. Confira a chave no arquivo .env "
-                    "ou na barra lateral e reinicie o app.")
+            return (f"O provedor {nome} recusou a chave de API. Confira a chave no arquivo .streamlit/secrets.toml "
+                    "ou .env e reinicie o app.")
         if isinstance(e, RateLimitError):
             return (f"Limite de uso do provedor {nome} atingido (requisições ou tokens por "
                     "minuto/dia). Aguarde cerca de 1 minuto e tente novamente.")

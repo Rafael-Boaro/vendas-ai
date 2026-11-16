@@ -107,9 +107,10 @@ with st.sidebar:
     # ---- Secao 3: Configuracao da IA ----
     st.subheader("3. Configuracao da IA")
 
-    # Descobre quais provedores estão configurados no backend
-    from llm_config import provedores_configurados, obter_segredo
+    from llm_config import carregar_config, provedores_configurados, ConfigErro
     prov_disponiveis = provedores_configurados()
+    provedor_selecionado = None
+    config_llm = None
 
     if not prov_disponiveis:
         st.warning(
@@ -117,50 +118,24 @@ with st.sidebar:
             "Adicione as chaves em `.streamlit/secrets.toml` "
             "(veja `.streamlit/secrets.toml.example`)."
         )
-        provedor_ui = None
-        modelo_ui = None
     else:
-        with st.expander("Provedor e modelo", expanded=False):
-            lista_prov = list(prov_disponiveis.keys())
-            # Respeita LLM_PROVIDER como padrão
-            _prov_padrao = obter_segredo("LLM_PROVIDER", lista_prov[0]).lower()
-            _prov_padrao = _prov_padrao if _prov_padrao in lista_prov else lista_prov[0]
+        opcoes_nomes = ["Automático"] + [info["nome"] for info in prov_disponiveis.values()]
+        mapa_nomes = {info["nome"]: pid for pid, info in prov_disponiveis.items()}
 
-            idx_prov = lista_prov.index(_prov_padrao)
-            provedor_ui = st.selectbox(
-                "Provedor",
-                lista_prov,
-                index=idx_prov,
-                format_func=lambda p: prov_disponiveis[p]["nome"],
-            )
-
-            creds_selecionado = prov_disponiveis[provedor_ui]
-            sugestoes = creds_selecionado.get("modelos_sugeridos", [])
-            modelo_atual = creds_selecionado.get("modelo", "")
-
-            if sugestoes:
-                modelo_padrao = modelo_atual if modelo_atual in sugestoes else sugestoes[0]
-                modelo_ui = st.selectbox(
-                    "Modelo",
-                    ["(digitar manualmente)"] + sugestoes,
-                    index=(sugestoes.index(modelo_padrao) + 1 if modelo_padrao in sugestoes else 0),
-                )
-                if modelo_ui == "(digitar manualmente)":
-                    modelo_ui = st.text_input("Nome do modelo", value=modelo_atual or "")
-            else:
-                modelo_ui = st.text_input("Modelo", value=modelo_atual or "")
-
-            st.caption("🔒 A chave de API é gerenciada pelo backend (secrets.toml).")
-
-    try:
-        config_llm = carregar_config(
-            provedor_preferido=provedor_ui if provedor_ui else None,
-            modelo_preferido=modelo_ui if modelo_ui else None,
+        escolha_nome = st.selectbox(
+            "Modelo de IA:",
+            options=opcoes_nomes,
+            index=0,
+            help="Selecione o provedor desejado. 'Automático' utiliza o provedor e modelo definidos no secrets.toml.",
         )
-        st.success(f"Configuracao carregada: {config_llm.descricao}")
-    except ConfigErro as e:
-        st.error(str(e))
-        st.stop()
+        provedor_selecionado = None if escolha_nome == "Automático" else mapa_nomes.get(escolha_nome)
+
+        try:
+            config_llm = carregar_config(provedor_preferido=provedor_selecionado)
+            st.caption(f"Modelo ativo: **{config_llm.modelos[0]}** (via {config_llm.nome})")
+            st.caption("🔒 Chave de API e modelo gerenciados via backend (`secrets.toml`).")
+        except ConfigErro as e:
+            st.error(str(e))
 
     anonimizar = st.toggle(
         "Anonimizar clientes", value=True,
@@ -271,97 +246,103 @@ with aba_dash:
 
 # -------------------------------------------------------------------- aba Chat
 with aba_chat:
-    st.subheader("Converse com o Fin, seu agente financeiro")
-    st.caption(f"Usando: **{config_llm.descricao}**")
-
-    assinatura = (
-        len(df_agente),
-        round(float(df_agente["valor_total"].sum()), 2),
-        anonimizar,
-        enviar_amostra,
-        config_llm.assinatura(),
-    )
-
-    if st.session_state.get("agente_sig") != assinatura:
-        try:
-            st.session_state.agente = AgenteFinanceiro(df_agente, config_llm, enviar_amostra)
-            st.session_state.agente_sig = assinatura
-            st.session_state.mensagens = []
-        except AgenteErro as e:
-            st.error(str(e))
-            st.stop()
-
-    agente: AgenteFinanceiro = st.session_state.agente
-
-    # Botoes rapidos
-    colunas_botoes = st.columns(len(PERGUNTAS_RAPIDAS) + 1)
-    pergunta: str | None = None
-
-    if colunas_botoes[0].button("Analise executiva"):
-        pergunta = "__analise__"
-
-    for i, (rotulo, texto) in enumerate(PERGUNTAS_RAPIDAS.items(), start=1):
-        if colunas_botoes[i].button(rotulo):
-            pergunta = texto
-
-    col_limpar, col_exportar = st.columns([1, 1])
-    with col_limpar:
-        if st.button("Limpar conversa"):
-            agente.reiniciar()
-            st.session_state.mensagens = []
-            st.rerun()
-    with col_exportar:
-        if st.session_state.get("mensagens"):
-            historico_md = agente.exportar_historico()
-            st.download_button(
-                "Exportar conversa (.md)",
-                historico_md.encode("utf-8"),
-                file_name="conversa_fin.md",
-                mime="text/markdown",
-            )
-
-    # Exibe historico
-    for msg in st.session_state.mensagens:
-        with st.chat_message(msg["papel"]):
-            st.markdown(msg["texto"])
-
-    digitada = st.chat_input("Pergunte sobre suas vendas ou peca uma explicacao financeira...")
-    pergunta = digitada or pergunta
-
-    if pergunta:
-        visivel = (
-            "Faca uma analise executiva dos meus dados."
-            if pergunta == "__analise__"
-            else pergunta
+    if config_llm is None:
+        st.info(
+            "Assistente de IA indisponível. Para conversar com o Fin, adicione suas credenciais "
+            "em `.streamlit/secrets.toml` (ex.: `LLM_PROVIDER = 'groq'` e `GROQ_API_KEY = '...'`)."
         )
-        st.session_state.mensagens.append({"papel": "user", "texto": visivel})
-        with st.chat_message("user"):
-            st.markdown(visivel)
+    else:
+        st.subheader("Converse com o Fin, seu agente financeiro")
+        st.caption(f"Usando: **{config_llm.descricao}**")
 
-        with st.chat_message("assistant"):
+        assinatura = (
+            len(df_agente),
+            round(float(df_agente["valor_total"].sum()), 2),
+            anonimizar,
+            enviar_amostra,
+            config_llm.assinatura(),
+        )
+
+        if st.session_state.get("agente_sig") != assinatura:
             try:
-                if usar_streaming:
-                    gen = (
-                        agente.analise_executiva_stream()
-                        if pergunta == "__analise__"
-                        else agente.perguntar_stream(pergunta)
-                    )
-                    resposta = st.write_stream(gen)
-                    if not resposta:
-                        resposta = "Nao consegui gerar uma resposta. Tente reformular a pergunta."
-                else:
-                    with st.spinner("Analisando os dados..."):
-                        resposta = (
-                            agente.analise_executiva()
-                            if pergunta == "__analise__"
-                            else agente.perguntar(pergunta)
-                        )
-                    st.markdown(resposta)
+                st.session_state.agente = AgenteFinanceiro(df_agente, config_llm, enviar_amostra)
+                st.session_state.agente_sig = assinatura
+                st.session_state.mensagens = []
             except AgenteErro as e:
-                resposta = f"Erro: {e}"
-                st.error(resposta)
-            except Exception as e:
-                resposta = f"Falha inesperada ao falar com a LLM: {e}"
-                st.error(resposta)
+                st.error(str(e))
+                st.stop()
 
-        st.session_state.mensagens.append({"papel": "assistant", "texto": resposta or ""})
+        agente: AgenteFinanceiro = st.session_state.agente
+
+        # Botoes rapidos
+        colunas_botoes = st.columns(len(PERGUNTAS_RAPIDAS) + 1)
+        pergunta: str | None = None
+
+        if colunas_botoes[0].button("Analise executiva"):
+            pergunta = "__analise__"
+
+        for i, (rotulo, texto) in enumerate(PERGUNTAS_RAPIDAS.items(), start=1):
+            if colunas_botoes[i].button(rotulo):
+                pergunta = texto
+
+        col_limpar, col_exportar = st.columns([1, 1])
+        with col_limpar:
+            if st.button("Limpar conversa"):
+                agente.reiniciar()
+                st.session_state.mensagens = []
+                st.rerun()
+        with col_exportar:
+            if st.session_state.get("mensagens"):
+                historico_md = agente.exportar_historico()
+                st.download_button(
+                    "Exportar conversa (.md)",
+                    historico_md.encode("utf-8"),
+                    file_name="conversa_fin.md",
+                    mime="text/markdown",
+                )
+
+        # Exibe historico
+        for msg in st.session_state.mensagens:
+            with st.chat_message(msg["papel"]):
+                st.markdown(msg["texto"])
+
+        digitada = st.chat_input("Pergunte sobre suas vendas ou peca uma explicacao financeira...")
+        pergunta = digitada or pergunta
+
+        if pergunta:
+            visivel = (
+                "Faca uma analise executiva dos meus dados."
+                if pergunta == "__analise__"
+                else pergunta
+            )
+            st.session_state.mensagens.append({"papel": "user", "texto": visivel})
+            with st.chat_message("user"):
+                st.markdown(visivel)
+
+            with st.chat_message("assistant"):
+                try:
+                    if usar_streaming:
+                        gen = (
+                            agente.analise_executiva_stream()
+                            if pergunta == "__analise__"
+                            else agente.perguntar_stream(pergunta)
+                        )
+                        resposta = st.write_stream(gen)
+                        if not resposta:
+                            resposta = "Nao consegui gerar uma resposta. Tente reformular a pergunta."
+                    else:
+                        with st.spinner("Analisando os dados..."):
+                            resposta = (
+                                agente.analise_executiva()
+                                if pergunta == "__analise__"
+                                else agente.perguntar(pergunta)
+                            )
+                        st.markdown(resposta)
+                except AgenteErro as e:
+                    resposta = f"Erro: {e}"
+                    st.error(resposta)
+                except Exception as e:
+                    resposta = f"Falha inesperada ao falar com a LLM: {e}"
+                    st.error(resposta)
+
+            st.session_state.mensagens.append({"papel": "assistant", "texto": resposta or ""})

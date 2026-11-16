@@ -60,6 +60,7 @@ REGISTRO_PROVEDORES: Dict[str, Dict[str, Any]] = {
         "modelo_padrao": "llama-3.3-70b-versatile",
         "modelos_sugeridos": [
             "llama-3.3-70b-versatile",
+            "openai/gpt-oss-120b",
             "llama-3.1-8b-instant",
             "mixtral-8x7b-32768",
             "gemma2-9b-it",
@@ -112,10 +113,30 @@ PROVEDORES: Dict[str, str] = {pid: info["nome"] for pid, info in REGISTRO_PROVED
 
 
 # ---------------------------------------------------------------------------
-# Leitura de segredos — st.secrets tem prioridade sobre os.environ
+# Leitura de segredos — st.secrets tem prioridade sobre secrets.toml e os.environ
 # ---------------------------------------------------------------------------
+_SECRETS_CACHE: Optional[Dict[str, Any]] = None
+
+
+def _carregar_secrets_toml() -> Dict[str, Any]:
+    global _SECRETS_CACHE
+    if _SECRETS_CACHE is not None:
+        return _SECRETS_CACHE
+    caminho = RAIZ / ".streamlit" / "secrets.toml"
+    if caminho.exists():
+        try:
+            import tomllib
+            with open(caminho, "rb") as f:
+                _SECRETS_CACHE = tomllib.load(f)
+                return _SECRETS_CACHE
+        except Exception:
+            pass
+    _SECRETS_CACHE = {}
+    return _SECRETS_CACHE
+
+
 def obter_segredo(chave: str, padrao: str = "") -> str:
-    """Recupera configuração com prioridade: st.secrets > os.environ > padrão."""
+    """Recupera configuração com prioridade: st.secrets > secrets.toml > os.environ > padrão."""
     try:
         import streamlit as st
 
@@ -125,6 +146,12 @@ def obter_segredo(chave: str, padrao: str = "") -> str:
                 return str(valor).strip()
     except Exception:
         pass
+
+    secrets_locais = _carregar_secrets_toml()
+    if chave in secrets_locais:
+        val = secrets_locais[chave]
+        if val is not None and str(val).strip():
+            return str(val).strip()
 
     valor_env = os.environ.get(chave)
     if valor_env is not None and str(valor_env).strip():
@@ -156,12 +183,14 @@ def obter_credenciais_provedor(pid: str) -> Optional[Dict[str, Any]]:
         elif not provedor_legado and pid == "anthropic":
             chave = obter_segredo("LLM_API_KEY")
 
-    if not chave or chave.startswith("sua-chave") or chave == "sua-chave-aqui":
-        # Provedores locais não exigem chave real
-        if not info["exige_chave"]:
-            chave = "sem-chave"
-        else:
+    if pid == "compativel":
+        base_url_custom = obter_segredo("LLM_BASE_URL")
+        if not base_url_custom and not chave:
             return None
+        if not chave:
+            chave = "sem-chave"
+    elif not chave or chave.startswith("sua-chave") or chave == "sua-chave-aqui":
+        return None
 
     if not modelo:
         if (provedor_legado == pid or (not provedor_legado and pid == "anthropic")) and obter_segredo("LLM_MODEL"):
@@ -301,10 +330,11 @@ def carregar_config(provedor_preferido: Optional[str] = None, modelo_preferido: 
     if not creds:
         raise ConfigErro(f"Não foi possível carregar as credenciais do provedor '{pid}'.")
 
-    # Modelo: preferência da UI > secret/env > padrão do provedor
+    # Modelo: preferência explícita > secret/env do provedor > padrão do provedor
     modelo_principal = modelo_preferido or creds["modelo"]
-    fallbacks_raw = obter_segredo("LLM_FALLBACKS", "")
-    modelos = tuple(dict.fromkeys([modelo_principal]))  # sem repetidos
+    sugeridos = creds.get("modelos_sugeridos", [])
+    modelos_lista = [modelo_principal] + [m for m in sugeridos if m != modelo_principal]
+    modelos = tuple(dict.fromkeys(modelos_lista))
 
     arquivo = Path(obter_segredo("AGENTS_FILE", "agents.md"))
     if not arquivo.is_absolute():
