@@ -21,10 +21,6 @@ A aplicação interativa está publicada e acessível no Streamlit Community Clo
 O arquivo da apresentação executiva do projeto está disponível no repositório:
 - Apresentação em PDF: [apresentacao.pdf](apresentacao.pdf)
 
-<details>
-<summary>Ver os slides</summary>
-
-
 ## Funcionalidades
 - **Ingestao e Higienizacao de Dados:**
   - Leitura tolerante a falhas para arquivos `.csv` e `.xlsx`.
